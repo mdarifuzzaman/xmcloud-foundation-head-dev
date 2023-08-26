@@ -25,13 +25,12 @@ interface RouteFields {
 const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const { route } = layoutData.sitecore;
   const fields = route?.fields as RouteFields;
-  console.log("Layout data", layoutData);
+  console.log('Layout data', layoutData);
   return (
-    <>      
+    <>
       <Scripts />
       <StyleDocument></StyleDocument>
       <Head>
-        
         <title>{fields?.Title?.value?.toString() || 'Page'}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         {headLinks.map((headLink) => (
@@ -41,15 +40,17 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
 
       {/* root placeholder for the app, which we add components to using route data */}
       <div className="body-appContainer">
-        <div className='row collapse'>
+        <div className="row collapse">
           <header>
-            <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
+            <div id="header">
+              {route && <Placeholder name="headless-header" rendering={route} />}
+            </div>
           </header>
-          <main>
-            {route && <Placeholder name="headless-main" rendering={route} />}
-          </main>
+          <main>{route && <Placeholder name="headless-main" rendering={route} />}</main>
           <footer>
-            <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
+            <div id="footer">
+              {route && <Placeholder name="headless-footer" rendering={route} />}
+            </div>
           </footer>
         </div>
       </div>

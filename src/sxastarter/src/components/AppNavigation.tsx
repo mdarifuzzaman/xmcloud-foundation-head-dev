@@ -16,7 +16,7 @@ export const AppNavigation = (): JSX.Element => {
         </li>
         <li className="top-nav-hover-blue">
           <Link href="/Download" className="nav-link nav-link_download">
-            DOWNLOAD
+            DOWNLOAD ASSETS
           </Link>
         </li>
       </ul>

@@ -5,6 +5,7 @@ import {
   RichText,
   Text,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import Link from 'next/link';
 
 type ContentBlockProps = {
   rendering: ComponentRendering;
@@ -18,14 +19,14 @@ type ContentBlockProps = {
 const Feature = (props: ContentBlockProps): JSX.Element => {
   return (
     <>
-      <a href="/TDS-Classic">
+      <Link href="/TDS-Classic">
         <div className="h6">
           <Text field={props.fields.heading}></Text>
         </div>
         <p>
           <RichText field={props.fields.summary}></RichText>
         </p>
-      </a>
+      </Link>
     </>
   );
 };

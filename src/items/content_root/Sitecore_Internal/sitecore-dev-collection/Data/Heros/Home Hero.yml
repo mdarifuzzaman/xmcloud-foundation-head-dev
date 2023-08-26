@@ -39,14 +39,14 @@ Languages:
     - ID: "705f36f8-2f79-4b07-a248-453965bf5445"
       Hint: imageContent
       Value: |
-        <image mediaid="{028739CB-B9FC-4281-839E-2C35C52DBDA3}" />
+        <image mediaid="{2FE9B4A0-1CC3-442D-8368-1CD93C8A111F}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "915237ca-0f4c-4c8c-bdbb-58ee6b7a7c5b"
+      Value: "97a045ba-8321-4720-b2e0-f71c0330e8a5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\arif.uzzaman@sitecore.com
+        sitecore\AKgYMewHoR
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T082251Z
+      Value: 20230826T121648Z

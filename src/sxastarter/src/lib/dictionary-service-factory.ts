@@ -32,7 +32,7 @@ export class DictionaryServiceFactory {
       : new RestDictionaryService({
           apiHost: config.sitecoreApiHost,
           apiKey: config.sitecoreApiKey,
-          siteName,
+          siteName,          
         });
   }
 }

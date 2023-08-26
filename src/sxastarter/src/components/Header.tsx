@@ -16,7 +16,7 @@ const Header = (props: ContentBlockProps): JSX.Element => {
         <div className="row collapse">
           <div className="small-12 columns">
             <div className="header-left">
-              <Image field={props.fields.imageContent}></Image>
+              <a href="/"><Image field={props.fields.imageContent}></Image></a>
             </div>
             <div className="header-right">
               <AppNavigation></AppNavigation>

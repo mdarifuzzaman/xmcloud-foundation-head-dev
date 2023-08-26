@@ -23,20 +23,25 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
   return (
     <div className="row">
       <section className="small-12 columns home-hero ">
-      <div className="hero-bg" style={{"backgroundImage": `url('${props.fields.imageContent.value?.src}')`}}></div>
+        <div
+          className="hero-bg"
+          style={{ backgroundImage: `url('${props.fields.imageContent.value?.src}')` }}
+        ></div>
         <div className="body-content">
           <div className="row">
             <div className="small-12 columns">
               <div className="row collapse">
                 <div className="small-12 large-7 columns">
-                  <h1><Text field={props.fields.heading}></Text></h1>
+                  <h1>
+                    <Text field={props.fields.heading}></Text>
+                  </h1>
                   <Text field={props.fields.subHeading}></Text>
                   <ul className="button-group">
                     <li>
                       <Link field={props.fields.primaryLink}></Link>
                     </li>
                     <li>
-                        <Link field={props.fields.secondaryLink}></Link>
+                      <Link field={props.fields.secondaryLink}></Link>
                     </li>
                   </ul>
                 </div>

@@ -1,5 +1,3 @@
-
-
 export const AppNavigation = (): JSX.Element => {
   return (
     <nav className="header-nav" aria-label="Main navigation">

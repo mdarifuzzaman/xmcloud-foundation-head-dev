@@ -1,0 +1,38 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "dev_collection",
+    "items": {
+        "includes": [
+            {
+                "name": "templates_project",
+                "path": "/sitecore/templates/Project/Sitecore_Internal",
+                "allowPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "templates_feature",
+                "path": "/sitecore/templates/Feature/Sitecore_Internal",
+                "allowPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "content_root",
+                "path": "/sitecore/content/Sitecore_Internal",
+                "allowPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/Project/Sitecore_Internal",
+                "allowPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "rendering",
+                "path": "/sitecore/layout/Renderings/Project/Sitecore_Internal",
+                "allowPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "placeholder",
+                "path": "/sitecore/layout/Placeholder Settings/Project/Sitecore_Internal",
+                "allowPushOperations": "CreateUpdateAndDelete"
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+﻿---
+ID: "77b4afd1-883e-4b0c-8278-08b556b733fc"
+Parent: "80216134-ae95-46f4-ab43-783da3012ab6"
+Template: "80216134-ae95-46f4-ab43-783da3012ab6"
+Path: /sitecore/templates/Feature/Sitecore_Internal/Hero Container/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {80216134-AE95-46F4-AB43-783DA3012AB6}
+    {704B6920-1767-4CF8-B6AE-A6E0D5153CCD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T073816Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "afbc489c-7d61-4c30-8391-e7a1fec5f119"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T073829Z

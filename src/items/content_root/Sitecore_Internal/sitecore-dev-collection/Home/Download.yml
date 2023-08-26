@@ -1,0 +1,34 @@
+﻿---
+ID: "311f0458-ad7b-41a5-bfe8-c86c2ddbf8fd"
+Parent: "059762bb-9c8d-451b-a4e4-5d78ebf94589"
+Template: "8d226b16-a78d-43cd-a81f-76f77145bda7"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Home/Download"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CBC56133-36B8-47E1-BE98-EFFD38C2C430}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T025435Z
+    - ID: "2d485833-d4a0-4ad0-9705-945892fc7ab2"
+      Hint: Title
+      Value: Download
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Download
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f30115d-efc0-4a70-a66d-e725df8d3559"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T025439Z

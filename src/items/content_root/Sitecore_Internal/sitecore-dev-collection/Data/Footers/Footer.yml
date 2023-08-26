@@ -1,0 +1,41 @@
+﻿---
+ID: "2af16556-6eab-4789-b6c7-409a374a770c"
+Parent: "706a8be5-b4d8-4fc3-934d-d9c5c51bad8f"
+Template: "ff3f8e57-24f9-46bf-93ab-4db0b47d1ffb"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Footers/Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T083056Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7961c726-0533-4be1-a5af-f7c7dc5411e0"
+    - ID: "908ffbda-d462-44f2-9582-7e8f7b2dc0fa"
+      Hint: privacy
+      Value: |
+        <link text="Privacy Policy" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{7F083560-6B10-46F4-8519-34B3185F1AEA}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "cc50a885-36dd-4f6d-893f-d7aa08ea9a22"
+      Hint: reservedText
+      Value: All Rights Reserved
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T083131Z
+    - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
+      Hint: copyrightText
+      Value: Copyright 2023, Sitecore. All Rights Reserved

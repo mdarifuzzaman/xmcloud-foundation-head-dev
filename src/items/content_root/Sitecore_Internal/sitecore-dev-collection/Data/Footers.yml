@@ -1,0 +1,23 @@
+﻿---
+ID: "706a8be5-b4d8-4fc3-934d-d9c5c51bad8f"
+Parent: "467452b0-83af-44e5-8006-08e5f029d731"
+Template: "d627c4a7-bb50-44f5-961c-e85fa780bee6"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Footers"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T083051Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75982962-9754-4d88-8dd3-984de04da7f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T083051Z

@@ -1,0 +1,462 @@
+/* Large Screens
+--------------------------------------------------------------------------------
+==============================================================================*/
+
+@media only screen and (min-width: 1024px) {
+    html {
+      font-size: 20px;
+    }
+    
+      label {
+          font-size: 0.65rem;
+      }
+      
+      
+      .header {
+          height: 5.75rem;
+      }
+      .header .body-content, .header .body-content .row, .header .body-content .columns {
+          height: 100%;
+          position: relative;
+      }
+      .header .body-content .header-left {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: column;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          height: 100%;
+          padding: 0 0 0 0.9375rem;
+      }
+      .header .body-content .header-right {
+      }
+      
+      .header-logo {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 0 auto;
+          -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+          margin: 0.3em 0 0 0;
+          padding: 0;
+      }
+      .header-logo a .header-tagline {
+          font-size: 0.9rem;
+      }
+      .header-logo a .header-title {
+          font-size: 1.5rem;
+      }
+      
+      
+      .header-nav {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          font-size: 0.75rem;
+          border: 0;
+      }
+      
+      .header-menu {
+          display: block;
+      }
+      .header-menu li {
+          float: left;
+      }
+  
+      .header-menu a {
+          line-height: 1.2;
+          padding: 2.1em 20px;
+      }
+  
+      .header-menu .header-submenu a {
+          padding: 1.5em 20px 1.5em;
+      }
+  
+      .header-submenu li {
+          float: none;
+      }
+  
+  
+      .home-hero {
+          margin: 5.75rem 0 0 0;
+      }
+      
+      .home-hero .body-content .row .row {
+          min-height: 22.25rem;
+      }
+  
+      .home-hero h1 {
+          font-size: 3rem;
+          line-height: 1;
+      }
+  
+      .home-hero p {
+          font-size: 1rem;
+      }
+      
+      
+  
+    .home-features .slick-slide img {
+      max-height: auto;
+    }
+    
+      .home-features p {
+          font-size: 0.9rem;
+      }
+  
+      .small-featuresCarousel .home-features-single__icon {
+          margin-bottom: 0;
+      }
+  
+    .home-features-single__icon {
+      line-height: 13rem;
+    }
+  
+      .home-trusted h4, .home-trusted .h4 {
+          font-size: 1.8rem;
+      }
+  
+    .home-trusted p {
+      font-size: 1rem;
+    }
+    
+    .case-studiesCarousel__quote p {
+        font-size: 0.9rem;
+    }
+    
+    .case-studiesCarousel .slick-list {
+        margin: 1.8rem;
+    }
+  
+    .case-studiesCarousel .slick-next {
+      width: 30px;
+      height: 47px;
+      right: 5px;
+    }
+  
+    .case-studiesCarousel .slick-prev {
+      width: 30px;
+      height: 47px;
+      left: 5px;
+    }
+  
+  
+      .home-videos h4, .home-videos .h4 {
+          font-size: 1.8rem;
+      }
+    .home-videosCarousel .slick-list {
+        margin: 1.8rem;
+    }
+  
+    .home-videosCarousel .slick-next {
+      width: 30px;
+      height: 47px;
+      right: 5px;
+      margin-top: -47px;
+    }
+  
+    .home-videosCarousel .slick-prev {
+      width: 30px;
+      height: 47px;
+      left: 5px;
+      margin-top: -47px;
+    }
+  
+    .page-hero {
+      margin: 5.75rem 0 0 0;
+      padding: 0;
+    }
+      .page-hero .body-content .row .row {
+          min-height: 14.5rem;
+      }
+      .page-hero h1 {
+          font-size: 3.6rem;;
+      }
+  
+      .page-widget h3, .page-widget .h3 {
+          font-size: 1.8rem;
+      }
+  
+      .page-widget h4, .reveal-modal h4, .page-widget .h4, .reveal-modal .h4 {
+          font-size: 1.5rem;
+          margin-top: 3rem;
+      }
+      
+      .page-widget p {
+          font-size: 0.9rem;
+      }
+  
+      .reveal-modal h4, .reveal-modal .h4 {
+          margin: 0;
+      }
+  
+      .product-options h4, .product-options .h4 {
+          font-size: 1.5rem;
+      }
+  
+    .product-options__calculator p {
+    }
+  
+    .product-options__calculator .grand-total p {
+      font-size: 1.5rem;
+    }
+    
+      .product-options__form legend {
+          font-size: 1.5rem;
+      }
+  
+    .licensing-supportMaintenance .row > div {
+      padding-left: 3.5rem;
+      background-position: 5px 10px;
+      background-size: auto auto;
+    }
+  
+    .close-schedule-demo {
+      line-height: 1.7rem;
+    }
+  
+    .download-versions .accordion .accordion-navigation > a.release-notes-navigation {
+      padding-left: 4.5rem;
+      background-size: 34px 34px;
+    }
+  
+      .download-release {
+          position:absolute;
+          top: 15px;
+          right: 20px;    
+      }
+  
+      .release-note {
+        position: relative;    
+      }
+      
+    input[type="text"].help-searchText {
+      background-size: 60px 60px;
+      font-size: 2rem;
+    }
+  
+    .help-tabs .tabs dd > a, .help-tabs .tabs .tab-title > a {
+      font-size: 1.4rem;
+      padding: 0.9rem 1rem;
+    }
+  
+    .help-tabs .accordion .accordion-navigation > a, .help-tabs .accordion dd > a {
+      padding-left: 1.75rem;
+      background-position: 0 1rem;
+    }
+    
+      .help-tabs .accordion .accordion-navigation > .content.active, .help-tabs .accordion dd > .content.active {
+          font-size: 0.9rem;
+      }
+      
+      .help-tabs .accordion .accordion-navigation > .content.active ul, 
+      .help-tabs .accordion dd > .content.active ul,
+      .help-tabs .accordion .accordion-navigation > .content.active ol, 
+      .help-tabs .accordion dd > .content.active ol
+      {
+          font-size: 1em;
+      }
+  
+    .help-tabs .tabs dd.active a:after, .help-tabs .tabs .tab-title.active a:after {
+        margin-left: -15px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #fff;
+    }
+  
+      .in-actionCarousel .slick-next {
+      width: 30px;
+      height: 47px;
+      right: 185px;
+    }
+  
+    .in-actionCarousel .slick-prev {
+      width: 30px;
+      height: 47px;
+      left: 180px;
+    }
+  
+      .date {
+            font-family: inherit;
+            font-weight: 300;
+            font-size: 0.8rem;
+            margin: 0;
+            line-height: 0.8rem;   
+      }
+  
+       .confirm-order label{
+            display: inline;
+      }
+  
+       .confirm-order span{
+            width: 65%;
+            margin-left: 15px;
+            font-size: .75em;
+      }
+  
+      .reveal-modal-title {
+           text-align: center;    
+      }
+  
+      .button.confirm {
+          padding-top: 15px;
+          padding-bottom: 15px;
+          float: right;   
+          margin-left: 20px; 
+      }
+  
+      #confirm-modal h5, #confirm-modal .h5 {
+          color: #000000;
+      }
+  
+    .scheduleDemo {
+      max-width: 400px;
+    }
+  
+    .scheduleDemo .body-content .large-4 {
+      width: 100%;
+    }
+  
+     .num-licenses-text {
+              float: left;
+              width: 240px;
+      }
+  
+  
+      .horizontal-callout h6, .horizontal-callout .h6 {
+          font-family: inherit;
+          font-size: 1.3rem;
+          font-weight: 700;
+      }
+      
+      .horizontal-callout p {
+          font-size: 0.9rem;
+      }
+      
+      .horizontal-callout-logo-top {
+          padding-left: 0.9375rem;
+          padding-top: 90px;
+          background: transparent no-repeat scroll 0.9375rem 0;
+          background-size: auto 90px;
+      }
+      
+      .horizontal-callout-logo-top a {
+          display: block;
+          padding: 30px 0 0 0;
+      }
+  
+      .signup-form h5, .signup-form .h5 {
+          font-size: 1.8rem;
+          line-height: 1.2;
+      }
+  
+  
+      .home-trusted h4, .home-trusted .h4 {
+          font-size: 1.8rem;
+      }
+  
+  
+      .vertical-container h4, .vertical-container .h4 {
+          font-size: 1.8rem;
+      }
+      .vertical-callout h5, .vertical-callout .h5 {
+          font-size: 1.3rem;
+      }
+      
+      .footer-right {
+          margin-left: auto;
+          text-align: right;
+      }
+      .footer-footerLinks, .footer-copyright {
+          display: inline-block;
+          margin: 0;
+          vertical-align: top;
+      }
+      
+      .footer-footerLinks ul, .footer-copyright {
+          list-style: none;
+          display: inline-block;
+          font-size: 14px;
+          line-height: 1;
+          margin-right: -13px;
+          vertical-align: top;
+      }
+      .footer-footerLinks ul li, .footer-copyright span {
+          display: inline-block;
+          padding: 0 13px 0 15px;
+          position: relative;
+          vertical-align: top;
+      }
+      .footer-footerLinks ul li:before, .footer-copyright span:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          height: 11px;
+          margin: auto;
+          background: #fff;
+      }
+      .footer-footerLinks ul li:first-child, .footer-copyright span:first-child {
+          padding-left: 0;
+      }
+      .footer-footerLinks ul li:first-child:before, .footer-copyright span:first-child:before {
+          content: none;
+      }
+      
+      .footer-footerLinks + .footer-copyright span:first-child {
+          padding-left: 13px;
+          margin-left: 8px;
+      }
+      .footer-footerLinks + .footer-copyright span:first-child:before {
+          content: '';
+      }
+  }
+  
+  
+  @media only screen and (min-width: 1248px) {
+      .header-subnav {
+          right: -15px;
+      }
+      
+      .case-studiesCarousel .slick-list {
+          margin: 0;
+      }
+      
+      .case-studiesCarousel .slick-next {
+          width: 30px;
+          height: 47px;
+          right: -25px;
+      }
+  
+      .case-studiesCarousel .slick-prev {
+          width: 30px;
+          height: 47px;
+          left: -25px;
+      }
+      
+      .home-videosCarousel .slick-list {
+          margin: 0;
+      }
+      
+      .home-videosCarousel .slick-next {
+          width: 30px;
+          height: 47px;
+          right: -25px;
+      }
+  
+      .home-videosCarousel .slick-prev {
+          width: 30px;
+          height: 47px;
+          left: -25px;
+      }
+  }
+  

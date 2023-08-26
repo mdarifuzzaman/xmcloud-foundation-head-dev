@@ -5,8 +5,10 @@ type DynamicPlaceholderProps = {
   rendering: ComponentRendering;
 };
 
-const PartialDesignDynamicPlaceholder = (props: DynamicPlaceholderProps): JSX.Element => (
-  <Placeholder name={props.rendering?.params?.sig || ''} rendering={props.rendering} />
-);
+const PartialDesignDynamicPlaceholder = (props: DynamicPlaceholderProps): JSX.Element => {
+  return (
+      <Placeholder name={props.rendering?.params?.sig || ''} rendering={props.rendering} />
+    );
+  }
 
 export default PartialDesignDynamicPlaceholder;

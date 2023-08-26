@@ -19,13 +19,13 @@ export class LayoutServiceFactory {
       ? new GraphQLLayoutService({
           endpoint: config.graphQLEndpoint,
           apiKey: config.sitecoreApiKey,
-          siteName,
+          siteName,          
         })
       : new RestLayoutService({
           apiHost: config.sitecoreApiHost,
           apiKey: config.sitecoreApiKey,
           siteName,
-          configurationName: 'default',
+          configurationName: 'sxa-jss',
         });
   }
 }

@@ -85,8 +85,9 @@ Languages:
               uid="{359FB4ED-341D-4F3C-B83E-1D3D9D1436A4}"
               s:ds="{51445AB0-C7C4-4EEF-9403-B47E8DE800CB}"
               s:id="{4B394DBE-967D-5D75-B6E6-72AEC8EFB3C0}"
-              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;CSSStyles"
-              s:ph="headless-main" />
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{71097602-7B59-4160-BB52-169A3D33A8AF}">
               <p:d />
@@ -128,11 +129,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4268501a-598f-4079-8568-595627906846"
+      Value: "d00daf4d-cec6-488e-bce4-c5e92a9702f1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T074115Z
+      Value: 20230826T155536Z

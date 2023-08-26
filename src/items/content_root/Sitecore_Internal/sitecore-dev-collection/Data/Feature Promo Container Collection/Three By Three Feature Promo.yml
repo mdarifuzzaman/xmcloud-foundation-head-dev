@@ -1,24 +1,19 @@
 ﻿---
-ID: "3c65d18c-ffaa-4f9a-88fb-e85097c74459"
-Parent: "167b55e9-20ab-4a41-963e-4c5a067312b1"
-Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
-Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Presentation/Page Designs/Default"
-SharedFields:
-- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
-  Hint: PartialDesigns
-  Value: "{4DA61A2E-37E7-4207-9EA9-450EBBFB4B7E}|{34E6CA83-D709-4112-8890-1FCB3DBEF0AC}"
-- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
-  Hint: __Thumbnail
-  Value: |
-    <image mediaid="{E78726BA-C94A-4193-B600-3B7312B5B966}" />
+ID: "747c88da-b956-48cf-a20f-aed54aca1e89"
+Parent: "d0894aa3-ec89-4a6f-b382-d6092596c6c0"
+Template: "1c01c0c1-125d-47ef-973f-83af04901af7"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Feature Promo Container Collection/Three By Three Feature Promo"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T024451Z
+      Value: 20230826T131638Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,13 +22,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
+    - ID: "86d2f61b-9b56-403b-a9f0-28bd24c4a871"
+      Hint: heading
+      Value: The Essential Suite
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "50fa3b5e-2db3-4f90-ab53-16fdab5249af"
+      Value: "3379f9ba-04b7-40a0-8ca5-eeadc87b2183"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T151115Z
+      Value: 20230826T131713Z

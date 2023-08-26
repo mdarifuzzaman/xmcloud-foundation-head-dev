@@ -1,0 +1,42 @@
+﻿---
+ID: "217825b9-d845-4728-898b-0ffcd4b4bcdd"
+Parent: "6ae51137-eebb-4e38-83bb-2e25f625ec6b"
+Template: "7495b7cc-e623-404a-bef3-203a9bbddeeb"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Features/Feature 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T144905Z
+    - ID: "2c713c5f-2ee2-4d8e-a834-bf10b53d2f0c"
+      Hint: featureImage
+      Value: |
+        <image mediaid="{A32C3D59-797A-43A7-AF32-25F23B1E8D53}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "558353e1-ecf3-4bd5-88c6-f45d9891e307"
+      Hint: summary
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Compare and merge databases with a complete side-by-side comparison&nbsp;and easily move items from one database to another. Version 5.0 introduces a brand new script engine, click here to learn more.</span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d8f1a5e-18d7-40dd-9b55-4ad84b39bb49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "c8aab929-296b-4c02-8a62-de75838852b7"
+      Hint: heading
+      Value: Sitecore Razl
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T145350Z

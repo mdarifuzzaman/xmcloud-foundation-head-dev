@@ -1,12 +1,12 @@
 ﻿---
-ID: "66c465ca-6a74-4d99-9357-6a18b94e48db"
-Parent: "2adb40af-5130-473b-9312-844b3292c008"
-Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
-Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Presentation/Placeholder Settings/Partial Design/Navigation"
+ID: "1c01c0c1-125d-47ef-973f-83af04901af7"
+Parent: "62511e16-a951-4de7-8b9e-39c844e0d9da"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Sitecore_Internal/ThreeByThreeFeaturePromo
 SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: "sc-navigation"
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -14,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T064508Z
+      Value: 20230826T130712Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +25,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0986632c-34f8-40e2-a056-4ca061ac358f"
+      Value: "116e5066-9df5-45b8-bc22-79861ba09a53"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T064522Z
+      Value: 20230826T130712Z

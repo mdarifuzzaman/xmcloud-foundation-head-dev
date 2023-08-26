@@ -1,27 +1,24 @@
 ﻿---
-ID: "cadccdfc-3f97-5c46-b1bc-c9848110ce75"
+ID: "87a3e315-40ac-5302-bf5e-5877cd3a0814"
 Parent: "fb99eaf6-783a-4230-adb1-08e622ccd36a"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Sitecore_Internal/Header
+Path: /sitecore/layout/Renderings/Project/Sitecore_Internal/Feature
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Header
+  Value: Feature
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Sitecore_Internal/Header Template
+  Value: /sitecore/templates/Feature/Sitecore_Internal/Feature
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{848F7679-7723-5334-9184-A552DE8ACB16}"
+  Value: "{15878BEF-C70A-5309-9493-C6F9E91AB1AC}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Headers"
-- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
-  Hint: OtherProperties
-  Value: IsRenderingsWithDynamicPlaceholders=true
+  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Features"
 Languages:
 - Language: en
   Versions:
@@ -29,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T042153Z
+      Value: 20230826T130627Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -40,11 +37,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ca0b626-4a3e-4622-b5d9-b5a3e4f1f8de"
+      Value: "4ff8c620-5c7a-4571-8d07-0c9aa1fa9185"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T133158Z
+      Value: 20230826T131310Z

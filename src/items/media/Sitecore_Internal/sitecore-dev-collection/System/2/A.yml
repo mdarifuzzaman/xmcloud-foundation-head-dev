@@ -1,18 +1,8 @@
 ﻿---
-ID: "bbbb3e6b-c11d-45d1-9aae-008fba162373"
-Parent: "1a50bc1b-6036-4725-b7e2-ec37c59e8455"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Sitecore_Internal/ThreeByThreeFeaturePromo Rendering Parameters/Data/ColumnSize
-SharedFields:
-- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
-  Hint: __Read Only
-  Value: 1
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: Number
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+ID: "c459b7a4-71cf-46c6-9d32-40ed9e323bd0"
+Parent: "f7a234dd-1a56-4b97-abda-90e3ba3b2432"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/Sitecore_Internal/sitecore-dev-collection/System/2/A"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T134038Z
+      Value: 20230827T023535Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +21,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e16e5fb8-7158-4448-b1ed-9d3e23e1d571"
+      Value: "6d567c05-b008-4ff2-879f-18b4b75c19c1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T022123Z
+      Value: 20230827T023535Z

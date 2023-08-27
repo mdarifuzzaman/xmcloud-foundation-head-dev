@@ -10,9 +10,6 @@ SharedFields:
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/Sitecore_Internal/ThreeByThreeFeaturePromo
-- ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
-  Hint: Open Properties after Add
-  Value: 1
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 
@@ -22,9 +19,6 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Feature Promo Container Collection"
-- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
-  Hint: OtherProperties
-  Value: IsRenderingsWithDynamicPlaceholders=true
 Languages:
 - Language: en
   Versions:
@@ -32,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T130209Z
+      Value: 20230827T022943Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -43,11 +37,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7c2cac18-ebdb-4504-951d-fc82ef81816a"
+      Value: "095276e1-e66f-4ad3-8f22-57b011c97346"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T154128Z
+      Value: 20230827T023840Z

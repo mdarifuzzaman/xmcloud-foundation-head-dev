@@ -4,6 +4,9 @@ Parent: "1a50bc1b-6036-4725-b7e2-ec37c59e8455"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Project/Sitecore_Internal/ThreeByThreeFeaturePromo Rendering Parameters/Data/RowSize
 SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 1
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Number
@@ -28,11 +31,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "053fbd60-85fd-466b-9ac0-a57add044234"
+      Value: "3a634e45-c1fc-4c91-b247-5040ed0d0ca8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T153844Z
+      Value: 20230827T022123Z

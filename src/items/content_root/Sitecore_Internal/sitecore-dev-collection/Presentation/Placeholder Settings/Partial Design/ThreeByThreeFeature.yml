@@ -1,15 +1,12 @@
 ﻿---
-ID: "86d2f61b-9b56-403b-a9f0-28bd24c4a871"
-Parent: "6e506e2b-8557-49d1-9c2e-d213d020fbef"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Sitecore_Internal/ThreeByThreeFeaturePromo/Data/heading
+ID: "0318669c-10c5-41b0-b075-e2db5dd32674"
+Parent: "2adb40af-5130-473b-9312-844b3292c008"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Presentation/Placeholder Settings/Partial Design/ThreeByThreeFeature"
 SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: "Single-Line Text"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-threebythreefeature"
 Languages:
 - Language: en
   Versions:
@@ -17,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T130732Z
+      Value: 20230827T023612Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +25,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0d97a064-6b04-4bd8-bfb0-a7980f586f36"
+      Value: "cf946f93-ebd3-4bb8-b03f-af36f7f3089d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T130732Z
+      Value: 20230827T023612Z

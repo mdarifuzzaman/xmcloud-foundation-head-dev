@@ -11,9 +11,24 @@ Languages:
     - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
       Hint: __Lock
       Value: <r />
+    - ID: "0431446f-9d9b-4647-90dd-8763a94543a5"
+      Hint: featureImage3
+      Value: |
+        <image mediaid="{C26B1D13-7AE9-4D17-B65C-CA1B40D4503C}" alt="3" height="" width="" hspace="" vspace="" />
+    - ID: "212ff4cf-53a1-4add-8382-235ccf6cd2a4"
+      Hint: summary2
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Compare and merge databases with a complete side-by-side comparison&nbsp;and easily move items from one database to another. Version 5.0 introduces a brand new script engine, click here to learn more.</span>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230826T131638Z
+    - ID: "33a839c2-3a68-4c86-a0d9-10fbd1039699"
+      Hint: summary3
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Bridge the gap between the skill sets of front-end and back-end developers. Allow front-end devs to work with their preferred tools and eliminate the need to create individual Sitecore instances and upgrades for each developer. Click here to learn more</span>
+    - ID: "435071ef-dd62-467c-8002-83bf686067b2"
+      Hint: heading2
+      Value: Sitecore Razl
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -22,16 +37,34 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
+    - ID: "77afc6a8-6edd-4854-86d1-2bfd2a98be91"
+      Hint: summary1
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Reduce deployment time, ensure team integration, and create an environment in which you can easily and quickly move code from your local environment all the way through your development workflow. Click here to learn more.</span>
+    - ID: "7e2fa811-599d-4910-ab50-fee928239666"
+      Hint: heading1
+      Value: Sitecore TDS
     - ID: "86d2f61b-9b56-403b-a9f0-28bd24c4a871"
-      Hint: heading
-      Value: The Essential Suite
+      Hint: mainHeading
+      Value: The Essential Suite Test
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3379f9ba-04b7-40a0-8ca5-eeadc87b2183"
+      Value: "516072fd-c470-4001-8924-050b321008ec"
+    - ID: "a72abc04-9181-498b-926e-462513ec5d1b"
+      Hint: featureImage1
+      Value: |
+        <image mediaid="{A933496B-457A-467E-B2A3-B430D959596A}" alt="1" height="" width="" hspace="" vspace="" />
+    - ID: "a982fb1b-31df-431f-a61f-5f837876d133"
+      Hint: featureImage2
+      Value: |
+        <image mediaid="{A32C3D59-797A-43A7-AF32-25F23B1E8D53}" alt="2" height="" width="" hspace="" vspace="" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T131713Z
+      Value: 20230827T025544Z
+    - ID: "edecf5f4-dfae-4f30-8b8d-0d9611d9c66b"
+      Hint: heading3
+      Value: Sitecore Feydra

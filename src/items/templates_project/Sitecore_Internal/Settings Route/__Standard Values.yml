@@ -15,6 +15,30 @@ SharedFields:
           uid="{FD9FBC48-2C40-597C-97B3-B8B9587A8609}"
           key="jss-main"
           md="{A8F4799B-F24F-5777-B7E3-A494BE5BB120}" />
+        <p
+          uid="{851047DF-46D4-5195-9033-B8D9FDB14454}"
+          key="headless-header"
+          md="{69B50394-8655-53CD-B43F-AC0FF4634293}" />
+        <p
+          uid="{0024E1B3-16E6-5DEF-87AA-5B83162BC8AC}"
+          key="headless-main"
+          md="{14353DE4-B083-5D89-9577-6A00E442476E}" />
+        <p
+          uid="{5500A295-1A3E-5D2D-9522-CA636AB85EAE}"
+          key="sc-feature-first"
+          md="{5CA8A09B-E64C-4039-89E7-CC49E1F71EEF}" />
+        <p
+          uid="{14CA8738-8F1B-504C-A3D1-223A77D145C3}"
+          key="sc-feature-second"
+          md="{5AC5DCB2-0D45-40AB-BFA1-3F2F8EAFA59D}" />
+        <p
+          uid="{65BC51B3-76C4-5662-9279-C3172F266DC7}"
+          key="sc-feature-third"
+          md="{E513E46B-E133-4E18-96B4-FA206B689BA7}" />
+        <p
+          uid="{2FE5BB39-A728-542B-B848-0152FA94BE2D}"
+          key="headless-footer"
+          md="{9EA8E55E-2969-519B-9FCB-C4317B12249F}" />
       </d>
     </r>
 Languages:
@@ -35,11 +59,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6635aff4-3dc2-49ce-a676-f61aee8b2e53"
+      Value: "b23cbe81-b2f3-417e-8bd8-fbbab438ede4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T024851Z
+      Value: 20230827T022706Z

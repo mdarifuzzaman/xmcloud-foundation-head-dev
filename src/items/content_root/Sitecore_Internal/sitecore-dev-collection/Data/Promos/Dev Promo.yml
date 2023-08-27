@@ -1,0 +1,50 @@
+﻿---
+ID: "496009fa-6710-4aa8-99cd-d7a3b04bbabb"
+Parent: "c3ad3dae-d7f4-48b5-bc3b-eed855faf35b"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Promos/Dev Promo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Hate doing the same thing over and over? So do we. Our tools are all focused on improving productivity and reducing time spent on stupid stuff. As developers ourselves, we&nbsp;take pride in knowing our tools will help development teams work more smoothly and efficiently together.</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230827T034438Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <h3><span style="background-color: #ffffff; color: #202124;">Save Time On Sitecore Development</span></h3>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bafd68ea-9e6c-46fb-aa44-f76ac667d34e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230827T055432Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="internal" text="TDS Classic" class="button yellow" querystring="" target="" id="{311F0458-AD7B-41A5-BFE8-C86C2DDBF8FD}" />
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{96DE146A-2ABE-4BDA-92EF-AE13118AF51F}" />

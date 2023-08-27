@@ -6,7 +6,7 @@ Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Presentation/
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{4DA61A2E-37E7-4207-9EA9-450EBBFB4B7E}|{2A482CB9-0592-4A53-B0B5-2A04BA679DFF}|{E0F64012-38A0-4A63-908A-DB8F41FFA84C}|{34E6CA83-D709-4112-8890-1FCB3DBEF0AC}"
+  Value: "{4DA61A2E-37E7-4207-9EA9-450EBBFB4B7E}|{2A482CB9-0592-4A53-B0B5-2A04BA679DFF}|{E0F64012-38A0-4A63-908A-DB8F41FFA84C}|{69C160EA-0D3B-487C-B6F2-18EC06C3A037}|{BB88E9CA-BCFE-437D-8852-99E48CE9913C}|{34E6CA83-D709-4112-8890-1FCB3DBEF0AC}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -29,11 +29,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ea7da8fb-0e75-4eb2-adbe-a2742aa30099"
+      Value: "d6b02f95-c7f3-4135-855f-ffa8c238d7a3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T025653Z
+      Value: 20230827T041253Z

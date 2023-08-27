@@ -18,16 +18,19 @@ type ContentBlockProps = {
 
 const Feature = (props: ContentBlockProps): JSX.Element => {
   return (
-    <>
+    <div
+      className='className="small-12 large-4 columns horizontal-callout horizontal-callout-logo-top"'
+      style={{ backgroundImage: `url('${props.fields.featureImage.value?.src}')` }}
+    >
       <Link href="/TDS-Classic">
         <div className="h6">
           <Text field={props.fields.heading}></Text>
         </div>
-        <p>
+        <div>
           <RichText field={props.fields.summary}></RichText>
-        </p>
+        </div>
       </Link>
-    </>
+    </div>
   );
 };
 

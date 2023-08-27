@@ -204,3 +204,26 @@ export const OpenSourceToolsPromo = (props: PromoProps): JSX.Element => {
 
   return <PromoDefaultComponent {...props} />;
 };
+
+export const StandardPromo = (props: PromoProps): JSX.Element => {
+  if (props.fields) {
+    return (
+      <div className="vertical-callout vertical-callout_4">
+			<div className=" vertical-callout-image">
+				<Image field={props.fields.PromoIcon}></Image>
+			</div>
+
+        <div className="h5"><RichText field={props.fields.PromoText}></RichText></div>
+        <div data-equalizer-watch="description" style={{"height": "90px;"}}>
+          <span><RichText field={props.fields.PromoText}></RichText></span></div>
+        <ul className="button-group">
+            <li>
+                <Link field={props.fields.PromoLink}></Link>
+            </li>
+        </ul>
+    </div>
+    );
+  }
+
+  return <PromoDefaultComponent {...props} />;
+};

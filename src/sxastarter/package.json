@@ -6,7 +6,13 @@
   "config": {
     "appName": "sitecore-dev-collection",
     "rootPlaceholders": [
-      "jss-main"
+      "jss-main",
+      "headless-header",
+      "headless-main",
+      "sc-feature-first",
+      "sc-feature-second",
+      "sc-feature-third",
+      "headless-footer"
     ],
     "sitecoreConfigPath": "/App_Config/Include/zzz",
     "graphQLEndpointPath": "/sitecore/api/graph/edge",

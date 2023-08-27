@@ -1,20 +1,12 @@
 ﻿---
-ID: "c848b118-afec-5f80-8fe4-951d4ebcd188"
-Parent: "98ff443c-9bde-4b2c-86d5-197243b17134"
+ID: "88e92738-2eee-45df-ab9f-9da6244696c3"
+Parent: "62511e16-a951-4de7-8b9e-39c844e0d9da"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Sitecore_Internal/ThreeByThreeFeaturePromo Rendering Parameters
+Path: /sitecore/templates/Feature/Sitecore_Internal/Feature Promo Parent
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: |
-    {4247AAD4-EBDE-4994-998F-E067A51B1FE4}
-    {5C74E985-E055-43FF-B28C-DB6C6A6450A2}
-- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
-  Hint: __Read Only
-  Value: 
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{331632FA-D193-5D03-A4E7-3DB79C8196BB}"
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -22,22 +14,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T130209Z
+      Value: 20230827T081518Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\JssImport
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\JssImport
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "259b3bf5-50e1-4acc-8aca-e5c6210baa34"
+      Value: "506e9861-bec4-4d53-bd4e-74e52f350145"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T081719Z
+      Value: 20230827T081518Z

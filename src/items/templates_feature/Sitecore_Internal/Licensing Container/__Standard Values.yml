@@ -1,15 +1,14 @@
 ﻿---
-ID: "d7a72ed6-187a-427e-85c2-049d86558007"
-Parent: "9425b862-7477-4302-9d45-4e2490c29735"
-Template: "9425b862-7477-4302-9d45-4e2490c29735"
-Path: /sitecore/templates/Feature/Sitecore_Internal/FeaturePromoContainer/__Standard Values
+ID: "91f6ccb5-fa29-4b48-af95-82ba71b492cb"
+Parent: "bccbdd23-30ee-4004-a174-dd022bebaf84"
+Template: "bccbdd23-30ee-4004-a174-dd022bebaf84"
+Path: /sitecore/templates/Feature/Sitecore_Internal/Licensing Container/__Standard Values
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: |
-    {9425B862-7477-4302-9D45-4E2490C29735}
-    {1C01C0C1-125D-47EF-973F-83AF04901AF7}
-    {88E92738-2EEE-45DF-AB9F-9DA6244696C3}
+    {BCCBDD23-30EE-4004-A174-DD022BEBAF84}
+    {76E1B3BE-936D-4E67-A3E3-2BB01D314452}
 Languages:
 - Language: en
   Versions:
@@ -17,7 +16,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T130754Z
+      Value: 20230827T075043Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +27,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7440ad58-0ea1-4608-ba32-131cb62f9141"
+      Value: "a4d7ce14-6f06-442e-adf7-9af0436a319d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T081903Z
+      Value: 20230827T075322Z

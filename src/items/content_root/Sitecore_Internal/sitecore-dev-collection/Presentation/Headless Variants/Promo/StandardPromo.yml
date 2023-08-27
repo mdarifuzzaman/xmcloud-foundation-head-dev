@@ -1,15 +1,8 @@
 ﻿---
-ID: "d7a72ed6-187a-427e-85c2-049d86558007"
-Parent: "9425b862-7477-4302-9d45-4e2490c29735"
-Template: "9425b862-7477-4302-9d45-4e2490c29735"
-Path: /sitecore/templates/Feature/Sitecore_Internal/FeaturePromoContainer/__Standard Values
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: |
-    {9425B862-7477-4302-9D45-4E2490C29735}
-    {1C01C0C1-125D-47EF-973F-83AF04901AF7}
-    {88E92738-2EEE-45DF-AB9F-9DA6244696C3}
+ID: "a65104a1-2ec8-4e78-9187-8adb02b58d28"
+Parent: "da42e16f-c2cf-471d-bc6c-8124787fb7b8"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Presentation/Headless Variants/Promo/StandardPromo"
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230826T130754Z
+      Value: 20230827T034532Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7440ad58-0ea1-4608-ba32-131cb62f9141"
+      Value: "840a14ea-9c24-4f14-b405-bc1991a4be50"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T081903Z
+      Value: 20230827T034728Z

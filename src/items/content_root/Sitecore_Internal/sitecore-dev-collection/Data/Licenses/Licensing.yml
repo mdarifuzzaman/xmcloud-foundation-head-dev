@@ -1,0 +1,79 @@
+﻿---
+ID: "a2bfec1b-d8bd-47ee-b524-b9bae4175382"
+Parent: "2452f6c3-0a2a-4ad9-8285-54546355a065"
+Template: "76e1b3be-936d-4e67-a3e3-2bb01d314452"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Licenses/Licensing"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "06ece696-a1d1-4d05-be7b-4228266c43b3"
+      Hint: promo3Summary
+      Value: "Bridge the gap between front-end and back-end developers"
+    - ID: "08cb60b9-f3d8-49b1-966d-5537422936bb"
+      Hint: promo3Icon
+      Value: |
+        <image mediaid="{C26B1D13-7AE9-4D17-B65C-CA1B40D4503C}" />
+    - ID: "11dc6f83-0968-4fef-a255-fbda7fa24bcc"
+      Hint: promo1Summary
+      Value: Reduce deployment time and ensure team integration
+    - ID: "16bb6a86-c650-4aef-afdf-69dbfd10117b"
+      Hint: promo3Link
+      Value: |
+        <link linktype="internal" text="Learn more about  feydra" class="button grey" querystring="" target="" id="{036B4345-675C-4D06-856B-09B717E1BEAC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230827T075601Z
+    - ID: "51adc2da-253b-4526-a0d2-e17a6a721544"
+      Hint: promo1Link
+      Value: |
+        <link text="Learn more on licensing TDS" anchor="" linktype="internal" class="button grey" title="" target="" querystring="" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "58b4c2f0-df2b-41b6-830c-104ddc1d9dd3"
+      Hint: promo3Heading
+      Value: Sitecore Feydra
+    - ID: "5973bca5-4896-4754-8fe2-4577e6935b78"
+      Hint: promo2Link
+      Value: |
+        <link text="Compare and merge database" anchor="" linktype="internal" class="button grey" title="" target="" querystring="" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" />
+    - ID: "59bf0674-7847-4c2c-ab39-05b02ffcf54c"
+      Hint: promo1Heading
+      Value: Sitecore TDS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54a190a4-102e-4c97-9d15-6c2aa5cc2670"
+    - ID: "8f80f598-e64a-4f23-a7dd-c0577e9b0920"
+      Hint: promo2Summary
+      Value: Compare and merge databases
+    - ID: "921f78ef-ed1e-4136-a1de-e093a213e48d"
+      Hint: promo2Icon
+      Value: |
+        <image mediaid="{A32C3D59-797A-43A7-AF32-25F23B1E8D53}" />
+    - ID: "9b1965ef-b8b0-49aa-a48f-85664e65ee78"
+      Hint: promo1Icon
+      Value: |
+        <image mediaid="{A933496B-457A-467E-B2A3-B430D959596A}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230827T080959Z
+    - ID: "e23736a3-877b-4169-a987-e4826ff7fb58"
+      Hint: heading
+      Value: Licensing
+    - ID: "f1b8c9a2-7259-4212-b948-fe384b314b15"
+      Hint: promo2Heading
+      Value: Sitecore Razl

@@ -12,6 +12,8 @@ SharedFields:
     {25A03E48-9DA5-5A31-8301-03593EEA2682}
     {87A3E315-40AC-5302-BF5E-5877CD3A0814}
     {90BE3D69-5D0D-5E11-8215-F1CE499A43B3}
+    {2B5FF8F2-69AC-5417-9076-7BDA9E967F2E}
+    {FAB38830-AF4D-5311-A7DF-1C8663034DF6}
 Languages:
 - Language: en
   Versions:
@@ -30,11 +32,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40ce684e-f1d8-419e-8ff3-428253c77a03"
+      Value: "c18c2874-1c43-4a45-a244-0b1bae90b002"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T131551Z
+      Value: 20230827T082107Z

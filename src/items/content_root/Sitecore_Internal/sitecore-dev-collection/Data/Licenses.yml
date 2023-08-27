@@ -1,0 +1,23 @@
+﻿---
+ID: "2452f6c3-0a2a-4ad9-8285-54546355a065"
+Parent: "467452b0-83af-44e5-8006-08e5f029d731"
+Template: "bccbdd23-30ee-4004-a174-dd022bebaf84"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Licenses"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230827T075402Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fccbd4cb-6bf4-4cc5-95c8-7c5de606b9e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230827T075402Z

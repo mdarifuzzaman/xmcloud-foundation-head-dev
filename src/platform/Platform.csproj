@@ -65,7 +65,7 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_Config\Include\zzz\Sitecore.JavaScriptServices.Apps.Override.config.disabled" />
+    <None Include="App_Config\Include\zzz\Sitecore.JavaScriptServices.Apps.Override.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />

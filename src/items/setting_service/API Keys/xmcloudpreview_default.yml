@@ -1,8 +1,8 @@
 ﻿---
-ID: "f73ba80a-4c41-4ac2-95be-866f4538a6eb"
+ID: "16dccae2-e56b-42b9-82d4-8e6fa7bcc2de"
 Parent: "59b41b5f-e22e-460b-941e-fb64fe8da8fc"
 Template: "a6868d65-d612-401f-a40a-cd5ba0857b81"
-Path: /sitecore/system/Settings/Services/API Keys/xmcloudpreview
+Path: /sitecore/system/Settings/Services/API Keys/xmcloudpreview_default
 SharedFields:
 - ID: "780c8e48-fe03-4a73-90dc-9bb5296b95d7"
   Hint: CORS Origins
@@ -10,6 +10,9 @@ SharedFields:
 - ID: "99ba91ec-f0d3-4372-b638-67c2402a2484"
   Hint: AllowedControllers
   Value: *
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -28,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2fb0590b-ba95-44c3-a2a7-de01c419d575"
+      Value: "89ba72ca-05a9-44c4-b494-24f2a9b60118"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200526T202815Z
+      Value: 20230828T120533Z

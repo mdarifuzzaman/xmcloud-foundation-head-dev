@@ -1,0 +1,49 @@
+﻿---
+ID: "114a36c8-f1a7-44ed-abb7-875a331af212"
+Parent: "2617be9a-bd34-4ddb-9869-601b72a522a9"
+Template: "b2592b2a-f8d6-4391-b341-c5bf3b78a45e"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Reviews/Rob review"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230828T080027Z
+    - ID: "3eb660ff-e82f-4c38-ab11-3d1e36b7122c"
+      Hint: index
+      Value: 3
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d1383c1-fc1a-4964-a712-02d826a82206"
+    - ID: "ba4d6b55-8657-49ce-bd0f-0ae501ad10a5"
+      Hint: comments
+      Value: |
+        <p>
+        "I remember the days of using packages for everything. I love TDS."
+        </p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230828T083404Z
+    - ID: "f4360c15-2fd4-4f16-b3e4-1e2e6a508deb"
+      Hint: author
+      Value: |
+        <p class="case-studiesCarousel__author">
+        Rob Reilley @reilleyweb - Twitter 2/7/2017<span></span>
+        </p>

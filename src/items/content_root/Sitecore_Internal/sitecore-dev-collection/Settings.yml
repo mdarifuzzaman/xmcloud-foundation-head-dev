@@ -34,7 +34,7 @@ SharedFields:
   Value: "/dist/sitecore-dev-collection"
 - ID: "797d2f63-d5c4-4c4c-b21f-d3e250e2ab12"
   Hint: DeploymentSecret
-  Value: 34g9fsv1zne0ea1go2ooa7ipfo5dxufcvc7u12co7abjj
+  Value: auqx1zbsnxne940w1790tohaunayv80lcvxkzy2cv98
 - ID: "9016141c-ff51-40f2-9135-40f5161b9784"
   Hint: ServerSideRenderingEngine
   Value: http
@@ -77,11 +77,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "488be37b-1496-4e33-964f-0e9888128138"
+      Value: "80ba3f44-545b-422a-a62e-ff4540dc568f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T024757Z
+      Value: 20230828T073004Z

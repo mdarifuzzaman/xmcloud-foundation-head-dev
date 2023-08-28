@@ -1,0 +1,37 @@
+﻿---
+ID: "813a7ea4-7316-45ef-af96-ea1698036b55"
+Parent: "d83e58cc-96b9-49b2-8f76-f315061d76df"
+Template: "d83e58cc-96b9-49b2-8f76-f315061d76df"
+Path: /sitecore/templates/Feature/Sitecore_Internal/All Reviews/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {D83E58CC-96B9-49B2-8F76-F315061D76DF}
+    {B2592B2A-F8D6-4391-B341-C5BF3B78A45E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230828T073700Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae0ee5a1-90a0-40f4-ab0a-af68f87286f3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230828T073836Z

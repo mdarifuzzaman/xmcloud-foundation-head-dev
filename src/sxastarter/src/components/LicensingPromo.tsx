@@ -49,7 +49,7 @@ const LicensingPromo = (props: PromoProps): JSX.Element => {
                   <div className="h5">
                     <Text field={props.fields.promo1Heading}></Text>
                   </div>
-                  <div data-equalizer-watch="description" style={{ height: '45px;' }}>
+                  <div data-equalizer-watch="description" style={{ height: '45px' }}>
                     <RichText field={props.fields.promo1Summary}></RichText>
                   </div>
                   <ul className="button-group" style={{"marginTop": "20px"}}>
@@ -67,7 +67,7 @@ const LicensingPromo = (props: PromoProps): JSX.Element => {
                   <div className="h5">
                     <Text field={props.fields.promo2Heading} />
                   </div>
-                  <div data-equalizer-watch="description" style={{ height: '45px;' }}>
+                  <div data-equalizer-watch="description" style={{ height: '45px' }}>
                     <RichText field={props.fields.promo2Summary}></RichText>&nbsp;
                   </div>
                   <ul className="button-group" style={{"marginTop": "20px"}}>
@@ -85,7 +85,7 @@ const LicensingPromo = (props: PromoProps): JSX.Element => {
                   <div className="h5">
                     <Text field={props.fields.promo3Heading}></Text>
                   </div>
-                  <div data-equalizer-watch="description" style={{ height: '45px;' }}>
+                  <div data-equalizer-watch="description" style={{ height: '45px' }}>
                     <RichText field={props.fields.promo3Summary}></RichText>
                   </div>
                   <ul className="button-group" style={{"marginTop": "20px"}}>

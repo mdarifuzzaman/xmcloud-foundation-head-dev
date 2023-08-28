@@ -32,7 +32,13 @@
                 "name": "placeholder",
                 "path": "/sitecore/layout/Placeholder Settings/Project/Sitecore_Internal",
                 "allowPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "setting_service",
+                "path": "/sitecore/system/Settings/Services/API Keys",
+                "allowPushOperations": "CreateUpdateAndDelete"
             }
+
         ]
     }
 }

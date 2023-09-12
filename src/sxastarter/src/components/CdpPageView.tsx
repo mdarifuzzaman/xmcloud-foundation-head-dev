@@ -24,7 +24,7 @@ const CdpPageView = (): JSX.Element => {
   const createPageView = async (page: string, language: string, pageVariantId: string) => {
     const pointOfSale = 'sitecore-dev-collection';
     //PosResolver.resolve(site, language);
-    const engage = await init({
+    const engage: any = await init({
       //clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
       //targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
       // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
@@ -38,7 +38,7 @@ const CdpPageView = (): JSX.Element => {
       //forceServerCookieMode: false,
       includeUTMParameters: true,
     });
-    engage.pageView({
+    const response = await engage.pageView({
       channel: 'WEB',
       currency: 'USD',
       pointOfSale,
@@ -46,6 +46,10 @@ const CdpPageView = (): JSX.Element => {
       pageVariantId,
       language,
     });
+    if(response){
+      console.log("Copy-paste the following line into Sitecore Personalize > Developer center > Event viewer > Search field:");
+      console.log("bid:", engage.getBrowserId());
+    }
   };
 
   /**

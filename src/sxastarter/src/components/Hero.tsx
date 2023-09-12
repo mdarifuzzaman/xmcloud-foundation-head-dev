@@ -6,6 +6,7 @@ import {
   LinkField,
   Text,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { useUser } from '@auth0/nextjs-auth0/client';
 
 type ContentBlockProps = {
   rendering: ComponentRendering;
@@ -20,6 +21,7 @@ type ContentBlockProps = {
 
 const Hero = (props: ContentBlockProps): JSX.Element => {
   console.log('Hero', props);
+  const { user } = useUser();
   return (
     <div className="row">
       <section className="small-12 columns home-hero ">
@@ -42,6 +44,17 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
                     </li>
                     <li>
                       <Link field={props.fields.secondaryLink}></Link>
+                    </li>
+                    <li className="nav-item">
+                      {!user ? (
+                        <a className="nav-link" href="/api/auth/login">
+                          Login
+                        </a>
+                      ) : (
+                        <a className="nav-link" href="/api/auth/logout">
+                          Logout
+                        </a>
+                      )}
                     </li>
                   </ul>
                 </div>

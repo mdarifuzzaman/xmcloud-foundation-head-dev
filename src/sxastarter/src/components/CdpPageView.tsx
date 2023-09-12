@@ -32,12 +32,19 @@ const CdpPageView = (): JSX.Element => {
   ) => {
     const pointOfSale = PosResolver.resolve(site, language);
     const engage = await init({
-      clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
-      targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
+      //clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
+      //targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
       // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
+      clientKey: "4b68aa42a5559c220ca6f1c107303615",
+      targetURL: "https://api-engage-ap.sitecorecloud.io​",
+      //cookieDomain: ".sxastarter.localhost",
+      cookieExpiryDays: 365,
+      //forceServerCookieMode: false,
+      includeUTMParameters: true
+
     });
     engage.pageView({
       channel: 'WEB',
@@ -59,18 +66,23 @@ const CdpPageView = (): JSX.Element => {
   };
 
   useEffect(() => {
+
+    console.log("process.env.NODE_ENV", process.env.NODE_ENV);
     // Do not create events in editing or preview mode or if missing route data
     if (pageState !== LayoutServicePageState.Normal || !route?.itemId) {
       return;
     }
     // Do not create events if disabled (e.g. we don't have consent)
-    if (disabled()) {
-      return;
-    }
+    
 
     const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
     const language = route.itemLanguage || config.defaultLanguage;
     const scope = process.env.NEXT_PUBLIC_PERSONALIZE_SCOPE;
+    console.log("Point of sale", PosResolver.resolve(siteInfo, language));
+    console.log("Site name", site?.name);
+    if (disabled()) {
+      return;
+    }
 
     const pageVariantId = CdpHelper.getPageVariantId(
       route.itemId,

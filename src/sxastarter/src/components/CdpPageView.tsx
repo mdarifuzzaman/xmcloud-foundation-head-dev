@@ -67,10 +67,9 @@ const CdpPageView = (): JSX.Element => {
     }
     // Do not create events if disabled (e.g. we don't have consent)
 
-    const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
+    //const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
     const language = route.itemLanguage || config.defaultLanguage;
     const scope = process.env.NEXT_PUBLIC_PERSONALIZE_SCOPE;
-    console.log('Point of sale', PosResolver.resolve(siteInfo, language));
     console.log('Site name', site?.name);
     if (disabled()) {
       return;

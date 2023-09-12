@@ -1,7 +1,6 @@
 import {
   CdpHelper,
   LayoutServicePageState,
-  SiteInfo,
   useSitecoreContext,
   PosResolver,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -24,13 +23,9 @@ const CdpPageView = (): JSX.Element => {
   /**
    * Creates a page view event using the Sitecore Engage SDK.
    */
-  const createPageView = async (
-    page: string,
-    language: string,
-    site: SiteInfo,
-    pageVariantId: string
-  ) => {
-    const pointOfSale = PosResolver.resolve(site, language);
+  const createPageView = async (page: string, language: string, pageVariantId: string) => {
+    const pointOfSale = 'sitecore-dev-collection';
+    //PosResolver.resolve(site, language);
     const engage = await init({
       //clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
       //targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
@@ -38,13 +33,12 @@ const CdpPageView = (): JSX.Element => {
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
-      clientKey: "4b68aa42a5559c220ca6f1c107303615",
-      targetURL: "https://api-engage-ap.sitecorecloud.io​",
+      clientKey: '4b68aa42a5559c220ca6f1c107303615',
+      targetURL: 'https://api-engage-ap.sitecorecloud.io​',
       //cookieDomain: ".sxastarter.localhost",
       cookieExpiryDays: 365,
       //forceServerCookieMode: false,
-      includeUTMParameters: true
-
+      includeUTMParameters: true,
     });
     engage.pageView({
       channel: 'WEB',
@@ -66,20 +60,18 @@ const CdpPageView = (): JSX.Element => {
   };
 
   useEffect(() => {
-
-    console.log("process.env.NODE_ENV", process.env.NODE_ENV);
+    console.log('process.env.NODE_ENV', process.env.NODE_ENV);
     // Do not create events in editing or preview mode or if missing route data
     if (pageState !== LayoutServicePageState.Normal || !route?.itemId) {
       return;
     }
     // Do not create events if disabled (e.g. we don't have consent)
-    
 
     const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
     const language = route.itemLanguage || config.defaultLanguage;
     const scope = process.env.NEXT_PUBLIC_PERSONALIZE_SCOPE;
-    console.log("Point of sale", PosResolver.resolve(siteInfo, language));
-    console.log("Site name", site?.name);
+    console.log('Point of sale', PosResolver.resolve(siteInfo, language));
+    console.log('Site name', site?.name);
     if (disabled()) {
       return;
     }
@@ -90,7 +82,7 @@ const CdpPageView = (): JSX.Element => {
       variantId as string,
       scope
     );
-    createPageView(route.name, language, siteInfo, pageVariantId);
+    createPageView(route.name, language, pageVariantId);
   }, [pageState, route, variantId, site]);
 
   return <></>;

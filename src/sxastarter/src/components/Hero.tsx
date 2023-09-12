@@ -7,6 +7,7 @@ import {
   Text,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useUser } from '@auth0/nextjs-auth0/client';
+import LinkNext from 'next/link';
 
 type ContentBlockProps = {
   rendering: ComponentRendering;
@@ -47,13 +48,13 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
                     </li>
                     <li className="nav-item">
                       {!user ? (
-                        <a className="nav-link" href="/api/auth/login">
+                        <LinkNext className="nav-link" href="/api/auth/login">
                           Login
-                        </a>
+                        </LinkNext>
                       ) : (
-                        <a className="nav-link" href="/api/auth/logout">
+                        <LinkNext className="nav-link" href="/api/auth/logout">
                           Logout
-                        </a>
+                        </LinkNext>
                       )}
                     </li>
                   </ul>

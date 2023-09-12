@@ -24,6 +24,7 @@ const CdpPageView = (): JSX.Element => {
   const createPageView = async (page: string, language: string, pageVariantId: string) => {
     const pointOfSale = 'sitecore-dev-collection';
     //PosResolver.resolve(site, language);
+    /* eslint-disable  @typescript-eslint/no-explicit-any */
     const engage: any = await init({
       //clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
       //targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
@@ -46,9 +47,11 @@ const CdpPageView = (): JSX.Element => {
       pageVariantId,
       language,
     });
-    if(response){
-      console.log("Copy-paste the following line into Sitecore Personalize > Developer center > Event viewer > Search field:");
-      console.log("bid:", engage.getBrowserId());
+    if (response) {
+      console.log(
+        'Copy-paste the following line into Sitecore Personalize > Developer center > Event viewer > Search field:'
+      );
+      console.log('bid:', engage.getBrowserId());
     }
   };
 

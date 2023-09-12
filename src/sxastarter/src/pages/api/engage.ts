@@ -1,6 +1,6 @@
 import { init } from '@sitecore/engage';
 
-let engage: any;
+let engage;
 
 const loadEngage = async () => {
   engage = await init({

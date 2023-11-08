@@ -4,6 +4,7 @@ import { SitecorePageProps } from 'lib/page-props';
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 
 //import 'assets/main.scss';
+import '../../public/css/style.css';
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;

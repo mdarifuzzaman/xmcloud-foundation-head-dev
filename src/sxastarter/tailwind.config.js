@@ -137,17 +137,24 @@ module.exports = {
   },
   theme: {
     screens: {
-      sm: '640px',
+      sm: '480px',
       md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      lg: '1020px',
+      xl: '1440px',
     },
     extend: {
-      zIndex: {
-        top: '2100000012', // value is needed to overcome "sc-frame" element on the page
+      colors: {
+        softBlue: 'hsl(231, 69%, 60%)',
+        softRed: 'hsl(0, 94%, 66%)',
+        grayishBlue: 'hsl(229, 8%, 60%)',
+        veryDarkBlue: 'hsl(229, 31%, 21%)',
       },
+      fontFamily: {
+        sans: ['Rubik', 'sans-serif'],
+      },
+      backgroundImage: () => ({
+        dots: "url('../images/bg-dots.svg')",
+      }),
     },
-    colors: {},
   },
 };

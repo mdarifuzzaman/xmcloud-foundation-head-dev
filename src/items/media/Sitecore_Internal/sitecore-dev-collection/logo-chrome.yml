@@ -1,0 +1,48 @@
+﻿---
+ID: "84061a34-3de1-4bbb-9ef4-ee6e4c4e5252"
+Parent: "3821ecb8-b188-48a6-aa6d-6927f53d160d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Sitecore_Internal/sitecore-dev-collection/logo-chrome"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/84061A343DE14BBB9EF4EE6E4C4E5252.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "51a3db07-2655-47e6-8adc-b06759d8b479"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDIiIGhlaWdodD0iMTAwIj48ZyBmaWxsPSJub25lIj48cGF0aCBmaWxsPSIjRTE2QjVBIiBkPSJNNTAuNzY4LjAxczMwLjAxLTEuMzI1IDQ1LjkxNiAyOC4yNDlINDguMjE3cy05LjE1NC0uMjk2LTE2Ljk1NyAxMC41OTRjLTIuMjUgNC41NjEtNC42NSA5LjI3LTEuOTUgMTguNTM4LTMuOS02LjQ3Mi0yMC43MDgtMzUuMTY0LTIwLjcwOC0zNS4xNjRTMjAuNDU3IDEuMTg2IDUwLjc2OC4wMDl6Ii8+PHBhdGggZmlsbD0iI0ZGRDQ2NCIgZD0iTTk1LjEyMiA3NS4wOTVTODEuMjg0IDEwMS4yMzggNDcuMjEgOTkuOTUyQzUxLjQxNCA5Mi44MiA3MS40NSA1OC44IDcxLjQ1IDU4LjhzNC44MzctNy42MjYtLjg3NS0xOS42OTZjLTIuOTAzLTQuMTkyLTExLjctOC41ODYtMjEuMjM3LTEwLjkyOCA3LjY3LS4wNzUgNDcuMjUuMDA1IDQ3LjI1LjAwNXMxMi42NTMgMjAuNTktMS40NjYgNDYuOTE1eiIvPjxwYXRoIGZpbGw9IiM3NEIzNDAiIGQ9Ik02LjYyOCA3NS4yOTRzLTE2LjE3LTI0LjgyNSAyLjAwNC01My4xMTZsMjQuMjI1IDQxLjE2M3M0LjMxNCA3LjkyIDE3LjgzMiA5LjEwNGM1LjE1My0uMzY4IDEwLjUxNC0uNjgyIDE3LjM1MS03LjYwN0M2NC4yNyA3MS4zODcgNDcuMzI3IDEwMCA0Ny4zMjcgMTAwcy0yNC41MS40NDgtNDAuNy0yNC43MDZ6Ii8+PGVsbGlwc2UgY3g9IjUwLjY0NiIgY3k9IjUwLjQwNiIgZmlsbD0iI0ZGRiIgcng9IjIzLjA2NCIgcnk9IjIyLjY1NiIvPjxlbGxpcHNlIGN4PSI1MC42MzgiIGN5PSI1MC40MDYiIGZpbGw9IiMyOTk1Q0MiIHJ4PSIxOC4yOTIiIHJ5PSIxNy45NjkiLz48cGF0aCBmaWxsPSIjMjY4Q0JGIiBkPSJNNTAuNjQzIDMyLjQ0MWMtLjM2NCAwLS43MjQuMDE0LTEuMDgyLjAzNCA5LjU5OC41NSAxNy4yMDkgOC4zNjkgMTcuMjA5IDE3LjkzNCAwIDkuNTY4LTcuNjExIDE3LjM4Ni0xNy4yMSAxNy45MzcuMzYuMDIuNzIuMDM0IDEuMDgzLjAzNCAxMC4xMDEgMCAxOC4yOTItOC4wNDYgMTguMjkyLTE3Ljk3IDAtOS45MjMtOC4xOS0xNy45NjktMTguMjkyLTE3Ljk2OXoiLz48L2c+PC9zdmc+
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1080
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231108T013345Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e42a0e66-2443-40e1-aa5a-400ad65c2511"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231108T013345Z

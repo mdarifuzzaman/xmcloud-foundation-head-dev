@@ -9,6 +9,9 @@ SharedFields:
   Value: |
     {8D226B16-A78D-43CD-A81F-76F77145BDA7}
     {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -30,11 +33,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "00eff541-fecb-48f6-940b-71709e4dd9ca"
+      Value: "35f5bb8a-2f82-4799-8611-0f8d76e3c625"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T024252Z
+      Value: 20231023T030134Z

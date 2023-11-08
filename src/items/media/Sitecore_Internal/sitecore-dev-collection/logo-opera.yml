@@ -1,0 +1,48 @@
+﻿---
+ID: "65a9fa79-c206-47f0-baab-ccde418fc8af"
+Parent: "3821ecb8-b188-48a6-aa6d-6927f53d160d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Sitecore_Internal/sitecore-dev-collection/logo-opera"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/65A9FA79C20647F0BAABCCDE418FC8AF.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "aac720db-b4fb-494b-846e-587aebe7ddf2"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NiIgaGVpZ2h0PSIxMDAiPjxwYXRoIGZpbGw9IiNFQjYwNjAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTQ4IDEwMEMyMS40OSAxMDAgMCA3Ny42MTQgMCA1MFMyMS40OSAwIDQ4IDBzNDggMjIuMzg2IDQ4IDUwLTIxLjQ5IDUwLTQ4IDUwem0wLTEwYzEzLjgwNyAwIDI1LTE3LjkwOSAyNS00MFM2MS44MDcgMTAgNDggMTAgMjMgMjcuOTA5IDIzIDUwczExLjE5MyA0MCAyNSA0MHoiLz48L3N2Zz4=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 272
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231108T013322Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "386a6ec1-4961-4d1f-9370-44662e1f557f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231108T013323Z

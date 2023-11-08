@@ -1,0 +1,48 @@
+﻿---
+ID: "ee30f6c3-e2f2-479d-8d95-f2b582cde84e"
+Parent: "3821ecb8-b188-48a6-aa6d-6927f53d160d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Sitecore_Internal/sitecore-dev-collection/icon-facebook"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/EE30F6C3E2F2479D8D95F2B582CDE84E.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "f3a681d2-d43c-43a6-949c-e24d608e1c02"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjIuNjc1IDBIMS4zMjVDLjU5MyAwIDAgLjU5MyAwIDEuMzI1djIxLjM1MUMwIDIzLjQwNy41OTMgMjQgMS4zMjUgMjRIMTIuODJ2LTkuMjk0SDkuNjkydi0zLjYyMmgzLjEyOFY4LjQxM2MwLTMuMSAxLjg5My00Ljc4OCA0LjY1OS00Ljc4OCAxLjMyNSAwIDIuNDYzLjA5OSAyLjc5NS4xNDN2My4yNGwtMS45MTguMDAxYy0xLjUwNCAwLTEuNzk1LjcxNS0xLjc5NSAxLjc2M3YyLjMxM2gzLjU4N2wtLjQ2NyAzLjYyMmgtMy4xMlYyNGg2LjExNmMuNzMgMCAxLjMyMy0uNTkzIDEuMzIzLTEuMzI1VjEuMzI1QzI0IC41OTMgMjMuNDA3IDAgMjIuNjc1IDB6Ii8+PC9zdmc+
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 426
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231108T013425Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "caf1af99-3544-4009-9918-d5e5bbc3b493"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231108T013425Z

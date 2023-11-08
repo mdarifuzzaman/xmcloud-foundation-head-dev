@@ -39,3 +39,41 @@ Languages:
     - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
       Hint: copyrightText
       Value: Copyright 2023, Sitecore. All Rights Reserved
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231023T021822Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9167fbf7-39af-4fbf-83e6-293451d3941d"
+    - ID: "908ffbda-d462-44f2-9582-7e8f7b2dc0fa"
+      Hint: privacy
+      Value: |
+        <link linktype="internal" querystring="" target="" id="{059762BB-9C8D-451B-A4E4-5D78EBF94589}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "cc50a885-36dd-4f6d-893f-d7aa08ea9a22"
+      Hint: reservedText
+      Value: All right reserved&nbsp;
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231023T021822Z
+    - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
+      Hint: copyrightText
+      Value: Sitecore

@@ -7,7 +7,7 @@ BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
   Hint: TemplatesMapping
-  Value: "%7b8D226B16-A78D-43CD-A81F-76F77145BDA7%7d%3d%257B3C65D18C-FFAA-4F9A-88FB-E85097C74459%257D%26%7bEC60275E-61F2-4BBF-9E28-E98555CD4187%7d%3d%257B340E8804-AC49-441B-8023-EBEE46A1A0CE%257D"
+  Value: "%7b8D226B16-A78D-43CD-A81F-76F77145BDA7%7d%3d%257BCAEF944E-A52C-450A-9B05-F460D54E1405%257D%26%7bEC60275E-61F2-4BBF-9E28-E98555CD4187%7d%3d%257B340E8804-AC49-441B-8023-EBEE46A1A0CE%257D"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -29,11 +29,36 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0d07a0dc-f393-477e-82e3-ebac0ab812fa"
+      Value: "ceddc3b9-1161-4fe3-bcc2-d3f344e9344f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T025704Z
+      Value: 20231107T101639Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231023T021425Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2cda961-5008-4ad8-8d9d-4cbaed65e41f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231023T021425Z

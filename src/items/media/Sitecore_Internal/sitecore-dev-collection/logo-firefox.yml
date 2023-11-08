@@ -1,0 +1,48 @@
+﻿---
+ID: "04668cb0-b60e-4a3c-b9ee-2e4e69d81632"
+Parent: "3821ecb8-b188-48a6-aa6d-6927f53d160d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Sitecore_Internal/sitecore-dev-collection/logo-firefox"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/04668CB0B60E4A3CB9EE2E4E69D81632.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "66d6c1a0-6389-4210-bdd7-f6662bae1d30"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDUiIGhlaWdodD0iMTAwIj48cGF0aCBmaWxsPSIjRkY5ODAwIiBkPSJNMTA1IDUwYzAgMjguODYyLTIzLjUxMyA1MC01Mi41IDUwUzAgNzYuNTg4IDAgNDcuNzI2YzAtOS4wNDMgMi4zMy0xNy41OSA2LjM5Mi0yNWEuOTk1Ljk5NSAwIDAgMSAuMjMtLjM2NkM0LjMzOCAxOC45NTYgMy4zMzQgMTAuMzE4IDkuMTI4IDQuNTQxYzAgMi40MTEgMS40NjQgNi41NDggMy4xMDQgOS42MzggMS4zMjYgMi40NTcgMi43MzcgNC4yMjggMy43NDEgNCAyLjI4NC0uNTQzIDEwLjI3LS41NDMgMTEuNDEyIDAgMS44NzctMi40MDUgNi40NDUtOS4wOSAxMy43MDMtOS4wOS00LjA2MiA0LjA0NS0xNS43MDQgMTguMTg1IDQuNTY3IDE4LjE4NWg0LjU2OEwzNi41MiAzNi4zNjNzMS41NTYgMyAwIDQuNTQ4Yy0xLjczMi0xLjczMi05LjEyOCAxLjg2Mi05LjEyOCA2LjgxNXM1LjI5NiAxMS4zNjMgMTUuOTggMTEuMzYzYzEwLjY4MyAwIDcuOTg2LTQuNTQ4IDEzLjY5Ni00LjU0OCA1LjcwOSAwIDYuODQ0IDQuNTQ4IDYuODQ0IDQuNTQ4LTcuODU1IDAtMTMuNTU4IDkuMDktMjIuODI0IDkuMDkgNC41NjcgMy4zNjQgNy41OCA0LjU0NyAxMy42OTYgNC41NDcgMTUuMTEzIDAgMjcuMzkyLTEyLjIyNSAyNy4zOTItMjcuMjc0IDAtNi4wOS0yLjAwOC0xMS42ODMtNS4zODgtMTYuMjI0YTI3LjQxNCAyNy40MTQgMCAwIDEgMTAuOTYgMTkuNDk4IDQwLjU1NCA0MC41NTQgMCAwIDAgMS4yNzktMTAuMDg5YzAtMTMuNjgzLTUuODQtMzEuNzc2LTE1Ljk4LTM4LjYzN0M4Ny42NTUgNC4zNTggMTA1IDE4LjQ2NiAxMDUgNDUuNDUyVjUweiIvPjwvc3ZnPg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 850
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231108T013345Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2577dc14-9c0b-46e6-bbcc-9b1f09913233"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231108T013345Z

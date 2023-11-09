@@ -1,6 +1,6 @@
 import React from 'react'
 
-type ALinkProps = {
+export type ALinkProps = {
     url: string;
     className?: string;
     title?: string;

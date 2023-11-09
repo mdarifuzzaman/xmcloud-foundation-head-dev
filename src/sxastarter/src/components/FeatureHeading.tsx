@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from './controls/Heading';
+import Heading from './controls/molecules/Heading';
 
 function FeatureHeading() {
   return (

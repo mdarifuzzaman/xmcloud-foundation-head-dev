@@ -1,16 +1,17 @@
 import React from 'react'
-import AButton from './AButton';
+import AButton from '../atoms/AButton';
 
 type APanelProps = {
     panelImage?: string;
     title?: string;
     desc?: string;    
     ctaTitle?: string;
+    componentClass: string;
 }
 
 export default function APanel(props: APanelProps) {
   return (
-    <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
+    <div className={props.componentClass}>
             {/* <!-- Panel Image --> */}
             <div className="flex justify-center md:w-1/2">
               <img src={props.panelImage} alt="" className="relative z-10" />

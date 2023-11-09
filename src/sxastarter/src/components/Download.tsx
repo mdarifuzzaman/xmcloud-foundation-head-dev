@@ -1,5 +1,5 @@
 import React from 'react'
-import CtaBanner from './controls/CtaBanner';
+import CtaBanner from './controls/molecules/CtaBanner';
 
 function Download() {
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import AButton from './AButton';
+import AButton from '../atoms/AButton';
 
 type CtaBannerProps = {
     ctaCallBack?: () => void,

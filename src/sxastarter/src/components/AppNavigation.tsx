@@ -1,4 +1,6 @@
-import ALink from "./controls/ALink";
+import ALink from "./controls/atoms/ALink";
+import ASpan from "./controls/atoms/ASpan";
+
 
 const AppNavigation = (): JSX.Element => {
   return (  
@@ -17,9 +19,9 @@ const AppNavigation = (): JSX.Element => {
         </div>
 
         <button id="menu-btn" className="z-30 block md:hidden focus:outline-none hamburger">
-          <span className="hamburger-top"></span>
-          <span className="hamburger-middle"></span>
-          <span className="hamburger-bottom"></span>
+          <ASpan className="hamburger-top"></ASpan>
+          <ASpan className="hamburger-middle"></ASpan>
+          <ASpan className="hamburger-bottom"></ASpan>
         </button>
       </div>
    

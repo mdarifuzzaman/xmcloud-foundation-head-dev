@@ -6,9 +6,9 @@ import {
   LinkField,
   Text,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import AParagraph from './controls/AParagraph';
-import AButtonGrooup from './controls/AButtonGrooup';
-import AButton from './controls/AButton';
+import AParagraph from './controls/atoms/AParagraph';
+import AButtonGrooup from './controls/atoms/AButtonGrooup';
+import AButton from './controls/atoms/AButton';
 
 type ContentBlockProps = {
   rendering: ComponentRendering;

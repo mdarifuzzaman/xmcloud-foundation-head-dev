@@ -1,6 +1,6 @@
 import React from 'react'
 type AParagraphProps = {
-    desc: string;
+    desc?: string;
     componentClass: string;
 }
 

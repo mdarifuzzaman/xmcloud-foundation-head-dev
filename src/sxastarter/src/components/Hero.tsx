@@ -1,24 +1,31 @@
 import {
+  ComponentConsumerProps,
   ComponentRendering,
   Field,
+  Image,
   ImageField,
   Link,
   LinkField,
+  RichTextField,
   Text,
+  TextField,
+  withSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import AParagraph from './controls/atoms/AParagraph';
-import AButtonGrooup from './controls/atoms/AButtonGrooup';
 import AButton from './controls/atoms/AButton';
+import AButtonGroup from './controls/atoms/AButtonGroup';
+import AImage from './controls/atoms/AImage';
 
-type ContentBlockProps = {
+type ContentBlockProps = ComponentConsumerProps &{
   rendering: ComponentRendering;
   fields: {
-    heading: Field<string>;
-    subHeading: Field<string>;
-    imageContent: ImageField;
-    primaryLink: LinkField;
-    secondaryLink: LinkField;
+    BackImage: ImageField;
+    Buttons: any;
+    Desc: RichTextField;
+    Title: TextField;
+
   };
+  params: any
 };
 
 const Hero = (props: ContentBlockProps): JSX.Element => {
@@ -29,26 +36,27 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
     
         <div className="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
           <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
-            A Simple Bookmark Manager
+            <Text field={props.fields.Title}></Text>
           </h1>
           <AParagraph componentClass='max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0'
-            desc='A clean and simple interface to organize your favourite websites.
-            Open a new browser tab and see your sites load instantly. Try it for
-            free.'></AParagraph>
+            desc={props.fields.Desc.value}></AParagraph>
 
-          <AButtonGrooup componentClass='flex items-center justify-center w-full space-x-4 lg:justify-start'>
-            <AButton className='p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue' title='Get It On Chrome'></AButton>
-            <AButton className='p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600' title='Get It On Firefox'></AButton>
-          </AButtonGrooup>          
+          <AButtonGroup componentClass='flex items-center justify-center w-full space-x-4 lg:justify-start'>
+            {props.fields.Buttons?.map((button: any, index: number) =>(
+              <AButton key={index} className={button?.fields?.ClassName?.value} title={button?.fields?.Title?.value}></AButton>  
+            ))}            
+          </AButtonGroup>          
         </div>
 
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
-          <img src="images/illustration-hero.svg" alt="" className="relative z-10 lg:top-24 xl:top-0 overflow-x-visible" />
+          {props.sitecoreContext.pageEditing? <Image field={props.fields?.BackImage}></Image> :
+            <img src={props.fields.BackImage.value?.src} alt="" className={props.params.BackgroundImageClass} />
+          }
         </div>
       </div>
     </section>
   );
 };
 
-export default Hero;
+export default withSitecoreContext()<ContentBlockProps>(Hero);

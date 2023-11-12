@@ -7,7 +7,7 @@ type AButtonProps = {
     title?: string;
 }
 
-export default function AButton(props: AButtonProps) {
+export default function AButton(props: AButtonProps): JSX.Element {
   return (
     <a onClick={props.onClick} href="#" className={`${props.className}`}>{`${props.title}`}</a>
   )

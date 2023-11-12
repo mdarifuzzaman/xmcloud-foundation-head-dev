@@ -23,31 +23,52 @@ const meta = {
             uid: "{00000000-0000-0000-0000-000000000000}"         
       },
       fields: {
-        heading: {
+        Desc: {
           value: "Life as a Sitecore Developer Just Got Better!"
         },
-        imageContent: {
-          value: {
-            src: 'https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/home-vdd.png?h=493&iar=0&w=1300&hash=39BA53AA8996F03E027BEA044815A222'
-          }
+        Title: {
+          value: "This is a promo title"
         },
-        primaryLink: {
+        BackImage: {
           value: {
-            href: "",
-            title: "Free Trail",
-            text: "Free Trail"
+            src: 'https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-hero.svg?iar=0&hash=8D17EFD9B84B49180695157C9BA5F738'
           }
-        },
-        secondaryLink: {
-          value: {
-            href: "",
-            title: "Download",
-            text: "Download"
+        },        
+        Buttons: [
+          {
+            fields: {                
+                ClassName: {
+                  value: "p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
+                },
+                Url: {
+                  value: "#"
+                },
+                Title: {
+                  value: "Get It On Chrome"
+                }              
+            }
+          },
+          {
+            fields: {                
+                ClassName: {
+                  value: "p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+                },
+                Url: {
+                  value: "#"
+                },
+                Title: {
+                  value: "Get It On Firefox"
+                }              
+            }
           }
-        },
-        subHeading: {
-          value: "Sitecore for Visual Stuio is a game changer for Sitecore 10.0"
-        }
+        ]          
+        
+      },
+      params: {
+        BackgroundImageClass: "relative z-10 lg:top-24 xl:top-0 overflow-x-visible",
+        ComponentClass: "container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0",
+        BodyClass: "flex flex-col space-y-10 lg:mt-16 lg:w-1/2",
+        FooterClass: "relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2"
       }
     },
   };

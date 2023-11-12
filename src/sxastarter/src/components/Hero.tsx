@@ -1,11 +1,8 @@
 import {
   ComponentConsumerProps,
   ComponentRendering,
-  Field,
   Image,
   ImageField,
-  Link,
-  LinkField,
   RichTextField,
   Text,
   TextField,
@@ -14,7 +11,6 @@ import {
 import AParagraph from './controls/atoms/AParagraph';
 import AButton from './controls/atoms/AButton';
 import AButtonGroup from './controls/atoms/AButtonGroup';
-import AImage from './controls/atoms/AImage';
 
 type ContentBlockProps = ComponentConsumerProps &{
   rendering: ComponentRendering;
@@ -50,7 +46,7 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
 
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
-          {props.sitecoreContext.pageEditing? <Image field={props.fields?.BackImage}></Image> :
+          {props.sitecoreContext?.pageEditing? <Image field={props.fields?.BackImage}></Image> :
             <img src={props.fields.BackImage.value?.src} alt="" className={props.params.BackgroundImageClass} />
           }
         </div>

@@ -34,10 +34,10 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
           <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
             <Text field={props.fields.Title}></Text>
           </h1>
-          <AParagraph componentClass='max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0'
+          <AParagraph componentClass="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
             desc={props.fields.Desc.value}></AParagraph>
 
-          <AButtonGroup componentClass='flex items-center justify-center w-full space-x-4 lg:justify-start'>
+          <AButtonGroup componentClass="flex items-center justify-center w-full space-x-4 lg:justify-start">
             {props.fields.Buttons?.map((button: any, index: number) =>(
               <AButton key={index} className={button?.fields?.ClassName?.value} title={button?.fields?.Title?.value}></AButton>  
             ))}            

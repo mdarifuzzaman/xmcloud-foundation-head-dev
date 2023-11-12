@@ -27,3 +27,4 @@ export const LoggedIn: Story = {
     await userEvent.click(loginButton);
   },
 };
+

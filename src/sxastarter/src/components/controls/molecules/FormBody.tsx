@@ -1,8 +1,7 @@
 import React from 'react'
 
-type FormBodyProps = {
-}
-function FormBody(props: FormBodyProps) {
+
+function FormBody() {
   return (
     <form className="flex flex-col items-start justify-center max-w-2xl mx-auto space-y-6 text-base px-6 md:flex-row md:space-y-0 md:space-x-4 md:px-0">
     {/* <!-- Input & Button Container --> */}

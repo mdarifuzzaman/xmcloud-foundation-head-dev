@@ -4,8 +4,8 @@ type HeadingProps = {
     componentClass: string;
     h2Class: string;
     pClass: string;
-    title: string;
-    desc: string
+    title?: string;
+    desc?: string
 }
 export default function Heading(props: HeadingProps) {
   return (

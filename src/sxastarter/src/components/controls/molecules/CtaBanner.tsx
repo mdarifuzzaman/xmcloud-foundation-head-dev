@@ -15,7 +15,7 @@ export default function CtaBanner(props: CtaBannerProps) {
     <div className={props.componentClassName}>
       {/* <!-- Image --> */}
       <div className="flex justify-center">
-        <img src="images/logo-chrome.svg" alt="" />
+        <img src={props.imgSrc} alt="" />
       </div>
       {/* <!-- Text --> */}
       <h5 className="pt-6 text-xl font-bold">{props.title}</h5>

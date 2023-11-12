@@ -1,7 +1,15 @@
 import React from 'react'
 import CtaBanner from './controls/molecules/CtaBanner';
 
-function Download() {
+type DownloadProps = {
+  fields : {
+    CtaBanners: any
+  }
+  params: any;
+}
+
+function Download(props: DownloadProps) {
+  console.log("Download", props);
 
   const clickMe = () => {
     alert("Clicked");
@@ -9,33 +17,27 @@ function Download() {
   return (
     <section id="download-boxes" className="py-32">
       {/* <!-- Boxes Container --> */}
-      <div className="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
+      <div className={props?.params?.ComponentClass}>
         {/* <!-- Box 1 --> */}        
-        <CtaBanner 
-            componentClassName='flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/3'
-            ctaButtonClassName='block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue'
-            ctaCallBack={clickMe} ctaTitle='Add &amp; Install Extension' subTitle='Minimum Version 62' imgSrc='images/logo-chrome.svg'
-            title='Add to Chrome'></CtaBanner>
-
-        {/* <!-- Box 2 --> */}
-        <div className="w-full md:w-1/3">          
-          <CtaBanner 
-            componentClassName='flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:mt-8'
-            ctaButtonClassName='block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue'
-            ctaCallBack={clickMe} ctaTitle='Add &amp; Install Extension' subTitle='Minimum Version 62' imgSrc='images/logo-chrome.svg'
-            title='Add to Chrome'></CtaBanner>
-        </div>
-
-        
-
-        {/* <!-- Box 3 --> */}
-        <div className="w-full md:w-1/3">
-        <CtaBanner 
-            componentClassName='flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:mt-16'
-            ctaButtonClassName='block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue'
-            ctaCallBack={clickMe} ctaTitle='Add &amp; Install Extension' subTitle='Minimum Version 62' imgSrc='images/logo-chrome.svg'
-            title='Add to Chrome'></CtaBanner>          
-        </div>
+        {props.fields?.CtaBanners?.map((cta: any, index: number) => (
+          <>
+            {cta?.fields?.DivClass?.value?.length > 0 ? <>
+              <div className="w-full md:w-1/3" key={index}>          
+                <CtaBanner 
+                  componentClassName={cta.fields?.ComponentClass?.value}
+                  ctaButtonClassName={cta.fields?.CtaButtonClass?.value}
+                  ctaCallBack={clickMe} ctaTitle= {cta.fields?.CtaTitle?.value} subTitle={cta.fields?.SubTitle?.value} imgSrc={cta.fields?.Image?.value?.src}
+                  title={cta.fields?.Title?.value}></CtaBanner>
+              </div>
+            </>: <>
+            <CtaBanner key={index}
+                  componentClassName={cta.fields?.ComponentClass?.value}
+                  ctaButtonClassName={cta.fields?.CtaButtonClass?.value}
+                  ctaCallBack={clickMe} ctaTitle= {cta.fields?.CtaTitle?.value} subTitle={cta.fields?.SubTitle?.value} imgSrc={cta.fields?.Image?.value?.src}
+                  title={cta.fields?.Title?.value}></CtaBanner>
+            </>}
+          </>
+        ))}        
       </div>
     </section>
   )

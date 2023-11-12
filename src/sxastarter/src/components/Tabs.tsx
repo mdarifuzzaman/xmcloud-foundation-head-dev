@@ -6,7 +6,8 @@ type TabsProp = {
   fields: {
     HeaderComponents: any;
     PanelComponents: any;
-  }
+  },
+  params: any;
 }
 
 function Tabs(props: TabsProp) {
@@ -14,8 +15,8 @@ function Tabs(props: TabsProp) {
   return (
     <section id="tabs">
       {/* <!-- Tabs/Panels Container --> */}
-      <div className="container relative mx-auto my-6 mb-32 mt-12 px-6">
-        <div className="bg-tabs"></div>
+      <div className={props.params?.ComponentClass?.value}>
+        <div className={props.params?.OtherData?.value}></div>
         {/* <!-- Tabs Flex Container --> */}
         <div className="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row">
           {props.fields?.HeaderComponents?.map((hc: any, index: number) => (

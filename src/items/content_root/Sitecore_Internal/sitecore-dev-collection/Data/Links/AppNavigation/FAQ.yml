@@ -1,0 +1,38 @@
+﻿---
+ID: "03b9f338-cb3a-4df8-90d9-36a39065ea5a"
+Parent: "ed5af057-bb2a-48de-ab5f-7a6e923661ef"
+Template: "f9d794c3-b089-482b-86b7-c38f06043fba"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Links/AppNavigation/FAQ"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T001756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "tracking-widest hover:text-softRed"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "665b319c-7ed6-44ae-9e05-58ce5bd27163"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="Faq" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{5E414AE9-5407-4047-BF2D-932F50D95BCC}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T002307Z

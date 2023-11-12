@@ -9,16 +9,16 @@ SharedFields:
   Value: Hero
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: 
+  Value: /sitecore/templates/Project/Sitecore_Internal/DataSource/Hero
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 1
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{9CD8EC0C-2D04-5E55-AA69-6F7BBCC59003}"
+  Value: "{2039FAEA-12F0-4D21-B84C-4978E5BA053F}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: 
+  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/All Hero/Main"
 Languages:
 - Language: en
   Versions:
@@ -37,11 +37,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e107a597-dd19-4156-8678-f577606803ec"
+      Value: "f0d5729f-dcd5-4ae5-b23e-3f7671962366"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T085229Z
+      Value: 20231110T021526Z

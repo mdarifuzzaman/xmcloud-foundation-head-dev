@@ -1,0 +1,23 @@
+﻿---
+ID: "31d3b84b-fc13-4711-bfae-4ced2749568f"
+Parent: "467452b0-83af-44e5-8006-08e5f029d731"
+Template: "2da763a2-74b5-482d-8dcc-f2f465deb0d6"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/App Navigation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T002006Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2b13828-4396-442c-9704-921c5582ce3d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T002006Z

@@ -1,0 +1,32 @@
+﻿---
+ID: "d85d3464-7e67-4131-b397-3d2561d2c38b"
+Parent: "8d540db0-a608-42a8-a6b6-278e40eb86ad"
+Template: "fbbdeebf-eef0-4e55-8290-aa58cc83115d"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Buttons/Hero Buttons/Chrome"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b873bda-ac21-46c9-985a-e89a8375e4fd"
+      Hint: ClassName
+      Value: "p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T021136Z
+    - ID: "3acdfe6d-073b-4b75-93d1-0092844b1ec4"
+      Hint: Url
+      Value: #
+    - ID: "58f26239-8552-4140-8111-b93ed1a9f6dd"
+      Hint: Title
+      Value: Get It On Chrome
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a1a6b13-131e-4659-b875-8736ac77a886"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T021209Z

@@ -1,0 +1,31 @@
+﻿---
+ID: "4fa339e5-ebb7-4bce-951f-952910cf59b3"
+Parent: "51f91c23-5c91-4d13-a16e-ec81a3b2751e"
+Template: "51f91c23-5c91-4d13-a16e-ec81a3b2751e"
+Path: /sitecore/templates/Project/Sitecore_Internal/Common/Cta Banners/Banner/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231112T001041Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11169f5d-f86a-41c7-8d39-5de40e0f65ff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231112T001041Z

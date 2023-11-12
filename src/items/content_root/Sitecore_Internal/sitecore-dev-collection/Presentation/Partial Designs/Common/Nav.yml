@@ -16,6 +16,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Value: |
@@ -25,9 +28,9 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{3888923C-2B8B-4B63-991F-2307C514A528}"
-              s:ds=""
+              s:ds="{F435F1F8-48EE-489A-B429-1BBD0CAFA11C}"
               s:id="{F1EF1F8B-3D6E-5BFB-BBCD-6637541CE8BB}"
-              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:par="ComponentClass=container%20relative%20mx-auto%20p-6&amp;OtherData&amp;GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
               s:ph="headless-header"
               s:ccb="Clear on publish" />
           </d>
@@ -45,11 +48,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "666d55ae-f96b-4911-9f8d-ec5dbf623368"
+      Value: "aacffc7e-34bf-41a6-855b-6938c08918b6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T101846Z
+      Value: 20231110T002725Z

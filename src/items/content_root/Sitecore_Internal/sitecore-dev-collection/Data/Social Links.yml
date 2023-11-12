@@ -1,0 +1,23 @@
+﻿---
+ID: "8c7ff140-0031-4d99-9111-3fa5eb4e88ed"
+Parent: "467452b0-83af-44e5-8006-08e5f029d731"
+Template: "9b73db8b-6e4b-4fe6-8f09-dcdd33cb4857"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Social Links"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T012616Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd252cb2-1bad-436b-977c-2e27f59f28f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T012616Z

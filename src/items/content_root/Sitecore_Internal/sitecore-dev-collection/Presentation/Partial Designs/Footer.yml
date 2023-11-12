@@ -65,10 +65,11 @@ Languages:
             </r>
             <r
               uid="{E2434B8A-7387-410F-95DE-BE039FA47916}"
-              s:ds="{2AF16556-6EAB-4789-B6C7-409A374A770C}"
+              s:ds="{C4CBEC69-11C2-4D36-B0D3-427371809A37}"
               s:id="{25A03E48-9DA5-5A31-8301-03593EEA2682}"
-              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;CSSStyles"
-              s:ph="headless-footer" />
+              s:par="ComponentClass&amp;OtherData&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="headless-footer"
+              s:ccb="Clear on publish" />
             <r
               uid="{06F7BBA6-02A3-46B1-BEEE-E19D80A06022}">
               <p:d />
@@ -92,14 +93,14 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9529eb7e-8881-4c4b-a34a-059006275a80"
+      Value: "c8c3c494-5ea9-4ff2-abe6-52f9be5d1734"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231023T021822Z
+      Value: 20231110T013621Z
 - Language: "es-ES"
   Versions:
   - Version: 1

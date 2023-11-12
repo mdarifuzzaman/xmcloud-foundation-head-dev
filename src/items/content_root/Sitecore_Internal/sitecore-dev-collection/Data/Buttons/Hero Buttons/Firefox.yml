@@ -1,0 +1,32 @@
+﻿---
+ID: "79557bd8-1fd3-41b7-9d1f-50bd90efc32f"
+Parent: "8d540db0-a608-42a8-a6b6-278e40eb86ad"
+Template: "fbbdeebf-eef0-4e55-8290-aa58cc83115d"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Buttons/Hero Buttons/Firefox"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b873bda-ac21-46c9-985a-e89a8375e4fd"
+      Hint: ClassName
+      Value: "p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T021143Z
+    - ID: "3acdfe6d-073b-4b75-93d1-0092844b1ec4"
+      Hint: Url
+      Value: #
+    - ID: "58f26239-8552-4140-8111-b93ed1a9f6dd"
+      Hint: Title
+      Value: Get It On Firefox
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d50d298-ce95-4b3d-b6fd-bd7a5c75cf8e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T021229Z

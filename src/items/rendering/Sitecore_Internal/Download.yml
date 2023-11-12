@@ -7,12 +7,18 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: Download
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/Sitecore_Internal/DataSource/Download
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 1
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{FA4FD1E3-BEFA-570F-A1E5-921EC4D1E4BA}"
+  Value: "{F0255660-8F54-4229-8A44-3A17DA43F454}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Download Container"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +37,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9c50c953-41d4-4cb3-b411-acfaa7f68df7"
+      Value: "d88a4529-1f9f-4472-add8-42a012fe5080"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T085154Z
+      Value: 20231112T002034Z

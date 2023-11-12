@@ -7,12 +7,18 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: FeatureHeading
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/Sitecore_Internal/DataSource/FeatureHeading
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 1
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{AEC3467E-DA03-5DC8-8518-26821DBDFF95}"
+  Value: "{FD8AD0C3-485D-4DF8-83D1-793D15D3BF9E}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Feature Headings"
 Languages:
 - Language: en
   Versions:
@@ -31,11 +37,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0032ee06-6cfb-4f74-b1c6-85f0b38515e6"
+      Value: "6a0899da-e520-49cd-ad12-15cf279db9e5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T085210Z
+      Value: 20231111T231413Z

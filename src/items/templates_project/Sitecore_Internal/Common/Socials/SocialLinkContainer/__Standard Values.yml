@@ -1,0 +1,35 @@
+﻿---
+ID: "7b79c33e-7d64-4e40-aeec-cbd35950df8e"
+Parent: "9b73db8b-6e4b-4fe6-8f09-dcdd33cb4857"
+Template: "9b73db8b-6e4b-4fe6-8f09-dcdd33cb4857"
+Path: /sitecore/templates/Project/Sitecore_Internal/Common/Socials/SocialLinkContainer/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{66C40BDB-3E80-4EA7-A429-7688B723331E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T012320Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f5e3ef6-c4ac-42af-b643-9956b117f5a2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T012526Z

@@ -1,0 +1,41 @@
+﻿---
+ID: "b3bd23d2-c8c3-4fb5-bd74-55c914cf749b"
+Parent: "c233dd31-07fe-4a8f-b085-473f9caeed9b"
+Template: "beaba954-4d04-439c-aad4-e505a379557b"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Tab Panel Container/Panel2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231111T234732Z
+    - ID: "4e86bf46-ff56-4fb2-9142-e55ff0394987"
+      Hint: CtaTitle
+      Value: More Info2
+    - ID: "69094d9c-9c72-4c25-bd98-591242e65ef4"
+      Hint: ComponentClass
+      Value: "flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d8bf32a-d1b7-4bd9-af28-edc880b1af37"
+    - ID: "a0f238f8-1bd5-46b2-bc85-eb5f70307f39"
+      Hint: PanelImage
+      Value: |
+        <image mediaid="{A2713F58-48EE-43A9-ABEA-0B933AA2CA9E}" alt="ddd" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d44b0b15-9309-440e-ad85-e297f4ecc5d1"
+      Hint: Title
+      Value: Intelligent search
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231112T000001Z
+    - ID: "e6858319-9c24-482a-a493-8108b5e3e972"
+      Hint: Desc
+      Value: |
+        Our powerful search feature will help you find saved sites in no
+        time at all. No need to trawl through all of your bookmarks.

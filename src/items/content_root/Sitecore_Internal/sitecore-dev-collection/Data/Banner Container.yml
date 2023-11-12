@@ -1,0 +1,23 @@
+﻿---
+ID: "7027d68a-f45f-4988-8f00-fdffed44b4ed"
+Parent: "467452b0-83af-44e5-8006-08e5f029d731"
+Template: "ce4836cd-29f6-44ea-9802-acd963eb3d3d"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Banner Container"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231112T001352Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a75c63dd-849f-45e1-9b78-d1fed8d9dd4b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231112T001352Z

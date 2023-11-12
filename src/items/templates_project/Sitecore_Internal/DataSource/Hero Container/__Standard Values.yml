@@ -1,0 +1,37 @@
+﻿---
+ID: "7f9b8971-dc0d-42d9-ae4b-4efa63c5bfc5"
+Parent: "89d78f8a-8bf5-40e9-a5a2-80b90ffd42b7"
+Template: "89d78f8a-8bf5-40e9-a5a2-80b90ffd42b7"
+Path: /sitecore/templates/Project/Sitecore_Internal/DataSource/Hero Container/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {34516884-4B05-48BD-9D2A-40299D93CFD7}
+    {89D78F8A-8BF5-40E9-A5A2-80B90FFD42B7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T015942Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59711756-ce2f-4322-b382-aa884b73c22d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T021016Z

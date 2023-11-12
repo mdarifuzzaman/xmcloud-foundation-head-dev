@@ -1,0 +1,23 @@
+﻿---
+ID: "ed5af057-bb2a-48de-ab5f-7a6e923661ef"
+Parent: "4d8f71ee-fe31-4e0b-813b-cf25b12caf2e"
+Template: "0ee9150c-1c66-4bc2-8546-94d3ed4d89b8"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Links/AppNavigation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T001735Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f558cc37-c40a-4b58-a92b-1fcbe66dc0eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T001735Z

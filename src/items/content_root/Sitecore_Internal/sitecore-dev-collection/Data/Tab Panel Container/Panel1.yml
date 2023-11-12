@@ -1,0 +1,42 @@
+﻿---
+ID: "2b6ab6ec-9d81-4082-b6dd-9eb4f525a377"
+Parent: "c233dd31-07fe-4a8f-b085-473f9caeed9b"
+Template: "beaba954-4d04-439c-aad4-e505a379557b"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Tab Panel Container/Panel1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231111T234732Z
+    - ID: "4e86bf46-ff56-4fb2-9142-e55ff0394987"
+      Hint: CtaTitle
+      Value: More Info1
+    - ID: "69094d9c-9c72-4c25-bd98-591242e65ef4"
+      Hint: ComponentClass
+      Value: "flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d956687-cbb4-44e0-a139-47d9d3a27040"
+    - ID: "a0f238f8-1bd5-46b2-bc85-eb5f70307f39"
+      Hint: PanelImage
+      Value: |
+        <image mediaid="{D5AA8FCF-FEB3-4DEA-A14B-6BDD8DCC90EB}" alt="sss" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d44b0b15-9309-440e-ad85-e297f4ecc5d1"
+      Hint: Title
+      Value:  Bookmark in one click
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231111T235957Z
+    - ID: "e6858319-9c24-482a-a493-8108b5e3e972"
+      Hint: Desc
+      Value: |
+        Organize your bookmarks however you like. Our simple
+        drag-and-drop interface gives you complete control over how you
+        manage your favourite sites.

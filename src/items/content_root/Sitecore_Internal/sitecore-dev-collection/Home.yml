@@ -104,36 +104,51 @@ Languages:
             <r
               uid="{A6F3FD97-9842-44EA-82D6-DE811E5C8587}"
               p:before="*"
-              s:ds=""
+              s:ds="{3718C420-C5F9-49B6-8CFF-AFA2FC23CE33}"
               s:id="{4B394DBE-967D-5D75-B6E6-72AEC8EFB3C0}"
-              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:par="ComponentClass=container+flex+flex-col-reverse+mx-auto+p-6+lg%3aflex-row+lg%3amb-0&amp;FieldNames&amp;BackgroundImageClass=relative+z-10+lg%3atop-24+xl%3atop-0+overflow-x-visible&amp;CacheClearingBehavior=Clear+on+publish&amp;Styles&amp;CSSStyles&amp;FooterClass=relative+mx-auto+lg%3amx-0+lg%3amb-0+lg%3aw-1%2f2&amp;GridParameters&amp;BodyClass=flex+flex-col+space-y-10+lg%3amt-16+lg%3aw-1%2f2"
               s:ph="headless-main"
               s:ccb="Clear on publish" />
             <r
               uid="{C0522C31-4842-4F12-B948-E465C40AC102}"
               p:after="r[@uid='{A6F3FD97-9842-44EA-82D6-DE811E5C8587}']"
+              s:ds="{C92C57E8-DA60-4ACC-9014-DCBDEB20A930}"
               s:id="{6B70C93B-5400-552F-B83E-89A4FA72F00D}"
-              s:ph="headless-main" />
+              s:par="FieldNames&amp;CacheClearingBehavior=Clear+on+publish&amp;Styles&amp;CSSStyles&amp;GridParameters&amp;ComponentClass=container+mx-auto+mt-16+px-6&amp;PClass=max-w-md+mx-auto+text-center+text-grayishBlue&amp;H2Class=mb-6+text-4xl+font-semibold+text-center"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{08996EAF-53BB-4C58-9D6C-E0180C0CD0F6}"
               p:after="r[@uid='{C0522C31-4842-4F12-B948-E465C40AC102}']"
+              s:ds="{59E9494F-B199-47E9-8A6A-19345A22386D}"
               s:id="{A7B8E4C7-6947-5285-A327-B3F2D9A7CDB5}"
-              s:ph="headless-main" />
+              s:par="FieldNames&amp;CacheClearingBehavior=Clear+on+publish&amp;Styles&amp;CSSStyles&amp;GridParameters&amp;ComponentClass=container+relative+mx-auto+my-6+mb-32+mt-12+px-6&amp;OtherData=bg-tabs"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{AB709BF6-86AF-4252-ABFA-4CD5E662C4E6}"
               p:after="r[@uid='{08996EAF-53BB-4C58-9D6C-E0180C0CD0F6}']"
+              s:ds="{AF673AA0-7E55-4D1A-9406-2260F7C98F27}"
               s:id="{6B70C93B-5400-552F-B83E-89A4FA72F00D}"
-              s:ph="headless-main" />
+              s:par="FieldNames&amp;CacheClearingBehavior=Clear+on+publish&amp;Styles&amp;CSSStyles&amp;GridParameters&amp;ComponentClass=container+mx-auto+mt-16+px-6&amp;PClass=max-w-md+mx-auto+text-center+text-grayishBlue&amp;H2Class=mb-6+text-4xl+font-semibold+text-center"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{0BEBB083-E3C3-4F12-A8CE-68FDAC3217B8}"
               p:after="r[@uid='{AB709BF6-86AF-4252-ABFA-4CD5E662C4E6}']"
+              s:ds="{7B7ED19A-1B6D-419D-8FC5-9C4E8C30679F}"
               s:id="{4A1CFEE9-FF62-5101-AADB-42940059242E}"
-              s:ph="headless-main" />
+              s:par="ComponentClass=relative%20flex%20flex-col%20items-center%20max-w-5xl%20mx-auto%20space-y-10%20px-10%20md%3Apx-6%20md%3Aspace-y-0%20md%3Aspace-x-7%20md%3Aflex-row&amp;OtherData&amp;GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{34D1DC34-FC31-4C6B-983B-12167B04FEE9}"
               p:after="r[@uid='{0BEBB083-E3C3-4F12-A8CE-68FDAC3217B8}']"
+              s:ds="{301682B8-BEB0-424C-99DE-43F1D707AAC4}"
               s:id="{6B70C93B-5400-552F-B83E-89A4FA72F00D}"
-              s:ph="headless-main" />
+              s:par="FieldNames&amp;CacheClearingBehavior=Clear+on+publish&amp;Styles&amp;CSSStyles&amp;GridParameters&amp;ComponentClass=container+mx-auto+mt-16+px-6&amp;PClass=max-w-md+mx-auto+text-center+text-grayishBlue&amp;H2Class=mb-6+text-4xl+font-semibold+text-center"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{F2C9A8C8-9829-413D-8437-AD34DCF209F4}"
               p:after="r[@uid='{34D1DC34-FC31-4C6B-983B-12167B04FEE9}']"
@@ -165,11 +180,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "139e645b-5472-425b-842d-1bb28fb577ca"
+      Value: "b0ac230d-f81b-4e7d-940c-4ef5b68d7132"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T101754Z
+      Value: 20231112T003658Z

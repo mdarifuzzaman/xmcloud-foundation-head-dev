@@ -25,9 +25,9 @@ Languages:
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
               uid="{61286AD9-34FA-4BC7-BDE9-AF18CE51DDEE}"
-              s:ds=""
+              s:ds="{C4CBEC69-11C2-4D36-B0D3-427371809A37}"
               s:id="{25A03E48-9DA5-5A31-8301-03593EEA2682}"
-              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:par="ComponentClass&amp;OtherData&amp;GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
               s:ph="headless-footer"
               s:ccb="Clear on publish" />
           </d>
@@ -45,11 +45,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ef578ef3-ada2-4d31-84d2-5c5e25bba3dc"
+      Value: "c0056b2b-ba53-4d5d-86c7-fe7e1ee47a83"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T101856Z
+      Value: 20231110T013732Z

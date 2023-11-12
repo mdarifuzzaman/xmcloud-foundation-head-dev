@@ -1,0 +1,46 @@
+﻿---
+ID: "c4cbec69-11c2-4d36-b0d3-427371809a37"
+Parent: "637e5602-e84c-49bf-b6fb-af61ab56edb4"
+Template: "2830428c-9fe0-41f4-97be-e49c90bfc8c4"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Footer Container/Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ab5f50c-fa3a-4df6-a6cc-02a36f82e350"
+      Hint: FooterLogo
+      Value: |
+        <image mediaid="{F67D545C-E972-4DA9-A7AE-A35D196CB11F}" alt="footer" height="" width="" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T013011Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "6162be7d-0a0b-4e0d-ac7e-17d4c01fe10b"
+      Hint: Links
+      Value: |
+        {CE1C66CC-468B-4EE1-895D-0F5AC0BE159B}
+        {6D05D0C3-9045-4F0D-839A-699A5C199875}
+        {03B9F338-CB3A-4DF8-90D9-36A39065EA5A}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57d60e36-146e-45b5-b85c-4fcd99cb64c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T013056Z
+    - ID: "ffbdae9e-7cf6-49bd-bbcd-da0beab8886b"
+      Hint: Socials
+      Value: |
+        {78580138-D026-4EDC-A8FE-E4F533972EF1}
+        {B7B22917-43F6-41DC-BA83-5780750A293A}

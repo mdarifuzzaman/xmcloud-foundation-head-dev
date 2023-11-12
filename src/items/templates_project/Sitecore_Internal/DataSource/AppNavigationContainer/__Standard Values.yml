@@ -1,0 +1,37 @@
+﻿---
+ID: "3050ee7f-3fef-4594-b1e1-d6f55a70dd88"
+Parent: "2da763a2-74b5-482d-8dcc-f2f465deb0d6"
+Template: "2da763a2-74b5-482d-8dcc-f2f465deb0d6"
+Path: /sitecore/templates/Project/Sitecore_Internal/DataSource/AppNavigationContainer/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {2DA763A2-74B5-482D-8DCC-F2F465DEB0D6}
+    {9B0FFA6E-F7C2-4F32-8A24-A55A61E9FA90}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T001919Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd786092-fb98-453f-89bd-9d57865bd7cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T001930Z

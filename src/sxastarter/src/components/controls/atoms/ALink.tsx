@@ -13,7 +13,7 @@ export type ALinkProps = {
 export default function ALink(props: ALinkProps) {
   return (
     <>{
-      props.context?.pageEditing === false ? <a href={`${props.sitecoreLink?.fields?.Link?.value?.href}`} className={`${props.sitecoreLink?.fields?.ClassName?.value}`}>{`${props.sitecoreLink?.displayName}`}</a>
+      props.context?.pageEditing === false ? <a href={props.sitecoreLink?.fields?.Link?.value?.href} className={props.sitecoreLink?.fields?.ClassName?.value}>{props.sitecoreLink?.displayName}</a>
       : <Link field={props.sitecoreLink?.fields?.Link}></Link>
     }
     </> 

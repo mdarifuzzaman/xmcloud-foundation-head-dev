@@ -1,39 +1,34 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Default } from 'components/Image';
+import ALink from 'components/controls/atoms/ALink';
 
 const meta = {
-    title: 'Image',
-    component: Default,
+    title: 'ALink',
+    component: ALink,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],
     parameters: {
       // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
       layout: 'fullscreen',
     },
-  } satisfies Meta<typeof Default>;
+  } satisfies Meta<typeof ALink>;
   
   export default meta;
   type Story = StoryObj<typeof meta>;
 
-  export const Image: Story = {
+  export const DefaultALink: Story = {
     args: {
-        params: {
-
-        },   
-      fields: {
-        Image : {
-            value: {
-                src: ""
-            }
-        },
-        ImageCaption: {
-            value: "Sample image"
-        },
-        TargetUrl: {
-            value : {
-                href: "/Download",
-                title: "Download",
-                text: "Download"
+      context: undefined,
+      className: "",
+      sitecoreLink : {
+        displayName: "dddd sd",
+        fields: {
+            Link: {
+                value: {
+                    href: "download"                    
+                }
+            },
+            ClassName: {
+                value: "tracking-widest hover:text-softRed"
             }
         }
       }

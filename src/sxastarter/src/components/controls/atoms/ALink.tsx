@@ -11,6 +11,7 @@ export type ALinkProps = {
 }
 
 export default function ALink(props: ALinkProps) {
+  console.log("alink", props);
   return (
     <>{
       props.context?.pageEditing === false ? <a href={props.sitecoreLink?.fields?.Link?.value?.href} className={props.sitecoreLink?.fields?.ClassName?.value}>{props.sitecoreLink?.displayName}</a>

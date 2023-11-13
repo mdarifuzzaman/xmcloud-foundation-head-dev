@@ -11,6 +11,7 @@ type FeatureHeadingProps = {
 }
 
 function FeatureHeading(props: FeatureHeadingProps) {
+  console.log("Feature heading", props);
   return (
     <section id="features">
       <Heading componentClass={props.params?.ComponentClass} h2Class={props.params?.H2Class}

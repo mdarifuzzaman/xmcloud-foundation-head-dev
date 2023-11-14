@@ -1,23 +1,24 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import FormBody from 'components/controls/molecules/FormBody';
+import FormHeader from 'components/controls/molecules/FormHeader';
 
 const meta = {
-    title: 'FormBody',
-    component: FormBody,
+    title: 'AFormHeader',
+    component: FormHeader,  
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],
     parameters: {
       // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
       layout: 'fullscreen',
     },
-  } satisfies Meta<typeof FormBody>;
+  } satisfies Meta<typeof FormHeader>;
   
   export default meta;
-  type Story = StoryObj<typeof FormBody>;
+  type Story = StoryObj<typeof FormHeader>;
 
-  export const DefaultFormBody : Story = {
+  export const DefaultFormHeader : Story = {
     args: {
-      className: ""
+      title: "A sample form header",
+      subTitle: "Subtitle of form header"
     }
   };
   

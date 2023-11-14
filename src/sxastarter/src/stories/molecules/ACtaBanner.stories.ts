@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import CtaBanner from 'components/controls/molecules/CtaBanner';
 
 const meta = {
-    title: 'CtaBanner',
+    title: 'ACtaBanner',
     component: CtaBanner,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

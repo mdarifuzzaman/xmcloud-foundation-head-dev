@@ -1,0 +1,33 @@
+﻿---
+ID: "537e5c72-dcaf-472a-8988-05148b65065d"
+Parent: "2d23b8c0-ec90-45b6-9d4e-4bea68e20360"
+Template: "37f6660d-7ce9-4a89-8d20-aa8a81bda2e8"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Accordion Childs/Accordion Child 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T062309Z
+    - ID: "861f5018-7c46-45f9-8700-c47f0ef22169"
+      Hint: AccordianDesc
+      Value: |
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+        repellat amet doloribus consequuntur eos similique provident
+        tempora voluptates iure quia fuga dicta voluptatibus culpa
+        mollitia recusandae delectus id suscipit labore?
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "384c981b-9d2a-445d-a1da-bc2afbd3f637"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231114T062343Z
+    - ID: "e132dbc1-ac66-4d83-9472-0bcfb45e8901"
+      Hint: AccordianTitle
+      Value: "How can I request a new browser?"

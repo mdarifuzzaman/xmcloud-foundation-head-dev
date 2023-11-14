@@ -152,8 +152,11 @@ Languages:
             <r
               uid="{F2C9A8C8-9829-413D-8437-AD34DCF209F4}"
               p:after="r[@uid='{34D1DC34-FC31-4C6B-983B-12167B04FEE9}']"
+              s:ds="{B001CA61-CB48-41F2-8248-97D6F9D82D48}"
               s:id="{E82308A3-7ED1-5BD6-AB1D-082F5A1AD4B1}"
-              s:ph="headless-main" />
+              s:par="ComponentClass=container%20mx-auto%20px-6%20mb-32&amp;AccordionContainerClass=max-w-2xl%20m-8%20mx-auto%20overflow-hidden&amp;GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{D238E54A-4EA3-4D8E-BDBB-2C210D52F810}"
               p:after="*[1=2]"
@@ -180,11 +183,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b0ac230d-f81b-4e7d-940c-4ef5b68d7132"
+      Value: "d415943d-cc48-49c4-8602-c463268a51cb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231112T003658Z
+      Value: 20231114T062706Z

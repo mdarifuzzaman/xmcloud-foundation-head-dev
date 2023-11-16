@@ -21,7 +21,7 @@ const meta = {
             fields: {
                 "FooterLogo": {
                     "value": {
-                        "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-bookmark-footer.svg?iar=0&hash=FCA5F31C0A156364E81AEB21ED5BAB3C",
+                        "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-bookmark-footer.svg?iar=0&hash=FCA5F31C0A156364E81AEB21ED5BAB3C",
                         "alt": "footer"
                     }
                 },
@@ -118,7 +118,7 @@ const meta = {
                             },
                             "Image": {
                                 "value": {
-                                    "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-facebook.svg?iar=0&hash=07D40B808A9D80AEC0346A3F899FB8BF",
+                                    "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-facebook.svg?iar=0&hash=07D40B808A9D80AEC0346A3F899FB8BF",
                                     "alt": "facebook"
                                 }
                             },
@@ -145,7 +145,7 @@ const meta = {
                             },
                             "Image": {
                                 "value": {
-                                    "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-twitter.svg?iar=0&hash=9DF7866F013366C4F74C38237D7D2E08",
+                                    "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-twitter.svg?iar=0&hash=9DF7866F013366C4F74C38237D7D2E08",
                                     "alt": "tw"
                                 }
                             },
@@ -282,7 +282,7 @@ const meta = {
                 ],
                 "BackImage": {
                     "value": {
-                        "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-hero.svg?iar=0&hash=8D17EFD9B84B49180695157C9BA5F738",
+                        "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-hero.svg?iar=0&hash=8D17EFD9B84B49180695157C9BA5F738",
                         "alt": "hero"
                     }
                 }
@@ -401,7 +401,7 @@ const meta = {
                             },
                             "PanelImage": {
                                 "value": {
-                                    "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-features-tab-1.svg?iar=0&hash=D43D9461F2F9D71A2DD49BAD0643A4A4",
+                                    "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-features-tab-1.svg?iar=0&hash=D43D9461F2F9D71A2DD49BAD0643A4A4",
                                     "alt": "sss"
                                 }
                             },
@@ -427,7 +427,7 @@ const meta = {
                             },
                             "PanelImage": {
                                 "value": {
-                                    "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-features-tab-2.svg?iar=0&hash=1BD4398C1A240DCE1DB47D61A631EC8A",
+                                    "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-features-tab-2.svg?iar=0&hash=1BD4398C1A240DCE1DB47D61A631EC8A",
                                     "alt": "ddd"
                                 }
                             },
@@ -453,7 +453,7 @@ const meta = {
                             },
                             "PanelImage": {
                                 "value": {
-                                    "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-features-tab-3.svg?iar=0&hash=E09259CBAE301CE7AB0E1E6FED41DCA4",
+                                    "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-features-tab-3.svg?iar=0&hash=E09259CBAE301CE7AB0E1E6FED41DCA4",
                                     "alt": "sss"
                                 }
                             },

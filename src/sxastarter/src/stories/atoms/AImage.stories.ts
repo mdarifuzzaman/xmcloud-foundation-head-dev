@@ -22,7 +22,7 @@ const meta = {
         fields: {
             Image: {
                 value: {
-                    src: "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-hero.svg?iar=0&hash=8D17EFD9B84B49180695157C9BA5F738"
+                    src: "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/illustration-hero.svg?iar=0&hash=8D17EFD9B84B49180695157C9BA5F738"
                 }
             }
         }

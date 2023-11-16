@@ -20,7 +20,7 @@ const meta = {
       fields: {
         "FooterLogo": {
             "value": {
-                "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-bookmark-footer.svg?iar=0&hash=FCA5F31C0A156364E81AEB21ED5BAB3C",
+                "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-bookmark-footer.svg?iar=0&hash=FCA5F31C0A156364E81AEB21ED5BAB3C",
                 "alt": "footer"
             }
         },
@@ -117,7 +117,7 @@ const meta = {
                     },
                     "Image": {
                         "value": {
-                            "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-facebook.svg?iar=0&hash=07D40B808A9D80AEC0346A3F899FB8BF",
+                            "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-facebook.svg?iar=0&hash=07D40B808A9D80AEC0346A3F899FB8BF",
                             "alt": "facebook"
                         }
                     },
@@ -144,7 +144,7 @@ const meta = {
                     },
                     "Image": {
                         "value": {
-                            "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-twitter.svg?iar=0&hash=9DF7866F013366C4F74C38237D7D2E08",
+                            "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/icon-twitter.svg?iar=0&hash=9DF7866F013366C4F74C38237D7D2E08",
                             "alt": "tw"
                         }
                     },

@@ -34,7 +34,7 @@ const meta = {
                         },
                         "Image": {
                             "value": {
-                                "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-chrome.svg?iar=0&hash=EF0F864F6A3D1109E13555B709074153",
+                                "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-chrome.svg?iar=0&hash=0D013447FEA100B87F6E82AFC0A6E80E",
                                 "alt": "dd"
                             }
                         },
@@ -66,7 +66,7 @@ const meta = {
                         },
                         "Image": {
                             "value": {
-                                "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-firefox.svg?iar=0&hash=501BDBB3F0663B583B386277619A2C50",
+                                "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-firefox.svg?iar=0&hash=83380DD2B92F90D35BD766F83335D15E",
                                 "alt": "ddd"
                             }
                         },
@@ -98,7 +98,7 @@ const meta = {
                         },
                         "Image": {
                             "value": {
-                                "src": "https://xmcloudcm.localhost/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-opera.svg?iar=0&hash=C957628553BC4A156EE7982DF5F8497B",
+                                "src": "https://xmc-professionaf048-xmcloudmdarpro-devcollection.sitecorecloud.io/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-opera.svg?iar=0&hash=6AB5ECD402EABC22ED979CD1421238AD",
                                 "alt": "dd"
                             }
                         },

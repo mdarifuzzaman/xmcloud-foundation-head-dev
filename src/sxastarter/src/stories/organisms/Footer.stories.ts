@@ -156,7 +156,7 @@ const meta = {
         ]
      },
      rendering : {
-        componentName: "Footer Component",   
+        componentName: "Footer Component - 2",   
         uid: "{00000000-0000-0000-0000-000000000000}"         
   },
     },

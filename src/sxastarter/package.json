@@ -5,10 +5,10 @@
   "private": true,
   "config": {
     "appName": "sitecore-dev-collection",
-    "rootPlaceholders": [     
+    "rootPlaceholders": [
       "headless-main",
       "headless-header",
-      "headless-footer"     
+      "headless-footer"
     ],
     "sitecoreConfigPath": "/App_Config/Include/zzz",
     "graphQLEndpointPath": "/sitecore/api/graph/edge",
@@ -80,6 +80,7 @@
     "autoprefixer": "^10.4.16",
     "chalk": "~4.1.2",
     "chokidar": "~3.5.3",
+    "chromatic": "^9.0.0",
     "constant-case": "^3.0.4",
     "cross-env": "~7.0.3",
     "dotenv": "^16.0.3",
@@ -117,11 +118,15 @@
     "tailwind:dev": "npx tailwindcss -i ./src/assets/all/input.css -o ./src/assets/all/style.css --watch",
     "tailwind:prod": "npx tailwindcss -i ./src/assets/all/input.css -o ./src/assets/all/style.css --minify",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/sitecore/jss#readme",
+  "_id": "sxastarter@21.2.4"
 }

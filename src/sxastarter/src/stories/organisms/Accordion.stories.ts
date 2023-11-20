@@ -3,7 +3,7 @@ import Accordion from 'components/Accordion';
 
 
 const meta = {
-    title: 'Accordion',
+    title: 'organisms/Accordion',
     component: Accordion,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

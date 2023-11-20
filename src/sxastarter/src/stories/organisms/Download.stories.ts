@@ -3,7 +3,7 @@ import Download from 'components/Download';
 
 
 const meta = {
-    title: 'Download',
+    title: 'organisms/Download',
     component: Download,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

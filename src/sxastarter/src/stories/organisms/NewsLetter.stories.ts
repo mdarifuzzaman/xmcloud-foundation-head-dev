@@ -3,7 +3,7 @@ import NewsLetter from 'components/NewsLetter';
 
 
 const meta = {
-    title: 'NewsLetter',
+    title: 'organisms/NewsLetter',
     component: NewsLetter,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

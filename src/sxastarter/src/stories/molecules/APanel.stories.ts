@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import APanel from 'components/controls/molecules/APanel';
 
 const meta = {
-    title: 'APanel',
+    title: 'molecules/APanel',
     component: APanel,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

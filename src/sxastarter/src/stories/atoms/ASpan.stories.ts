@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import ASpan from 'components/controls/atoms/ASpan';
 
 const meta = {
-    title: 'ASpan',
+    title: 'atoms/ASpan',
     component: ASpan,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

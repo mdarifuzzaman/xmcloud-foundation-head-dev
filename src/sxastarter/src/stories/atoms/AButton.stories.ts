@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import AButton from 'components/controls/atoms/AButton';
 
 const meta = {
-    title: 'AButton',
+    title: 'atoms/AButton',
     component: AButton,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

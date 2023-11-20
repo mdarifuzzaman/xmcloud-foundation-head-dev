@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import AParagraph from 'components/controls/atoms/AParagraph';
 const meta = {
-    title: 'AParagraph',
+    title: 'atoms/AParagraph',
     component: AParagraph,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import AImage from 'components/controls/atoms/AImage';
 
 const meta = {
-    title: 'AImage',
+    title: 'atoms/AImage',
     component: AImage,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

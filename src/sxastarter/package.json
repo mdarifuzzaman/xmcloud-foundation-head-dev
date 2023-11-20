@@ -119,7 +119,7 @@
     "tailwind:prod": "npx tailwindcss -i ./src/assets/all/input.css -o ./src/assets/all/style.css --minify",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --project-token=chpt_89fb2c7d3e88f66"
+    "chromatic": "npx chromatic --project-token=chpt_89fb2c7d3e88f66"
   },
   "eslintConfig": {
     "extends": [

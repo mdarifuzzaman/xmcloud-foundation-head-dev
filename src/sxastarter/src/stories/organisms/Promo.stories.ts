@@ -3,7 +3,7 @@ import * as Promo from '../../components/Promo';
 
 
 const meta = {
-    title: 'PromoDefault',
+    title: 'organisms/PromoDefault',
     component: Promo.Default,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

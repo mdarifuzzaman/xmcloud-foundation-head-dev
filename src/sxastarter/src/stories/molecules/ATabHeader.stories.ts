@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import TabHeader from 'components/controls/molecules/TabHeader';
 
 const meta = {
-    title: 'ATabHeader',
+    title: 'molecules/ATabHeader',
     component: TabHeader,  
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

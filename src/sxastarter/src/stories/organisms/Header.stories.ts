@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import {Header} from '../../components/Header';
 
 const meta = {
-    title: 'Header',
+    title: 'organisms/Header',
     component: Header,
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
     tags: ['autodocs'],

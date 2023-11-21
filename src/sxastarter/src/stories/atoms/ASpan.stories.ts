@@ -17,7 +17,8 @@ const meta = {
 
   export const DefaultASpan : Story = {
     args: {
-      className: "hamburger-top"
+      className: "bg-black",
+      children: "This is some content"
     }
   };
   

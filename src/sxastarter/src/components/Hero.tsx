@@ -48,7 +48,7 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
           {/* {props.sitecoreContext?.pageEditing? <Image field={props.fields?.BackImage}></Image> :
             <img src={props.fields.BackImage.value?.src} alt="" className={props.params.BackgroundImageClass} />
           } */}
-          <iframe src="/-/media/Project/Sitecore_Internal/sitecore-dev-collection/sugcon-anz-2023"></iframe>
+          <iframe src="/-/media/Project/Sitecore_Internal/sitecore-dev-collection/alamora-signed"></iframe>
         </div>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import {
   ComponentConsumerProps,
   ComponentRendering,
+  Image,
   ImageField,
   RichTextField,
   Text,
@@ -45,15 +46,9 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
 
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
-          {/* {props.sitecoreContext?.pageEditing? <Image field={props.fields?.BackImage}></Image> :
+          {props.sitecoreContext?.pageEditing? <Image field={props.fields?.BackImage}></Image> :
             <img src={props.fields.BackImage.value?.src} alt="" className={props.params.BackgroundImageClass} />
-          } */}
-          <iframe width={800} height={600} src="/-/media/Project/Sitecore_Internal/sitecore-dev-collection/alamora-signed"></iframe>
-          <embed
-            src="/-/media/Project/Sitecore_Internal/sitecore-dev-collection/alamora-signed"
-            type="application/pdf"
-            width="50%"
-            height="600px" />
+          }
         </div>
       </div>
     </section>

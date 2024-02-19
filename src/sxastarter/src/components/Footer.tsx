@@ -35,7 +35,7 @@ const Footer = (props: ContentBlockProps): JSX.Element => {
           {props.fields?.Socials?.map((social: any, index: number) => (
             <ALinkWithChildren key={index} url={social.fields?.Link?.value?.href}>
               {/* <img src={social.fields.Image?.value?.src} alt="" className="h-6 ficon" /> */}
-              <AImage context={props.sitecoreContext} image={social}></AImage>
+              <AImage context={props.sitecoreContext} image={social?.fields?.Image} className={social?.fields.ClassName}></AImage>
             </ALinkWithChildren>
           ))}          
         </div>

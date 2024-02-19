@@ -9,6 +9,8 @@ type AButtonProps = {
 
 export default function AButton(props: AButtonProps): JSX.Element {
   return (
-    <a onClick={props.onClick} href="#" className={`${props.className}`}>{`${props.title}`}</a>
+    <div className="flex flex-col items-center justify-center">
+      <a onClick={props.onClick} href="#" className={`${props.className}`}>{`${props.title}`}</a>
+    </div>
   )
 }

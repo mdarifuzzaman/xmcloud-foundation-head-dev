@@ -28,3 +28,10 @@ const meta = {
     },
   };
   
+  export const AButtonRed: Story = {
+    args: {
+       className: "p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue",
+       title: "A sample button"
+    },
+  };
+  

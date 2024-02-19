@@ -1,10 +1,9 @@
 require('win-ca');
 const jssConfig = require('./src/temp/config');
-const { getPublicUrl } = require('@sitecore-jss/sitecore-jss-nextjs/utils');
 const plugins = require('./src/temp/next-config-plugins') || {};
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
-const publicUrl = getPublicUrl();
+const publicUrl = jssConfig.publicUrl;
 
 /**
  * @type {import('next').NextConfig}

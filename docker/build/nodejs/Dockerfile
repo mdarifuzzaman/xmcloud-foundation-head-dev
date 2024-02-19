@@ -11,9 +11,9 @@ ARG NODEJS_VERSION
 
 USER ContainerAdministrator
 WORKDIR c:\build
-RUN curl.exe -sS -L -o node.zip https://nodejs.org/download/release/v16.14.2/node-v16.14.2-win-x64.zip
+RUN curl.exe -sS -L -o node.zip https://nodejs.org/download/release/v16.15.0/node-v16.15.0-win-x64.zip
 RUN tar -xf node.zip -C C:\
-RUN move C:\node-v16.14.2-win-x64 c:\node21
+RUN move C:\node-v16.15.0-win-x64 c:\node21
 RUN del node.zip
 
 

@@ -28,9 +28,9 @@ export default function FormSummary() {
 
   return (
     <div style={{margin: "20px"}}>
-        <div id='btnSummary'>FormSummary</div>   
+        <div id="btnSummary">FormSummary</div>   
         <hr></hr> 
-        <div className='w-1/2 p-4 mx-auto text-center border'>
+        <div className="w-1/2 p-4 mx-auto text-center border">
         {formData && formData.length > 0 ?
            <div>
                 {formData.map((data: any, index: number) => (

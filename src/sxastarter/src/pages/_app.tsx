@@ -15,7 +15,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
   return (
     <>
     <Head>
-      <script src={`${publicUrl}/js/moosend.js`}></script>
+      <script src={`${publicUrl}/js/moosend.js`} async></script>
     </Head>
       <UserProvider>
         <Bootstrap {...pageProps} />

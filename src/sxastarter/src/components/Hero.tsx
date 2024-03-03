@@ -11,7 +11,7 @@ import {
 import AParagraph from './controls/atoms/AParagraph';
 import AButton from './controls/atoms/AButton';
 import AButtonGroup from './controls/atoms/AButtonGroup';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 declare global {
   interface Window {
@@ -34,10 +34,7 @@ type ContentBlockProps = ComponentConsumerProps &{
 const Hero = (props: ContentBlockProps): JSX.Element => {
   const [isAlreadyRegister, setIsAlreadyRegister] = useState(false);
   const [emailAddress, setEmailAddress] = useState("");
-  console.log('Hero', props);
-  useEffect(() => {
-    
-  }, [])
+  console.log("Hero", props);  
   const signup = () => {
     console.log(emailAddress);
     window.mootrack('identify', emailAddress);    
@@ -63,8 +60,8 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
             ))}            
           </AButtonGroup>  
           {!isAlreadyRegister ? <div>
-            <input type='email' placeholder='enter your email for registration' onChange={(e) => setEmailAddress(e.target.value)}></input>  
-            <button onClick={() => signup()} className='ml-3 flex flex-col items-center justify-center'>Signup for newsletter</button>
+            <input type="email" placeholder="enter your email for registration" onChange={(e) => setEmailAddress(e.target.value)}></input>  
+            <button onClick={() => signup()} className="ml-3 flex flex-col items-center justify-center">Signup for newsletter</button>
           </div> : null }        
         </div>
 

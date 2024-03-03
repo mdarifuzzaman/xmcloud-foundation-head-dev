@@ -11,6 +11,13 @@ import {
 import AParagraph from './controls/atoms/AParagraph';
 import AButton from './controls/atoms/AButton';
 import AButtonGroup from './controls/atoms/AButtonGroup';
+import { useEffect, useState } from 'react';
+
+declare global {
+  interface Window {
+    mootrack: (param1: any, param2: any) => void;
+  }
+}
 
 type ContentBlockProps = ComponentConsumerProps &{
   rendering: ComponentRendering;
@@ -25,7 +32,20 @@ type ContentBlockProps = ComponentConsumerProps &{
 };
 
 const Hero = (props: ContentBlockProps): JSX.Element => {
+  const [isAlreadyRegister, setIsAlreadyRegister] = useState(false);
+  const [emailAddress, setEmailAddress] = useState("");
   console.log('Hero', props);
+  useEffect(() => {
+    
+  }, [])
+  const signup = () => {
+    console.log(emailAddress);
+    window.mootrack('identify', emailAddress);    
+    window.mootrack('signupCompleted', { "CustomerId": "00001", "ReferenceNo": "Ref123456", "Email": `${emailAddress}` });
+    console.log("Eligible customer's data sent..");
+    setIsAlreadyRegister(true);
+
+  }
   return (
     <section id="hero">
       <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0">
@@ -41,7 +61,11 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
             {props.fields.Buttons?.map((button: any, index: number) =>(
               <AButton key={index} className={button?.fields?.ClassName?.value} title={button?.fields?.Title?.value}></AButton>  
             ))}            
-          </AButtonGroup>          
+          </AButtonGroup>  
+          {!isAlreadyRegister ? <div>
+            <input type='email' placeholder='enter your email for registration' onChange={(e) => setEmailAddress(e.target.value)}></input>  
+            <button onClick={() => signup()} className='ml-3 flex flex-col items-center justify-center'>Signup for newsletter</button>
+          </div> : null }        
         </div>
 
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">

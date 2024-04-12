@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.JavaScriptServices.Apps.Override.config" />
     <Content Include="App_Config\Include\zzz\Sitecore.Media.config" />
+    <Content Include="App_Config\Include\zzz\LinkManager.Custom.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />

@@ -13,6 +13,7 @@ import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 
 const Custom404 = (props: SitecorePageProps): JSX.Element => {
+  console.log("Custom404", props);
   if (!(props && props.layoutData)) {
     return <NotFound />;
   }

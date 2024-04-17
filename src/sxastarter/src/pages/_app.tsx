@@ -8,12 +8,17 @@ import Bootstrap from 'src/Bootstrap';
 import '../../public/css/style.css';
 import Head from 'next/head';
 import { publicUrl } from 'temp/config';
+import { IsSearchEnable, SEARCH_CONFIG } from 'src/common/search';
+import { WidgetsProvider } from '@sitecore-search/react';
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
 
+  const SearchWrapper = ({ children }: any) => (IsSearchEnable() ? <WidgetsProvider {...SEARCH_CONFIG}>{children}</WidgetsProvider>: children);
+
+  console.log("Search Enabled?", IsSearchEnable());
   return (
-    <>
+    <SearchWrapper>
     <Head>
       <script src={`${publicUrl}/js/moosend.js`} async></script>
     </Head>
@@ -23,7 +28,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
           <Component {...rest} />
         </I18nProvider>
       </UserProvider>
-    </>
+    </SearchWrapper>
   );
 }
 

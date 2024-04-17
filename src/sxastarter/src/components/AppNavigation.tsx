@@ -4,6 +4,7 @@ import ALinkWithChildren from "./controls/atoms/ALinkWithChildren";
 import ASpan from "./controls/atoms/ASpan";
 import AMenu from "./controls/molecules/AMenu";
 import { ComponentConsumerProps, Image, LinkField, withSitecoreContext } from "@sitecore-jss/sitecore-jss-nextjs";
+import Search_SearchInput from "./Search_SearchInput";
 
 type AppNavigationProps = ComponentConsumerProps & {
   fields: {
@@ -20,7 +21,9 @@ const AppNavigation = (props: AppNavigationProps): JSX.Element => {
         <div className="z-30">
           <ALinkWithChildren url="/"><Image field={props.fields.AppLogo}></Image></ALinkWithChildren>
         </div>
-
+        <div>
+          <Search_SearchInput className="" showButton={true}></Search_SearchInput>
+        </div>
         <div className="hidden items-center space-x-10 uppercase text-grayishBlue md:flex">
           {props.fields.Links?.map((link: any, index: number) => (
             <ALink context={props.sitecoreContext} sitecoreLink={link} key={index} className="tracking-widest hover:text-softRed"></ALink>

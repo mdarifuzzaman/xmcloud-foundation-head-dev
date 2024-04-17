@@ -63,12 +63,14 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
   // See https://nextjs.org/docs/basic-features/data-fetching/incremental-static-regeneration
 
   let paths: StaticPath[] = [];
+  let newPaths: StaticPath[] = [];
   let fallback: boolean | 'blocking' = 'blocking';
 
   if (process.env.NODE_ENV !== 'development' && !process.env.DISABLE_SSG_FETCH) {
     try {
       // Note: Next.js runs export in production mode
       paths = await sitemapFetcher.fetch(context);
+      newPaths = paths.filter( e => !e.params.path.includes("/es-ES/_site_sitecore-dev-collection/Presentation/Page-Designs/Default"));
     } catch (error) {
       console.log('Error occurred while fetching static paths');
       console.log(error);
@@ -78,7 +80,7 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
   }
 
   return {
-    paths,
+    paths: newPaths,
     fallback,
   };
 };

@@ -61,7 +61,8 @@
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
     "@mdi/js": "^7.4.47",
-    "@mdi/react": "^1.6.1"
+    "@mdi/react": "^1.6.1",
+    "local-storage": "^2.0.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.21.8",

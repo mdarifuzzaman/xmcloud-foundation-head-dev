@@ -3,7 +3,6 @@ import AppNavigation from 'components/AppNavigation'
 import FeatureHeading from 'components/FeatureHeading'
 import Footer from 'components/Footer'
 import Hero from 'components/Hero'
-import Tabs from 'components/Tabs'
 import React from 'react'
 
 type HomePageProps = {
@@ -51,7 +50,7 @@ export default function HomePage(props: HomePageProps) {
         <AppNavigation fields={props.homePageFields}></AppNavigation>
         <Hero fields={props.heroFields.fields} rendering={props.heroFields.rendering} params={props.heroFields.params}></Hero>
         <FeatureHeading fields={props.featureHeadingFields.fields} params={props.featureHeadingFields.params}></FeatureHeading>
-        <Tabs fields={props.tabsFields.fields} params={props.tabsFields.params}></Tabs>
+        {/* <Tabs sitecoreContext={null} fields={props.tabsFields.fields} params={props.tabsFields.params}></Tabs> */}
         <Footer fields={props.footerFields.fields} rendering={props.footerFields.rendering}></Footer>
     </>
   )

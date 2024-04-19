@@ -8,7 +8,7 @@ type APanelProps = {
     desc?: string;    
     ctaTitle?: string;
     componentClass: string;
-    sitecoreContext: any
+    sitecoreContext?: any
 }
 
 export default function APanel(props: APanelProps) {

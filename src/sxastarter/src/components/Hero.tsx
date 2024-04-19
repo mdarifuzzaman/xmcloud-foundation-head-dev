@@ -12,6 +12,7 @@ import AParagraph from './controls/atoms/AParagraph';
 import AButton from './controls/atoms/AButton';
 import AButtonGroup from './controls/atoms/AButtonGroup';
 import { useState } from 'react';
+import { Consts } from 'src/Const';
 
 declare global {
   interface Window {
@@ -68,7 +69,7 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
           {props.sitecoreContext?.pageEditing? <Image field={props.fields?.BackImage}></Image> :
-            <img src={props.fields.BackImage.value?.src} alt="" className={props.params.BackgroundImageClass} />
+            <img src={ Consts.imagePart + new URL(props.fields.BackImage.value?.src + "").pathname } alt="" className={props.params.BackgroundImageClass} />
           }
         </div>
       </div>

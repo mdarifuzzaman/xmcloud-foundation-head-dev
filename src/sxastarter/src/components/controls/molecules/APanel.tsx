@@ -1,5 +1,6 @@
 import React from 'react'
 import AButton from '../atoms/AButton';
+import { Consts } from 'src/Const';
 
 type APanelProps = {
     panelImage?: string;
@@ -7,6 +8,7 @@ type APanelProps = {
     desc?: string;    
     ctaTitle?: string;
     componentClass: string;
+    sitecoreContext: any
 }
 
 export default function APanel(props: APanelProps) {
@@ -14,7 +16,9 @@ export default function APanel(props: APanelProps) {
     <div className={props.componentClass}>
             {/* <!-- Panel Image --> */}
             <div className="flex justify-center md:w-1/2">
-              <img src={props.panelImage} alt="" className="relative z-10" />
+              {props.sitecoreContext?.pageEditing? <img src={props.panelImage} alt="" className="relative z-10" /> :
+                <img src={Consts.imagePart + new URL(props.panelImage + "").pathname } alt="" className="relative z-10" />
+              }              
             </div>
             {/* <!-- Panel Content --> */}
             <div className="flex flex-col space-y-8 md:w-1/2">

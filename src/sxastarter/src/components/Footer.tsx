@@ -8,6 +8,7 @@ import {
 import ALink from './controls/atoms/ALink';
 import ALinkWithChildren from './controls/atoms/ALinkWithChildren';
 import AImage from './controls/atoms/AImage';
+import { Consts } from 'src/Const';
 
 type ContentBlockProps = ComponentConsumerProps & {
   rendering: ComponentRendering;
@@ -25,7 +26,7 @@ const Footer = (props: ContentBlockProps): JSX.Element => {
       <div className="container flex flex-col items-center justify-between mx-auto space-y-16 px-6 md:flex-row md:space-y-0">
 
         <div className="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue">          
-          <Image field={props.fields.FooterLogo}></Image>
+          {props.sitecoreContext.pageEditing ? <Image field={props.fields.FooterLogo}></Image> : <img src={ Consts.imagePart + new URL(props.fields.FooterLogo.value?.src + "").pathname }></img>}
           {props.fields?.Links?.map((link: any, index: number) => (
             <ALink key={index} context={props.sitecoreContext} sitecoreLink={link}></ALink>
           ))}

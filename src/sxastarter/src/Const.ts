@@ -13,5 +13,6 @@ export const Consts = {
         meProductUrl: "/v1/me/products",
         productUrl: "/v1/products",
         token: "/oauth/token",
-    }    
+    },    
+    imagePart: "/au/-/"
 }

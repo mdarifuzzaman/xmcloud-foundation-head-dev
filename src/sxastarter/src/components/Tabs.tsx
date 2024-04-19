@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import APanel from './controls/molecules/APanel';
 import TabHeader from './controls/molecules/TabHeader';
+import { ComponentConsumerProps } from '@sitecore-jss/sitecore-jss-nextjs';
 
-type TabsProp = {
+type TabsProp = ComponentConsumerProps & {
   fields: {
     HeaderComponents: any;
     PanelComponents: any;
@@ -30,7 +31,12 @@ function Tabs(props: TabsProp) {
         <div id="panels" className="container mx-auto">
           {/* <!-- Panel 1 --> */}
           {props.fields?.PanelComponents?.map((panel: any, index: number) => (
-            <APanel key={index} componentClass={panel.fields?.ComponentClass?.value} desc={panel.fields?.Desc?.value} title={panel.fields?.Title?.value} panelImage={panel.fields?.PanelImage?.value?.src} ctaTitle={panel.fields?.CtaTitle?.value}></APanel>          
+            <Fragment key={index}>
+              {               
+              <APanel sitecoreContext={props.sitecoreContext} key={index} componentClass={panel.fields?.ComponentClass?.value} desc={panel.fields?.Desc?.value} title={panel.fields?.Title?.value} panelImage={panel.fields?.PanelImage?.value?.src} ctaTitle={panel.fields?.CtaTitle?.value}></APanel> 
+              }
+            </Fragment>
+            
           ))}          
                     
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import AButton from '../atoms/AButton';
+import { Consts } from 'src/Const';
 
 type CtaBannerProps = {
     ctaCallBack?: () => void,
@@ -9,13 +10,17 @@ type CtaBannerProps = {
     subTitle?: string;
     ctaTitle?: string;
     ctaButtonClassName?: string;
+    sitecoreContext: any
 };
 export default function CtaBanner(props: CtaBannerProps) {
   return (
     <div className={props.componentClassName}>
       {/* <!-- Image --> */}
       <div className="flex justify-center">
-        <img src={props.imgSrc} alt="" />
+          {props.sitecoreContext?.pageEditing? <img src={props.imgSrc} alt="" /> :
+                <img src={Consts.imagePart + new URL(props.imgSrc + "").pathname } alt="" className="relative z-10" />
+          } 
+        
       </div>
       {/* <!-- Text --> */}
       <h5 className="pt-6 text-xl font-bold">{props.title}</h5>

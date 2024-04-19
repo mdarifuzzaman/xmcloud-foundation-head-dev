@@ -42,8 +42,8 @@ const nextConfig = {
       },
       // media items
       {
-        source: '/-/:path*',
-        destination: `${jssConfig.sitecoreApiHost}/-/:path*`,
+        source: '/au/-/:path*',
+        destination: `https://edge.sitecorecloud.io/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,
       },
       // healthz check
       {

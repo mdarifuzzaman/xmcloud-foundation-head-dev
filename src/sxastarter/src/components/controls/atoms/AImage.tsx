@@ -1,5 +1,6 @@
 import { Image, ImageField, SitecoreContextValue } from '@sitecore-jss/sitecore-jss-nextjs';
 import React from 'react'
+import { Consts } from 'src/Const';
 
 type AImageProps = {
     image?: ImageField;
@@ -10,7 +11,7 @@ type AImageProps = {
 export default function AImage(props: AImageProps) {
   return (    
     <>{
-        props.context?.pageEditing === false ? <img src={props.image?.value?.src} alt="" className={`${props.className}`} /> 
+        props.context?.pageEditing === false ? <img src={ Consts.imagePart + new URL(props.image?.value?.src + "").pathname } alt="" className={`${props.className}`} /> 
         : <Image field={props.image}></Image>
       }
       </> 

@@ -69,8 +69,8 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
           {
-            props.sitecoreContext?.pageEditing? <Image field={props.fields?.BackImage}></Image> :
-            <img src={ Consts.imagePart + new URL(props.fields.BackImage.value?.src + "").pathname } alt="" 
+            props.sitecoreContext?.pageEditing? <Image imageParams={{ mw: 100, mh: 50 }} field={props.fields?.BackImage}></Image> :
+            <img src={ Consts.imagePart + new URL(props.fields.BackImage.value?.src + "").pathname + new URL(props.fields.BackImage.value?.src + "").search } alt="" 
               className={props.params.BackgroundImageClass} />
           }
         </div>

@@ -19,7 +19,7 @@ const AppNavigation = (props: AppNavigationProps): JSX.Element => {
     <nav className="container relative mx-auto p-6">      
       <div className="flex items-center justify-between space-x-20 my-6">
         <div className="z-30">
-          <ALinkWithChildren url="/"> {props.sitecoreContext.pageEditing ? <Image field={props.fields.AppLogo}></Image> : <img src={ "/au/-/" + new URL(props.fields.AppLogo.value?.src + "").pathname }></img>} </ALinkWithChildren>
+          <ALinkWithChildren url="/"> {props.sitecoreContext.pageEditing ? <Image field={props.fields.AppLogo}></Image> : <img src={ props.fields.AppLogo?.value?.src + ""}></img>} </ALinkWithChildren>
         </div>
         <div>
           <Search_SearchInput className="" showButton={true}></Search_SearchInput>

@@ -70,7 +70,9 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
           <div className="bg-hero"></div>
           {
             props.sitecoreContext?.pageEditing? <Image imageParams={{ mw: 100, mh: 50 }} field={props.fields?.BackImage}></Image> :
-            <img src={ Consts.imagePart + new URL(props.fields.BackImage.value?.src + "").pathname + new URL(props.fields.BackImage.value?.src + "").search } alt="" 
+            <img src={ 
+              new URL("https://edge.sitecorecloud.io" + props.fields.BackImage.value?.src + "").pathname 
+              + new URL("https://edge.sitecorecloud.io" + props.fields.BackImage.value?.src + "").search + "&mh=100&mw=200" } alt="" 
               className={props.params.BackgroundImageClass} />
           }
         </div>

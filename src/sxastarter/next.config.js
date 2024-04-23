@@ -42,8 +42,8 @@ const nextConfig = {
       },
       // media items
       {
-        source: `/au/-/:path*`,
-        destination: `${process.env.SITECORE_EDGE_HOST}/:path*`,
+        source: `/-/:path*`,
+        destination: `${process.env.SITECORE_API_HOST}/-/:path*`,
       },
       // healthz check
       {

@@ -17,7 +17,7 @@ export default function APanel(props: APanelProps) {
             {/* <!-- Panel Image --> */}
             <div className="flex justify-center md:w-1/2">
               {props.sitecoreContext?.pageEditing? <img src={props.panelImage} alt="" className="relative z-10" /> :
-                <img src={Consts.imagePart + new URL(props.panelImage + "").pathname } alt="" className="relative z-10" />
+                <img src={props.panelImage + "" } alt="" className="relative z-10" />
               }              
             </div>
             {/* <!-- Panel Content --> */}

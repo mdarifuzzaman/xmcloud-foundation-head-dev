@@ -11,7 +11,7 @@ type AImageProps = {
 export default function AImage(props: AImageProps) {
   return (    
     <>{
-        props.context?.pageEditing === false ? <img src={ Consts.imagePart + new URL(props.image?.value?.src + "").pathname } alt="" className={`${props.className}`} /> 
+        props.context?.pageEditing === false ? <img src={ props.image?.value?.src + "" } alt="" className={`${props.className}`} /> 
         : <Image field={props.image}></Image>
       }
       </> 

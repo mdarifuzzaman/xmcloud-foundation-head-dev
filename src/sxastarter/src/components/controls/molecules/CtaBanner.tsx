@@ -18,7 +18,7 @@ export default function CtaBanner(props: CtaBannerProps) {
       {/* <!-- Image --> */}
       <div className="flex justify-center">
           {props.sitecoreContext?.pageEditing? <img src={props.imgSrc} alt="" /> :
-                <img src={Consts.imagePart + new URL(props.imgSrc + "").pathname } alt="" className="relative z-10" />
+                <img src={ props.imgSrc + "" } alt="" className="relative z-10" />
           } 
         
       </div>

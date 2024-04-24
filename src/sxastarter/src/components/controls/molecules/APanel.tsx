@@ -1,6 +1,6 @@
 import React from 'react'
 import AButton from '../atoms/AButton';
-import { Consts } from 'src/Const';
+import ImageComp from 'components/ImageComp';
 
 type APanelProps = {
     panelImage?: string;
@@ -16,9 +16,14 @@ export default function APanel(props: APanelProps) {
     <div className={props.componentClass}>
             {/* <!-- Panel Image --> */}
             <div className="flex justify-center md:w-1/2">
-              {props.sitecoreContext?.pageEditing? <img src={props.panelImage} alt="" className="relative z-10" /> :
+            <ImageComp imageData={{field: {
+            value: {src: props.panelImage + "" + ""},
+            editable: "true"
+          }, className: "relative z-10", src: props.panelImage + "" + ""}} sitecoreContext={props.sitecoreContext}></ImageComp>
+
+              {/* {props.sitecoreContext?.pageEditing? <img src={props.panelImage} alt="" className="relative z-10" /> :
                 <img src={Consts.imagePart + new URL(props.panelImage + "").pathname } alt="" className="relative z-10" />
-              }              
+              }               */}
             </div>
             {/* <!-- Panel Content --> */}
             <div className="flex flex-col space-y-8 md:w-1/2">

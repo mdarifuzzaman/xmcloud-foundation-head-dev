@@ -1,6 +1,6 @@
 import React from 'react';
 import AButton from '../atoms/AButton';
-import { Consts } from 'src/Const';
+import ImageComp from 'components/ImageComp';
 
 type CtaBannerProps = {
     ctaCallBack?: () => void,
@@ -17,10 +17,14 @@ export default function CtaBanner(props: CtaBannerProps) {
     <div className={props.componentClassName}>
       {/* <!-- Image --> */}
       <div className="flex justify-center">
-          {props.sitecoreContext?.pageEditing? <img src={props.imgSrc} alt="" /> :
+          {/* {props.sitecoreContext?.pageEditing? <img src={props.imgSrc} alt="" /> :
                 <img src={Consts.imagePart + new URL(props.imgSrc + "").pathname } alt="" className="relative z-10" />
-          } 
-        
+          }  */}
+
+        <ImageComp imageData={{field: {
+            value: {src: props.imgSrc + "" + ""},
+            editable: "true"
+          }, className: "relative z-10", src: props.imgSrc + ""}} sitecoreContext={props.sitecoreContext}></ImageComp>
       </div>
       {/* <!-- Text --> */}
       <h5 className="pt-6 text-xl font-bold">{props.title}</h5>

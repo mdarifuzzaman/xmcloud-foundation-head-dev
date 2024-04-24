@@ -3,8 +3,9 @@ import ALink from "./controls/atoms/ALink";
 import ALinkWithChildren from "./controls/atoms/ALinkWithChildren";
 import ASpan from "./controls/atoms/ASpan";
 import AMenu from "./controls/molecules/AMenu";
-import { ComponentConsumerProps, Image, LinkField, withSitecoreContext } from "@sitecore-jss/sitecore-jss-nextjs";
+import { ComponentConsumerProps, LinkField, withSitecoreContext } from "@sitecore-jss/sitecore-jss-nextjs";
 import Search_SearchInput from "./Search_SearchInput";
+import ImageComp from "./ImageComp";
 
 type AppNavigationProps = ComponentConsumerProps & {
   fields: {
@@ -19,7 +20,13 @@ const AppNavigation = (props: AppNavigationProps): JSX.Element => {
     <nav className="container relative mx-auto p-6">      
       <div className="flex items-center justify-between space-x-20 my-6">
         <div className="z-30">
-          <ALinkWithChildren url="/"> {props.sitecoreContext.pageEditing ? <Image field={props.fields.AppLogo}></Image> : <img src={ "/au/-/" + new URL(props.fields.AppLogo.value?.src + "").pathname }></img>} </ALinkWithChildren>
+          <ALinkWithChildren url="/"> 
+          <ImageComp imageData={{field: {
+            value: {src: props.fields.AppLogo.value?.src + ""},
+            editable: "true"
+          }, src: props.fields.AppLogo.value?.src + ""}} sitecoreContext={props.sitecoreContext}></ImageComp>
+          {/* {props.sitecoreContext.pageEditing ? <Image field={props.fields.AppLogo}></Image> : <img src={ "/au/-/" + new URL(props.fields.AppLogo.value?.src + "").pathname }></img>} </ALinkWithChildren> */}
+          </ALinkWithChildren>
         </div>
         <div>
           <Search_SearchInput className="" showButton={true}></Search_SearchInput>

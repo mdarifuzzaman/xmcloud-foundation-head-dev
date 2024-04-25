@@ -31,7 +31,57 @@ class MultisitePlugin implements MiddlewarePlugin {
     });
   }
 
+  private getLanguageFromPathname = (pathname: string, locales: string[]): string => {
+    const parts = pathname.split('/');
+    const localePart = parts[2]; // assuming pathname format is always /<countrycode>/<locale>/components/**
+    
+    if (locales.includes(localePart)) {
+        return localePart;
+    } else {
+        return 'en';
+    }
+  }
+
+  private getCountryPartFromPathname = (pathname: string): string => {
+    const parts = pathname.split('/');
+    const countryPart = parts[1]; // assuming pathname format is always /<countrycode>/<locale>/components/**
+    
+    if (!countryPart) {
+        return 'en';
+    } else {
+        return countryPart;
+    }
+  }
+
   async exec(req: NextRequest, res?: NextResponse): Promise<NextResponse> {
+    const cookieValue = req.cookies.get('sc_site');
+    const countryCode = this.getCountryPartFromPathname(req.nextUrl.pathname);
+    const locale = req.nextUrl.locale;
+    console.log("req.nextUrl ->",req.nextUrl )
+
+    console.log(`RouteName ==> ${JSON.stringify(req.nextUrl.pathname)}`);
+    console.log(`countryCode ==> ${JSON.stringify(countryCode)}`);
+    console.log(`localeLang before ==> ${JSON.stringify(locale)}`);
+    console.log(`sc_site before ==> ${JSON.stringify(cookieValue)}`);
+
+    switch (countryCode) {
+      case 'nz':
+        req.cookies.set('sc_site', 'sitecore-dev-collection-nz');
+        break;
+      case 'jp':
+        req.cookies.set('sc_site', 'sitecore-dev-collection-jp');
+        break;
+      default:
+        req.cookies.set('sc_site', 'sitecore-dev-collection');
+        break;
+    };
+
+    const locales = ['en', 'ja-JP'];
+    req.nextUrl.locale = this.getLanguageFromPathname(req.nextUrl.pathname, locales);
+
+    console.log(`localeLang after ==> ${JSON.stringify(locale)}`);
+    console.log(`sc_site after ==> ${JSON.stringify(req.cookies.get('sc_site'))}`);
+
     return this.multisiteMiddleware.getHandler()(req, res);
   }
 }

@@ -1,4 +1,3 @@
-require('win-ca');
 const jssConfig = require('./src/temp/config');
 const plugins = require('./src/temp/next-config-plugins') || {};
 
@@ -32,6 +31,24 @@ const nextConfig = {
   // Enable React Strict Mode
   reactStrictMode: true,
 
+  // use this configuration to ensure that only images from the whitelisted domains
+  // can be served from the Next.js Image Optimization API
+  // see https://nextjs.org/docs/app/api-reference/components/image#remotepatterns
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'edge*.**',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'feaas*.blob.core.windows.net',
+        port: '',
+      },
+    ]
+  },
+
   async rewrites() {
     // When in connected mode we want to proxy Sitecore paths off to Sitecore
     return [
@@ -42,7 +59,7 @@ const nextConfig = {
       },
       // media items
       {
-        source: `/au/-/:path*`,
+        source: `/-/:path*`,
         destination: `${process.env.SITECORE_EDGE_HOST}/:path*`,
       },
       // healthz check

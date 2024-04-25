@@ -17,16 +17,34 @@ class NormalModePlugin implements Plugin {
     this.layoutServices = new Map<string, LayoutService>();
   }
 
+  private removeLanguageFromPathname = (pathname: string, locales: string[]): string => {
+    const parts = pathname.split('/');
+    const localePart = parts[2]; // assuming pathname format is always /<countrycode>/<locale>/**
+    
+    if (locales.includes(localePart)) {
+        parts.splice(1,2);
+        return parts.join('/');
+    } else {
+        return pathname;
+    }
+  }
+
   async exec(props: SitecorePageProps, context: GetServerSidePropsContext | GetStaticPropsContext) {
     if (context.preview) return props;
 
     // Get normalized Sitecore item path
-    const path = pathExtractor.extract(context.params);
-
+    let path = pathExtractor.extract(context.params);
+    const locales = ['en', 'ja-JP'];
+    path = this.removeLanguageFromPathname(path, locales);
     // Use context locale if Next.js i18n is configured, otherwise use default site language
     props.locale = context.locale ?? props.site.language;
 
     // Fetch layout data, passing on req/res for SSR
+
+    console.log(`routepath ==> ${path}`);
+    console.log(`site name ==> ${props.site.name}`);
+    console.log(`propsLocale ==> ${props.locale}`);
+
     const layoutService = this.getLayoutService(props.site.name);
     props.layoutData = await layoutService.fetchLayoutData(
       path,
@@ -45,8 +63,14 @@ class NormalModePlugin implements Plugin {
     }
 
     // Fetch dictionary data
-    const dictionaryService = this.getDictionaryService(props.site.name);
-    props.dictionary = await dictionaryService.fetchDictionaryData(props.locale);
+    // Fetch dictionary data if layout data was present
+    if (!props.notFound) {
+      const dictionaryService = this.getDictionaryService(props.site.name);
+      props.dictionary = await dictionaryService.fetchDictionaryData(props.locale);
+    }
+
+    //const dictionaryService = this.getDictionaryService(props.site.name);
+    //props.dictionary = await dictionaryService.fetchDictionaryData(props.locale);
 
     // Initialize links to be inserted on the page
     props.headLinks = [];

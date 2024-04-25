@@ -18,6 +18,7 @@ class MultisitePlugin implements ConfigPlugin {
     try {
       const siteInfoService = new GraphQLSiteInfoService({
         clientFactory: createGraphQLClientFactory(config),
+        useSiteQuery: true,
       });
       sites = await siteInfoService.fetchSiteInfo();
     } catch (error) {

@@ -27,7 +27,7 @@ class MultisitePlugin implements MiddlewarePlugin {
       // Site resolver implementation
       siteResolver,
       // This function allows resolving site from sc_site cookie, which could be useful in case of Vercel preview URLs. Accepts NextRequest.
-      useCookieResolution: () => process.env.VERCEL_ENV === 'preview',
+      useCookieResolution: () => true,
     });
   }
 
@@ -43,7 +43,18 @@ class MultisitePlugin implements MiddlewarePlugin {
     }
   }
 
+  private checkForValidRequestType = (pathname: string): boolean => {
+    if(pathname.includes(".css") || pathname.includes(".js")) return false;
+    return true;
+  }
+
   async exec(req: NextRequest, res?: NextResponse): Promise<NextResponse> {
+
+    if(!this.checkForValidRequestType(req.nextUrl.pathname)) {
+      console.log("Escaping the middleware parsing because of the: ", req.nextUrl.pathname);
+      return this.multisiteMiddleware.getHandler()(req, res);
+    }
+
     const cookieValue = req.cookies.get('sc_site');
     const countryCode = req.nextUrl.pathname.substring(1,3);
     const locale = req.nextUrl.locale;

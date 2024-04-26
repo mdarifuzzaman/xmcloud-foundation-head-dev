@@ -1,6 +1,7 @@
 import {
   ComponentConsumerProps,
   ComponentRendering,
+  Image,
   ImageField,
   RichTextField,
   Text,
@@ -11,7 +12,6 @@ import AParagraph from './controls/atoms/AParagraph';
 import AButton from './controls/atoms/AButton';
 import AButtonGroup from './controls/atoms/AButtonGroup';
 import { useState } from 'react';
-import ImageComp from './ImageComp';
 
 declare global {
   interface Window {
@@ -67,10 +67,7 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
           {
-            // <ImageComp imageData={{field: {
-            //   value: {src: props.fields.BackImage.value?.src + ""}              
-            // }, imageParams:  { mw: 100, mh: 50 }, src: props.fields.BackImage.value?.src + "", className: props.params.BackgroundImageClass}} sitecoreContext={props.sitecoreContext}></ImageComp>
-            props.sitecoreContext?.pageEditing? <Image imageParams={{ mw: 100, mh: 50 }} field={props.fields?.BackImage}></Image> :
+           props.sitecoreContext?.pageEditing? <Image imageParams={{ mw: 100, mh: 50 }} field={props.fields?.BackImage}></Image> :
             <img src={ props.fields.BackImage.value?.src } alt="" 
               className={props.params.BackgroundImageClass} />
           }

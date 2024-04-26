@@ -59,13 +59,13 @@ const nextConfig = {
       },
       // media items
       {
-        source: `/au/-/:path*`,
-        destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,
+        source: `/-/:path*`,
+        destination: `${process.env.SITECORE_EDGE_HOST}/:path*`,
       },
-      {
-        source: `/jp/-/:path*`,
-        destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,
-      },
+      // {
+      //   source: `/jp/-/:path*`,
+      //   destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,
+      // },
       // healthz check
       {
         source: '/healthz',

@@ -12,7 +12,6 @@ type TabsProp = ComponentConsumerProps & {
 }
 
 function Tabs(props: TabsProp) {
-  console.log("Tabs", props);
   return (
     <section id="tabs">
       {/* <!-- Tabs/Panels Container --> */}

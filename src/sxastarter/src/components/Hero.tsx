@@ -34,7 +34,6 @@ type ContentBlockProps = ComponentConsumerProps &{
 const Hero = (props: ContentBlockProps): JSX.Element => {
   const [isAlreadyRegister, setIsAlreadyRegister] = useState(false);
   const [emailAddress, setEmailAddress] = useState("");
-  console.log("Hero", props);  
   const signup = () => {
     console.log(emailAddress);
     window.mootrack('identify', emailAddress);    

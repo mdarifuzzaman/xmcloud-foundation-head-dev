@@ -67,13 +67,12 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>
           {
-            <ImageComp imageData={{field: {
-              value: {src: props.fields.BackImage.value?.src + ""},
-              editable: "true"
-            }, imageParams:  { mw: 100, mh: 50 }, src: props.fields.BackImage.value?.src + "", className: props.params.BackgroundImageClass}} sitecoreContext={props.sitecoreContext}></ImageComp>
-            //props.sitecoreContext?.pageEditing? <Image imageParams={{ mw: 100, mh: 50 }} field={props.fields?.BackImage}></Image> :
-            // <img src={ Consts.imagePart + new URL(props.fields.BackImage.value?.src + "").pathname + new URL(props.fields.BackImage.value?.src + "").search } alt="" 
-            //   className={props.params.BackgroundImageClass} />
+            // <ImageComp imageData={{field: {
+            //   value: {src: props.fields.BackImage.value?.src + ""}              
+            // }, imageParams:  { mw: 100, mh: 50 }, src: props.fields.BackImage.value?.src + "", className: props.params.BackgroundImageClass}} sitecoreContext={props.sitecoreContext}></ImageComp>
+            props.sitecoreContext?.pageEditing? <Image imageParams={{ mw: 100, mh: 50 }} field={props.fields?.BackImage}></Image> :
+            <img src={ props.fields.BackImage.value?.src } alt="" 
+              className={props.params.BackgroundImageClass} />
           }
         </div>
       </div>

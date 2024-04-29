@@ -44,8 +44,8 @@ class MultisitePlugin implements MiddlewarePlugin {
   }
 
   private checkForValidRequestType = (pathname: string): boolean => {
-    if(pathname.includes(".css") || pathname.includes(".js")) return false;
-    return true;
+    if(pathname.includes(".css") || pathname.includes(".js") || pathname.includes("[object%20Object]")) return false;
+      return true;
   }
 
   async exec(req: NextRequest, res?: NextResponse): Promise<NextResponse> {

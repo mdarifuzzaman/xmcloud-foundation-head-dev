@@ -1,0 +1,70 @@
+﻿---
+ID: "9bde3959-4371-42f9-89a7-386ed0104173"
+Parent: "3d0a1cdb-3bec-49b8-b778-047e5f5e4ef8"
+Template: "f9d794c3-b089-482b-86b7-c38f06043fba"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Links/AppNavigation -  ja - en/FAQ"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T001756Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "tracking-widest hover:text-softRed"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ee5699a-1339-47dc-9350-81c3235ad18a"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="Faq" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{30A0D7CE-5D2F-443A-A92E-1284F4CC5D3D}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T064738Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240418T014119Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "tracking-widest hover:text-softRed"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5930c8b9-390c-4b1a-864a-ce5da1ffafd5"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="FAQ jP" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{30A0D7CE-5D2F-443A-A92E-1284F4CC5D3D}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T063039Z

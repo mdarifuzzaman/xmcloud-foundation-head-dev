@@ -28,18 +28,17 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e61023fa-8bc9-4b92-b375-54e95c11701a"
+      Value: "a75a4858-5340-48b2-8e1d-6709d30e7e50"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T073658Z
+      Value: 20240425T085204Z
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
-      Value: |
-        <link text="Learn More About Razl Licensing" anchor="" linktype="internal" class="button yellow" title="" target="" querystring="" id="{7F083560-6B10-46F4-8519-34B3185F1AEA}" />
+      Value: 
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

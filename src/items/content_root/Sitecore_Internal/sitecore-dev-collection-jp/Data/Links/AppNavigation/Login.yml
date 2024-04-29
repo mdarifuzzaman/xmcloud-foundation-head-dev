@@ -1,0 +1,38 @@
+﻿---
+ID: "d119fc68-e71d-4ad5-8f67-11fde2319862"
+Parent: "3071ac45-8dd4-41c6-b733-881c787d8d24"
+Template: "f9d794c3-b089-482b-86b7-c38f06043fba"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Links/AppNavigation/Login"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T002119Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7bb223b-b6ee-4299-90d5-a786484686d1"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="Login" linktype="external" url="" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T011145Z

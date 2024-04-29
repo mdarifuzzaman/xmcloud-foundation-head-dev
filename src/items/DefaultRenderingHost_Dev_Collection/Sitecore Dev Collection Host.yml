@@ -9,10 +9,10 @@ SharedFields:
   Value: "sitecore-dev-collection"
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmcloud-foundation-head-dev-ten.vercel.app/"
+  Value: "https://xmcloud-foundation-head-dev-search.vercel.app/"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmcloud-foundation-head-dev-ten.vercel.app/api/editing/render"
+  Value: "https://xmcloud-foundation-head-dev-search.vercel.app/api/editing/render"
 Languages:
 - Language: "de-DE"
   Versions:
@@ -52,14 +52,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0776979-f919-47b6-a45c-14850d6d2f8a"
+      Value: "971d288c-9583-4624-a86e-8eb7763a7cd3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230828T115242Z
+      Value: 20240418T004145Z
 - Language: "ja-JP"
   Versions:
   - Version: 1

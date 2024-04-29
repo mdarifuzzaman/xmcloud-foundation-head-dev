@@ -1,0 +1,42 @@
+﻿---
+ID: "639e0ba4-200f-4d5f-a524-ca2f68a1809d"
+Parent: "5455802c-b4a3-4490-8ac7-4324ebcaadd7"
+Template: "51f91c23-5c91-4d13-a16e-ec81a3b2751e"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Banner Container/Banner1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231112T002156Z
+    - ID: "4c9204ab-9053-4648-8aab-886b70c8c675"
+      Hint: CtaTitle
+      Value: Add Install Extension
+    - ID: "674e1323-ad5d-4d8a-8885-bdc1a2c70d46"
+      Hint: CtaButtonClass
+      Value: "block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+    - ID: "69201f2e-addd-4f3c-9cc9-e390949e6806"
+      Hint: Title
+      Value: Add to Chrome
+    - ID: "737721bf-d7a4-4980-bcf0-a6dd8008a53e"
+      Hint: ComponentClass
+      Value: "flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/3"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3c9aee0-2b20-4723-81d6-be8ebd991efa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231112T003435Z
+    - ID: "e110e9bc-1d77-41ce-a6dd-29f8f58c7c50"
+      Hint: SubTitle
+      Value: Minimum Version 62
+    - ID: "ff3874b9-224a-4581-9911-4ed6cfbafe73"
+      Hint: Image
+      Value: |
+        <image mediaid="{84061A34-3DE1-4BBB-9EF4-EE6E4C4E5252}" alt="dd" height="" width="" hspace="" vspace="" />

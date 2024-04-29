@@ -13,12 +13,12 @@ Languages:
       Value: 20231110T002027Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "087074c7-1b7d-4af8-8fcb-a700332dc1fc"
+      Value: "13618731-d017-4666-8e65-2516934e1242"
     - ID: "aa32f648-8f73-4b0f-b389-3c0b1897ab42"
       Hint: Links
       Value: |
+        {08A0214A-4418-4E28-AF1C-AB4165D1E295}
         {CE1C66CC-468B-4EE1-895D-0F5AC0BE159B}
-        {6D05D0C3-9045-4F0D-839A-699A5C199875}
         {03B9F338-CB3A-4DF8-90D9-36A39065EA5A}
         {2573E3FF-D2EA-4921-9618-A8FC315DCD70}
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
@@ -27,8 +27,44 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231110T002128Z
+      Value: 20240426T025207Z
     - ID: "e5433414-9a1f-4dd1-99bd-7a256656b8c5"
       Hint: AppLogo
       Value: |
         <image mediaid="{71F6FA60-FE9C-47D2-B370-3F178DBAB3CD}" alt="asdf" height="" width="" hspace="" vspace="" />
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240418T014012Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7eecf2f8-711f-46f1-8d08-18e9b410439b"
+    - ID: "aa32f648-8f73-4b0f-b389-3c0b1897ab42"
+      Hint: Links
+      Value: |
+        {08A0214A-4418-4E28-AF1C-AB4165D1E295}
+        {CE1C66CC-468B-4EE1-895D-0F5AC0BE159B}
+        {03B9F338-CB3A-4DF8-90D9-36A39065EA5A}
+        {2573E3FF-D2EA-4921-9618-A8FC315DCD70}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240426T025226Z
+    - ID: "e5433414-9a1f-4dd1-99bd-7a256656b8c5"
+      Hint: AppLogo
+      Value: |
+        <image mediaid="{A073D90E-BCF7-423F-989F-F0860242D0E4}" alt="ddd" height="" width="" hspace="" vspace="" />

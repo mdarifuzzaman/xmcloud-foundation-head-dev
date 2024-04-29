@@ -1,0 +1,41 @@
+﻿---
+ID: "25e8995e-451d-4428-8c3f-5ea97fa600ac"
+Parent: "57db5a66-cbd9-4668-967a-995a79cb47f8"
+Template: "beaba954-4d04-439c-aad4-e505a379557b"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Tab Panel Container/Panel3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231111T234732Z
+    - ID: "4e86bf46-ff56-4fb2-9142-e55ff0394987"
+      Hint: CtaTitle
+      Value: More Info3
+    - ID: "69094d9c-9c72-4c25-bd98-591242e65ef4"
+      Hint: ComponentClass
+      Value: "flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eea3d674-df67-4753-9ad4-8203a238e18b"
+    - ID: "a0f238f8-1bd5-46b2-bc85-eb5f70307f39"
+      Hint: PanelImage
+      Value: |
+        <image mediaid="{F5FE9E2C-EC2C-48A2-ADE0-9186448B72A0}" alt="sss" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d44b0b15-9309-440e-ad85-e297f4ecc5d1"
+      Hint: Title
+      Value: Share your bookmarks
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231112T000005Z
+    - ID: "e6858319-9c24-482a-a493-8108b5e3e972"
+      Hint: Desc
+      Value: |
+        Easily share your bookmarks and collections with others. Create
+        a shareable a link that you can send at the click of a button.

@@ -1,0 +1,32 @@
+﻿---
+ID: "b1789a69-58bb-4543-8ec3-6dfb4cca12c6"
+Parent: "319d5bd4-04ec-4e1a-bb0a-a986249a9565"
+Template: "baf24ddf-7492-4d78-974d-b13f11ac5942"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Feature Headings/Heading 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08121a26-4054-41f0-b138-7840100395de"
+      Hint: Desc
+      Value: |
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231111T231654Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0225b0e2-d4ff-4a9e-93d2-61e04db022ca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231111T231725Z
+    - ID: "f6a59f58-9c56-42a6-b847-e3537edf601a"
+      Hint: Title
+      Value: Features

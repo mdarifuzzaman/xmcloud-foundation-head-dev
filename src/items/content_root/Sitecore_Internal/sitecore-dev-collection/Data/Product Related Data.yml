@@ -1,0 +1,23 @@
+﻿---
+ID: "84f87ef7-d98f-4301-b64e-0b35bcf08e27"
+Parent: "467452b0-83af-44e5-8006-08e5f029d731"
+Template: "73569e97-0789-4410-8b2a-4d6005987af7"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Product Related Data"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240419T024915Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3d188d2-c92e-4d50-a584-62a3ea32cd4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240419T024915Z

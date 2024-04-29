@@ -1,0 +1,70 @@
+﻿---
+ID: "08a0214a-4418-4e28-af1c-ab4165d1e295"
+Parent: "ed5af057-bb2a-48de-ab5f-7a6e923661ef"
+Template: "f9d794c3-b089-482b-86b7-c38f06043fba"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Links/AppNavigation/Download Bookmark"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T001750Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "tracking-widest hover:text-softRed"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "348592b7-9074-441f-bece-b81a68cc0998"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="Download - au - en" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{311F0458-AD7B-41A5-BFE8-C86C2DDBF8FD}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240426T024152Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240418T014055Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "tracking-widest hover:text-softRed"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "317e1e7c-56a4-42fb-bb4a-a59029158a5e"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="Download au-jp" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{311F0458-AD7B-41A5-BFE8-C86C2DDBF8FD}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240426T024215Z

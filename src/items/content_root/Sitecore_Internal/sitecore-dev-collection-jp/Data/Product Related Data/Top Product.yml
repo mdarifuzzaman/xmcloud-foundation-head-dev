@@ -1,0 +1,46 @@
+﻿---
+ID: "269fcd81-a945-400d-b3e0-b9b415829d65"
+Parent: "d16b5c72-920e-45e8-8072-57b0a74b5826"
+Template: "ea0d4b4d-4072-4c99-8493-8b28d40f6842"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Product Related Data/Top Product"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240419T024923Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "6d623f45-67ad-49eb-b511-bee0353f9d09"
+      Hint: heading2
+      Value: Product List Heading 2
+    - ID: "7277fd04-93ad-4168-be3c-e153661296c5"
+      Hint: heading3
+      Value: Product List Heading 3
+    - ID: "7cf764f0-30d8-41b6-9d54-e61a05a89214"
+      Hint: productPerPage
+      Value: 5
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d79f8770-e3d4-445e-87b7-5569211e4140"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240419T024956Z
+    - ID: "e1681b5c-3ac0-4f9c-a2ba-69432845dd1f"
+      Hint: heading1
+      Value: Product List Heading 1
+    - ID: "e3846f0d-0291-4fc6-891c-a5f3cfef6843"
+      Hint: totalPage
+      Value: 10

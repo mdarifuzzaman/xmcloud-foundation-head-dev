@@ -1,0 +1,67 @@
+﻿---
+ID: "9d8d8519-45f1-4ee7-8de6-d6324cc5bf06"
+Parent: "3071ac45-8dd4-41c6-b733-881c787d8d24"
+Template: "f9d794c3-b089-482b-86b7-c38f06043fba"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Links/AppNavigation/Features"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T001742Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "658e99c5-48d9-4254-aa90-415c1edae930"
+      Hint: ClassName
+      Value: "tracking-widest hover:text-softRed"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94c60f79-49e4-4f45-b1a3-9ac2b213787b"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{A523289E-5C46-4655-A2EE-4FDAEBB938E4}" anchor="" target="" title="" linktype="internal" text="Feature" url="/Sitecore_Internal/sitecore-dev-collection/home-page/feature-page" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240412T011755Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240418T014152Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfcbcdd7-90a9-411c-a40f-28988a5aa236"
+    - ID: "a5fe7576-f13b-44ba-96b8-111b2dd25401"
+      Hint: Link
+      Value: |
+        <link text="Feature JP" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A523289E-5C46-4655-A2EE-4FDAEBB938E4}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240418T014211Z

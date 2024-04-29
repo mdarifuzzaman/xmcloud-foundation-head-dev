@@ -1,0 +1,42 @@
+﻿---
+ID: "9a1756a8-0dd6-42fb-ac2c-ceb6a7963ad1"
+Parent: "e35cf657-ab5d-452c-9dd7-0d8feda006e8"
+Template: "7495b7cc-e623-404a-bef3-203a9bbddeeb"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Features/Feature 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T144905Z
+    - ID: "2c713c5f-2ee2-4d8e-a834-bf10b53d2f0c"
+      Hint: featureImage
+      Value: |
+        <image mediaid="{C26B1D13-7AE9-4D17-B65C-CA1B40D4503C}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "558353e1-ecf3-4bd5-88c6-f45d9891e307"
+      Hint: summary
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Bridge the gap between the skill sets of front-end and back-end developers. Allow front-end devs to work with their preferred tools and eliminate the need to create individual Sitecore instances and upgrades for each developer. Click here to learn more</span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "437bd1e8-67dd-43d7-8a57-1bbbd9eda977"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "c8aab929-296b-4c02-8a62-de75838852b7"
+      Hint: heading
+      Value: Sitecore Feydra
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T145415Z

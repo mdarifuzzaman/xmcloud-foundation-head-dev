@@ -1,0 +1,70 @@
+﻿---
+ID: "ed71e5ed-a6be-499f-8927-af154b3cfeef"
+Parent: "27b63677-6d8a-482d-9fdb-edeaa48519d2"
+Template: "9b0ffa6e-f7c2-4f32-8a24-a55a61e9fa90"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/App Navigation/Root Nav/Navigation - jp - en"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T002027Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd1c300a-2950-459b-9154-a05f54f0db79"
+    - ID: "aa32f648-8f73-4b0f-b389-3c0b1897ab42"
+      Hint: Links
+      Value: |
+        {0B12E450-C20F-409E-9BA9-7BFE8494B4FA}
+        {9BDE3959-4371-42F9-89A7-386ED0104173}
+        {77EEE5E6-A6E8-4127-BF18-F9A399042A3B}
+        {F499620A-FA06-48B8-99C8-B2F3333B5E95}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T064956Z
+    - ID: "e5433414-9a1f-4dd1-99bd-7a256656b8c5"
+      Hint: AppLogo
+      Value: |
+        <image mediaid="{71F6FA60-FE9C-47D2-B370-3F178DBAB3CD}" alt="asdf" height="" width="" hspace="" vspace="" />
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240418T014012Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73f234a1-5cbf-4a59-b96f-0add5f5fdbfc"
+    - ID: "aa32f648-8f73-4b0f-b389-3c0b1897ab42"
+      Hint: Links
+      Value: |
+        {0B12E450-C20F-409E-9BA9-7BFE8494B4FA}
+        {9BDE3959-4371-42F9-89A7-386ED0104173}
+        {77EEE5E6-A6E8-4127-BF18-F9A399042A3B}
+        {F499620A-FA06-48B8-99C8-B2F3333B5E95}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T065053Z
+    - ID: "e5433414-9a1f-4dd1-99bd-7a256656b8c5"
+      Hint: AppLogo
+      Value: |
+        <image mediaid="{A073D90E-BCF7-423F-989F-F0860242D0E4}" alt="ddd" height="" width="" hspace="" vspace="" />

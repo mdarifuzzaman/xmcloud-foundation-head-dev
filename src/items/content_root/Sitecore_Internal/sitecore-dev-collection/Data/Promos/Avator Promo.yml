@@ -31,18 +31,18 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e3c9287a-aae5-401f-b4b4-033efd8ebbe0"
+      Value: "6db53ab4-b2c6-418c-896a-33f38fd101c6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T065930Z
+      Value: 20240412T002455Z
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
       Value: |
-        <link linktype="internal" text="Discover Avtor" class="button yellow" querystring="" target="" id="{059762BB-9C8D-451B-A4E4-5D78EBF94589}" />
+        <link class="button yellow" querystring="" id="{059762BB-9C8D-451B-A4E4-5D78EBF94589}" target="" linktype="internal" text="Discover Avtor" url="/Sitecore_Internal/sitecore-dev-collection/home-page" />
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

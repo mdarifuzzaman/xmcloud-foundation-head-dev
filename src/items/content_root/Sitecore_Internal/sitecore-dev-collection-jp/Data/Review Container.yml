@@ -1,0 +1,23 @@
+﻿---
+ID: "077dabd8-cd8e-4cf9-9c1c-45027e5dcb3d"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "424d98d7-686e-49bb-b348-bd24c2c29b1c"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Review Container"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230828T073918Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b26894bf-06d5-48b6-8759-bf53a152bba0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230828T073918Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "dd781173-dbc6-40df-9e28-65a17c1c8f29"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "c5912679-3042-48e1-98f9-e4823811e720"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Accordions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231114T062245Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2c973b1-61aa-49aa-b5f2-12a8159c60b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240424T072935Z

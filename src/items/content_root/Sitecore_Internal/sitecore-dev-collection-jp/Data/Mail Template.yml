@@ -1,0 +1,54 @@
+﻿---
+ID: "8f771927-d06a-48b5-9490-c9450220df8a"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Mail Template"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240403T043439Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: Mail Template
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de4746a6-e1c0-488a-80b0-e12b95b8c5fc"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        <div>
+        <h1>This is a mail test</h1>
+        <p>
+        We will get back to you once there are more information on this
+        </p>
+        <p>
+        <span style="text-decoration: underline;">Sitecore</span></p>
+        <img height="50" alt="ddd" src="https://xmcloud-foundation-head-dev-ten.vercel.app/-/media/Project/Sitecore_Internal/sitecore-dev-collection/logo-chrome.svg?iar=0&amp;hash=2A02734D9BD37F466C329F1F84F83609" />&nbsp;</div>
+        <h3>Thank you </h3>
+        <a href="/">Click here</a> to subscribe
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240424T072946Z

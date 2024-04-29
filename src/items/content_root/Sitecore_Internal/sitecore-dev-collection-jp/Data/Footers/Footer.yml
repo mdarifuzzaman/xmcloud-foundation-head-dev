@@ -1,0 +1,75 @@
+﻿---
+ID: "3f12af42-5938-43c9-8f53-a69f45b80fb8"
+Parent: "7617015e-b9a0-445e-b696-be393709137c"
+Template: "ff3f8e57-24f9-46bf-93ab-4db0b47d1ffb"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Footers/Footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T083056Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68be7a94-9e0d-4dd1-ae8f-fdd76e16beb5"
+    - ID: "908ffbda-d462-44f2-9582-7e8f7b2dc0fa"
+      Hint: privacy
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "cc50a885-36dd-4f6d-893f-d7aa08ea9a22"
+      Hint: reservedText
+      Value: All Rights Reserved
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T085204Z
+    - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
+      Hint: copyrightText
+      Value: Copyright 2023, Sitecore. All Rights Reserved
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240418T013558Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f54ce0c2-6b0a-402f-bbb6-dea54b4fa089"
+    - ID: "908ffbda-d462-44f2-9582-7e8f7b2dc0fa"
+      Hint: privacy
+      Value: |
+        <link text="Privacy" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0A0A0534-CA3F-4363-BCED-4AEC4AF77BDD}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "cc50a885-36dd-4f6d-893f-d7aa08ea9a22"
+      Hint: reservedText
+      Value: jp reversed text
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240418T013642Z
+    - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
+      Hint: copyrightText
+      Value: @ sitecore japan

@@ -31,18 +31,17 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2c5cd03b-2919-431b-8900-0d4f5cd14362"
+      Value: "58d84eba-db11-4453-86bc-2c5ae5f75484"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T055422Z
+      Value: 20240425T053615Z
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
-      Value: |
-        <link linktype="internal" text="Download Essential Tools for Sitecore Now" class="button yellow" querystring="" target="" id="{311F0458-AD7B-41A5-BFE8-C86C2DDBF8FD}" />
+      Value: 
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

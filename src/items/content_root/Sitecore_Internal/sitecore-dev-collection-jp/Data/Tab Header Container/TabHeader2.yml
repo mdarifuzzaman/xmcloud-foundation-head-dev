@@ -1,0 +1,35 @@
+﻿---
+ID: "90497a09-6bec-425e-a0c5-cc29b5826946"
+Parent: "5a4af556-743e-406b-9af3-010dc448e4ef"
+Template: "fe164e68-9990-4a69-b20c-28b66f6e7109"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Tab Header Container/TabHeader2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231111T234540Z
+    - ID: "4cf90304-91f2-43f0-a38d-47768b96dcfa"
+      Hint: ComponentClass
+      Value: "flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+    - ID: "59372a54-f0e2-4015-9984-00032ae46382"
+      Hint: DataTarget
+      Value: "panel-2"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "408ef267-1fbc-4fed-92d6-560ea8998d9d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231111T234657Z
+    - ID: "e56c86cf-bc46-40ac-afd9-f2a05ba1c37e"
+      Hint: Title
+      Value: Speedy Searching
+    - ID: "fd7174f2-3c90-4f7c-ab06-d12f2260b674"
+      Hint: ComponentSubClass
+      Value: "py-5"

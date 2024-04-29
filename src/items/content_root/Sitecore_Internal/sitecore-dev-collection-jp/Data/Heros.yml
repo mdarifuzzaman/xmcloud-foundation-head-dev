@@ -1,0 +1,23 @@
+﻿---
+ID: "4fab2e9f-e925-4917-9230-78a363237a5e"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "80216134-ae95-46f4-ab43-783da3012ab6"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Heros"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T073914Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "742dd7a3-9c0a-4efa-bfeb-75a241c92810"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T073914Z

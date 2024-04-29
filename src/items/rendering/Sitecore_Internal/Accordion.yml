@@ -7,18 +7,12 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: Accordion
-- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
-  Hint: Datasource Template
-  Value: /sitecore/templates/Project/Sitecore_Internal/DataSource/Accordion
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 
+  Value: 1
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{B346229F-48C3-465A-9464-18B1524EE37E}"
-- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
-  Hint: Datasource Location
-  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Accordions"
+  Value: "{43E75792-AA2F-52AE-805B-23EAD3FBCFF1}"
 Languages:
 - Language: en
   Versions:
@@ -37,11 +31,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "15123d3c-7337-4f69-8e90-28022821e9c5"
+      Value: "4900dca9-17d4-4ee0-b0f0-9e0f58ed06ba"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\arif.uzzaman@sitecore.com
+        sitecore\JssImport
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231114T062621Z
+      Value: 20231107T085115Z

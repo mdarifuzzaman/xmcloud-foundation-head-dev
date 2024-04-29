@@ -38,6 +38,9 @@ SharedFields:
 - ID: "9016141c-ff51-40f2-9135-40f5161b9784"
   Hint: ServerSideRenderingEngine
   Value: http
+- ID: "96e5e297-6fd1-46d6-8e92-b03e33a9376c"
+  Hint: Error404Page
+  Value: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/home-page/page-not-found"
 - ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
   Hint: DictionaryPath
   Value: "{0195B1D0-DFCA-4322-83B7-0F86960611B6}"
@@ -80,11 +83,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c281e5c6-4b86-49dd-87b2-a875e03e1a4d"
+      Value: "3ec31d2f-9ef0-4c79-8e5c-7bae69b9aab1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231023T025523Z
+      Value: 20240412T021713Z

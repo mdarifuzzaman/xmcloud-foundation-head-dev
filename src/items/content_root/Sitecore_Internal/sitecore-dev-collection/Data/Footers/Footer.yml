@@ -21,11 +21,10 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7961c726-0533-4be1-a5af-f7c7dc5411e0"
+      Value: "57f5e8d7-678b-407e-9061-099f52cd9f5f"
     - ID: "908ffbda-d462-44f2-9582-7e8f7b2dc0fa"
       Hint: privacy
-      Value: |
-        <link text="Privacy Policy" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{7F083560-6B10-46F4-8519-34B3185F1AEA}" />
+      Value: 
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -35,20 +34,17 @@ Languages:
       Value: All Rights Reserved
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T083131Z
+      Value: 20240425T085204Z
     - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
       Hint: copyrightText
       Value: Copyright 2023, Sitecore. All Rights Reserved
-- Language: "es-ES"
+- Language: "ja-JP"
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231023T021822Z
+      Value: 20240418T013558Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -59,21 +55,21 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9167fbf7-39af-4fbf-83e6-293451d3941d"
+      Value: "f54ce0c2-6b0a-402f-bbb6-dea54b4fa089"
     - ID: "908ffbda-d462-44f2-9582-7e8f7b2dc0fa"
       Hint: privacy
       Value: |
-        <link linktype="internal" querystring="" target="" id="{059762BB-9C8D-451B-A4E4-5D78EBF94589}" />
+        <link text="Privacy" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{0A0A0534-CA3F-4363-BCED-4AEC4AF77BDD}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "cc50a885-36dd-4f6d-893f-d7aa08ea9a22"
       Hint: reservedText
-      Value: All right reserved&nbsp;
+      Value: jp reversed text
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231023T021822Z
+      Value: 20240418T013642Z
     - ID: "dc2848d7-833e-4199-8198-fe0353e28c5b"
       Hint: copyrightText
-      Value: Sitecore
+      Value: @ sitecore japan

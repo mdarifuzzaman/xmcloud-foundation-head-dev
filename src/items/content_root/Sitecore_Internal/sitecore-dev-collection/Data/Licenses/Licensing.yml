@@ -24,14 +24,14 @@ Languages:
     - ID: "16bb6a86-c650-4aef-afdf-69dbfd10117b"
       Hint: promo3Link
       Value: |
-        <link linktype="internal" text="Learn more about  feydra" class="button grey" querystring="" target="" id="{036B4345-675C-4D06-856B-09B717E1BEAC}" />
+        <link class="button grey" id="{036B4345-675C-4D06-856B-09B717E1BEAC}" querystring="" target="" linktype="internal" text="Learn more about  feydra" url="/Sitecore_Internal/sitecore-dev-collection/home-page/buy-now" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230827T075601Z
     - ID: "51adc2da-253b-4526-a0d2-e17a6a721544"
       Hint: promo1Link
       Value: |
-        <link text="Learn more on licensing TDS" anchor="" linktype="internal" class="button grey" title="" target="" querystring="" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" />
+        <link class="button grey" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Learn more on licensing TDS" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -42,7 +42,7 @@ Languages:
     - ID: "5973bca5-4896-4754-8fe2-4577e6935b78"
       Hint: promo2Link
       Value: |
-        <link text="Compare and merge database" anchor="" linktype="internal" class="button grey" title="" target="" querystring="" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" />
+        <link class="button grey" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Compare and merge database" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
     - ID: "59bf0674-7847-4c2c-ab39-05b02ffcf54c"
       Hint: promo1Heading
       Value: Sitecore TDS
@@ -52,7 +52,7 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "54a190a4-102e-4c97-9d15-6c2aa5cc2670"
+      Value: "9dbd620e-99e5-4d04-9bdf-12f24ab5a55e"
     - ID: "8f80f598-e64a-4f23-a7dd-c0577e9b0920"
       Hint: promo2Summary
       Value: Compare and merge databases
@@ -70,7 +70,7 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T080959Z
+      Value: 20240412T003445Z
     - ID: "e23736a3-877b-4169-a987-e4826ff7fb58"
       Hint: heading
       Value: Licensing

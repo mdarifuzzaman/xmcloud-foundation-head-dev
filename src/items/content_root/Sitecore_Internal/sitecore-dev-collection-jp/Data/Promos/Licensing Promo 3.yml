@@ -1,0 +1,43 @@
+﻿---
+ID: "e7c215f9-6f5b-4b78-be21-270bcea62064"
+Parent: "12c548c4-2581-4b99-b66f-db0bddf03bfc"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Promos/Licensing Promo 3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230827T071748Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">Reduce deployment time and ensure team integration</span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b63675d6-2385-4b96-92da-6d85236321bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240412T003445Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link class="button yellow" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Learn More on Licensing and ensure team integration" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{A933496B-457A-467E-B2A3-B430D959596A}" />

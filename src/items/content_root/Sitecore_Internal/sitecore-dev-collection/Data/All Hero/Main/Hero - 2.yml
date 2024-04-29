@@ -1,0 +1,38 @@
+﻿---
+ID: "a3fab65a-ffc0-49e8-a459-935b1ecc72c9"
+Parent: "69cefe90-66d3-429d-8d6f-ae3ca31d56f2"
+Template: "34516884-4b05-48bd-9d2a-40299d93cfd7"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/All Hero/Main/Hero - 2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231128T231158Z
+    - ID: "37875a3a-8975-42af-a5bc-8a3e7cf991c7"
+      Hint: Title
+      Value: Campaign page
+    - ID: "5096da39-1098-4f17-b4fa-9f220ad1bf46"
+      Hint: BackImage
+      Value: |
+        <image mediaid="{76EB033E-780D-45F5-BF48-E447204B88FA}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb9336e8-4bc0-4c6f-8f72-56f63433d462"
+    - ID: "8d0ba832-9f32-4faa-ae1a-f86dd53db113"
+      Hint: Desc
+      Value: |
+        asdfasdf
+        asdfadsfadsfasdfasdf
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231128T231332Z

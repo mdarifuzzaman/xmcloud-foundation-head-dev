@@ -1,0 +1,144 @@
+﻿---
+ID: "55a2eaee-0285-477b-9a5a-36a025eb071d"
+Parent: "4fab2e9f-e925-4917-9230-78a363237a5e"
+Template: "704b6920-1767-4cf8-b6ae-a6e0d5153ccd"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Heros/Home Hero"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04f998ed-db03-4c3d-a1de-6a0104390616"
+      Hint: heading
+      Value: "Life as a Sitecore Developer Just Got Better!"
+    - ID: "16c13870-7f4c-498d-8bab-2b5d25645f9e"
+      Hint: subHeading
+      Value: Sitecore for Visual Stuio is a game changer for Sitecore 10.0
+    - ID: "1a1f4c82-d769-498f-9e4c-44b63b1667f9"
+      Hint: primaryLink
+      Value: |
+        <link class="button red" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Free Trail" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T074019Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "6288ca78-9c3c-4b8e-bae3-850562178912"
+      Hint: secondaryLink
+      Value: 
+    - ID: "705f36f8-2f79-4b07-a248-453965bf5445"
+      Hint: imageContent
+      Value: |
+        <image mediaid="{2FE9B4A0-1CC3-442D-8368-1CD93C8A111F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "66ace75c-7c19-47ca-98cb-49485b895abe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T053616Z
+  - Version: 2
+    Fields:
+    - ID: "04f998ed-db03-4c3d-a1de-6a0104390616"
+      Hint: heading
+      Value: "Life as a Sitecore Developer Just Got Better! V2"
+    - ID: "16c13870-7f4c-498d-8bab-2b5d25645f9e"
+      Hint: subHeading
+      Value: Sitecore for Visual Stuio is a game changer for Sitecore 10.0 V2
+    - ID: "1a1f4c82-d769-498f-9e4c-44b63b1667f9"
+      Hint: primaryLink
+      Value: |
+        <link class="button red" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Free Trail" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240229T043532Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "6288ca78-9c3c-4b8e-bae3-850562178912"
+      Hint: secondaryLink
+      Value: 
+    - ID: "705f36f8-2f79-4b07-a248-453965bf5445"
+      Hint: imageContent
+      Value: |
+        <image mediaid="{2FE9B4A0-1CC3-442D-8368-1CD93C8A111F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4537d5f8-5bd6-4227-99d7-0112618e2f1f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240229T043532Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T053616Z
+  - Version: 3
+    Fields:
+    - ID: "04f998ed-db03-4c3d-a1de-6a0104390616"
+      Hint: heading
+      Value: "Life as a Sitecore Developer Just Got Better! V3"
+    - ID: "16c13870-7f4c-498d-8bab-2b5d25645f9e"
+      Hint: subHeading
+      Value: Sitecore for Visual Stuio is a game changer for Sitecore 10.0 V3
+    - ID: "1a1f4c82-d769-498f-9e4c-44b63b1667f9"
+      Hint: primaryLink
+      Value: |
+        <link class="button red" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Free Trail" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240229T043545Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "6288ca78-9c3c-4b8e-bae3-850562178912"
+      Hint: secondaryLink
+      Value: 
+    - ID: "705f36f8-2f79-4b07-a248-453965bf5445"
+      Hint: imageContent
+      Value: |
+        <image mediaid="{2FE9B4A0-1CC3-442D-8368-1CD93C8A111F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fadfa8a0-28f3-4b58-a674-4d9e0279747d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240329T043500Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240425T053616Z

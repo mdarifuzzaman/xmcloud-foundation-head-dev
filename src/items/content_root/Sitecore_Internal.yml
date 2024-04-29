@@ -31,6 +31,10 @@ SharedFields:
 - ID: "9c596379-f8d4-45d1-a064-cdf1ede2e7c7"
   Hint: Templates
   Value: "{98FF443C-9BDE-4B2C-86D5-197243B17134}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Site Managing|pd|+item:delete|+item:write|+item:rename|+item:create|pe|+item:delete|+item:write|+item:rename|+item:create|au|sitecore\arif_uap|pd|+item:delete|+item:write|+item:read|^*|+item:rename|+item:create|pe|+item:delete|+item:write|+item:read|^*|+item:rename|+item:create|
 - ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
   Hint: MediaLibrary
   Value: "{049E72A8-9122-4A37-89C9-57F852C0B0A8}"
@@ -55,11 +59,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0b259e49-b2df-46b8-a349-4c2ca8c148e0"
+      Value: "3fcad747-8501-4bf0-841a-f7f249098a47"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T024252Z
+      Value: 20240315T020332Z

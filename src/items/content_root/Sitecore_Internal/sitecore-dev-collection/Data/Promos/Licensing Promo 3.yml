@@ -28,18 +28,18 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c31080e9-1ca3-47c4-9f19-56edf3ff0949"
+      Value: "b63675d6-2385-4b96-92da-6d85236321bc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T073736Z
+      Value: 20240412T003445Z
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
       Value: |
-        <link text="Learn More on Licensing and ensure team integration" anchor="" linktype="internal" class="button yellow" title="" target="" querystring="" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" />
+        <link class="button yellow" id="{4CEB41D6-00C7-4734-9F96-A6F6F72FB067}" querystring="" anchor="" target="" title="" linktype="internal" text="Learn More on Licensing and ensure team integration" url="/Sitecore_Internal/sitecore-dev-collection/home-page/free-trial" />
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

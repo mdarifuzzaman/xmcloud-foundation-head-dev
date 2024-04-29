@@ -1,0 +1,23 @@
+﻿---
+ID: "dcda818d-db2b-4655-ad8e-0bdc8cc552e6"
+Parent: "60f9ed20-d47d-41e8-8b2b-94b680d40b24"
+Template: "f1acefed-736a-448f-8106-21ccf8969011"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Buttons/Hero Buttons"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T021120Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50dd40de-f846-4feb-84f6-34530a1fee6b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T021120Z

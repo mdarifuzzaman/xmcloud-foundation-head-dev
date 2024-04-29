@@ -1,0 +1,46 @@
+﻿---
+ID: "19420580-297d-419c-af8b-81ade6e20a10"
+Parent: "12c548c4-2581-4b99-b66f-db0bddf03bfc"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Promos/Avator Promo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: |
+        <span style="color: #202124; background-color: #ffffff;">The newest member of the Team Development for Sitecore Essential Suite of Products.&nbsp; Designed to improve productivity and enhance usability for Sitecore content editors, strategists, and SEO analysts.&nbsp;</span>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230827T065749Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: <h3>Avtor</h3>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6db53ab4-b2c6-418c-896a-33f38fd101c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240412T002455Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link class="button yellow" querystring="" id="{059762BB-9C8D-451B-A4E4-5D78EBF94589}" target="" linktype="internal" text="Discover Avtor" url="/Sitecore_Internal/sitecore-dev-collection/home-page" />
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{4CB43CF9-B075-479B-A608-530C251F925E}" />

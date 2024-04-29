@@ -1,0 +1,23 @@
+﻿---
+ID: "21b29a45-d605-468f-bc44-3d390c664176"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "89d78f8a-8bf5-40e9-a5a2-80b90ffd42b7"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/All Hero"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T021037Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77df278e-ba26-4374-8795-ffc1ab96eaf0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231110T021037Z

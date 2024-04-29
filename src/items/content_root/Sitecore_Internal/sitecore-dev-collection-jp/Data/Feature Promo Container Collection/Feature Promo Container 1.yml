@@ -1,0 +1,34 @@
+﻿---
+ID: "658e3cfd-543d-4881-98c8-aedad0b8a9eb"
+Parent: "c446e49f-cbf5-4d53-ad3b-b9947e4c7ffa"
+Template: "88e92738-2eee-45df-ab9f-9da6244696c3"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Feature Promo Container Collection/Feature Promo Container 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230827T081935Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26705728-2df7-4987-825f-0273fb2a9ec0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d13e7e3f-df63-4216-823a-d05f0e443c11"
+      Hint: mainHeading
+      Value: Our Features
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230827T082316Z

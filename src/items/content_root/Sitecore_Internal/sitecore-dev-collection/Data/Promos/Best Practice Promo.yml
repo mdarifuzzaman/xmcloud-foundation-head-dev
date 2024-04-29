@@ -31,18 +31,17 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cfca6c06-305f-4153-91de-c759b61941ad"
+      Value: "89ccd2a5-49b4-4910-ab1d-23d8adf8dbb7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230827T060648Z
+      Value: 20240425T053615Z
     - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
       Hint: PromoLink
-      Value: |
-        <link linktype="internal" text="Standard Sitecore Best Practice" class="button yellow" querystring="" target="" id="{311F0458-AD7B-41A5-BFE8-C86C2DDBF8FD}" />
+      Value: 
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

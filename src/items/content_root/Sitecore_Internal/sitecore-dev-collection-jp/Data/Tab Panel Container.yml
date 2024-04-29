@@ -1,0 +1,23 @@
+﻿---
+ID: "57db5a66-cbd9-4668-967a-995a79cb47f8"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "0c034c9f-991a-4c63-b314-898ca89bfba5"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Tab Panel Container"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231111T233805Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c1dac56-5259-4138-bd22-03d5d7748a82"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231111T233805Z

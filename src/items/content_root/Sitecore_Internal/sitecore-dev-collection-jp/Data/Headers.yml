@@ -1,0 +1,23 @@
+﻿---
+ID: "0480313f-e644-467d-b1cf-d3c9c4b23294"
+Parent: "e358e41c-064f-47af-8926-99d00c0e120d"
+Template: "9321c14d-d65d-4556-8389-6d7f81bab603"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/Headers"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230826T052938Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd88033f-11d2-42d5-aebc-1a94c05f72ca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230826T052938Z

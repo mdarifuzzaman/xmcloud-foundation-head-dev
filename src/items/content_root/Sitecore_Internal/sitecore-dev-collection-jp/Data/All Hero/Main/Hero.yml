@@ -1,0 +1,123 @@
+﻿---
+ID: "124fcc89-eccc-4e4d-b32e-e80904e172c5"
+Parent: "2129ef64-2928-4e36-9c66-301139989dfb"
+Template: "34516884-4b05-48bd-9d2a-40299d93cfd7"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection-jp/Data/All Hero/Main/Hero"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231110T021056Z
+    - ID: "37875a3a-8975-42af-a5bc-8a3e7cf991c7"
+      Hint: Title
+      Value: " A Simple Bookmark Manager - 3"
+    - ID: "5096da39-1098-4f17-b4fa-9f220ad1bf46"
+      Hint: BackImage
+      Value: |
+        <image height="" mediaid="{C5BAB4F8-208F-4D6A-A4B4-BC6FFB27DDCA}" vspace="" hspace="" alt="hero" width="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f15ab916-5fe9-43ef-8630-db6976004d65"
+    - ID: "8d0ba832-9f32-4faa-ae1a-f86dd53db113"
+      Hint: Desc
+      Value: |
+        A clean and simple interface to organize your favourite websites.
+        Open a new browser tab and see your sites load instantly. Try it for
+        free.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231211T031240Z
+    - ID: "e04cbc6c-7b2f-433e-98a7-9c0ab3069323"
+      Hint: Buttons
+      Value: |
+        {79557BD8-1FD3-41B7-9D1F-50BD90EFC32F}
+        {D85D3464-7E67-4131-B397-3D2561D2C38B}
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240229T044505Z
+    - ID: "37875a3a-8975-42af-a5bc-8a3e7cf991c7"
+      Hint: Title
+      Value: " A Simple Bookmark Manager - 3 V2"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "5096da39-1098-4f17-b4fa-9f220ad1bf46"
+      Hint: BackImage
+      Value: |
+        <image height="" mediaid="{C5BAB4F8-208F-4D6A-A4B4-BC6FFB27DDCA}" vspace="" hspace="" alt="hero" width="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ceac841-9ea2-4176-8153-dbc84a2b630e"
+    - ID: "8d0ba832-9f32-4faa-ae1a-f86dd53db113"
+      Hint: Desc
+      Value: |
+        A clean and simple interface to organize your favourite websites.
+        Open a new browser tab and see your sites load instantly. Try it for
+        free.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240229T044505Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240229T044511Z
+    - ID: "e04cbc6c-7b2f-433e-98a7-9c0ab3069323"
+      Hint: Buttons
+      Value: |
+        {79557BD8-1FD3-41B7-9D1F-50BD90EFC32F}
+        {D85D3464-7E67-4131-B397-3D2561D2C38B}
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240229T044513Z
+    - ID: "37875a3a-8975-42af-a5bc-8a3e7cf991c7"
+      Hint: Title
+      Value: " A Simple Bookmark Manager - 3 V4"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "5096da39-1098-4f17-b4fa-9f220ad1bf46"
+      Hint: BackImage
+      Value: |
+        <image height="200" mediaid="{C5BAB4F8-208F-4D6A-A4B4-BC6FFB27DDCA}" vspace="" hspace="" alt="hero" width="100" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a34d2750-0479-4b10-a9a0-1c2a6ee2b788"
+    - ID: "8d0ba832-9f32-4faa-ae1a-f86dd53db113"
+      Hint: Desc
+      Value: |
+        A clean and simple interface to organize your favourite websites.
+        Open a new browser tab and see your sites load instantly. Try it for
+        free.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240329T044500Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240424T072946Z
+    - ID: "e04cbc6c-7b2f-433e-98a7-9c0ab3069323"
+      Hint: Buttons
+      Value: |
+        {79557BD8-1FD3-41B7-9D1F-50BD90EFC32F}
+        {D85D3464-7E67-4131-B397-3D2561D2C38B}

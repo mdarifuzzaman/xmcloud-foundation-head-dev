@@ -2,11 +2,14 @@ import { ComponentConsumerProps, withSitecoreContext } from '@sitecore-jss/sitec
 import Link from 'next/link'
 import React from 'react'
 
-type globalLinkProps= ComponentConsumerProps & {
-
+type GlobalLinkProps =  ComponentConsumerProps &{
+  fields? : {
+    CtaBanners: any
+  }
+  params?: any;
 }
 
-const GlobalLink = (props: globalLinkProps) => {
+const GlobalLink = (props: GlobalLinkProps) => {
   return (
     <>
         {props.sitecoreContext.pageEditing ? 
@@ -29,4 +32,4 @@ const GlobalLink = (props: globalLinkProps) => {
     </>
   )
 }
-export default withSitecoreContext()<globalLinkProps>(GlobalLink);
+export default withSitecoreContext()<GlobalLinkProps>(GlobalLink);

@@ -16,7 +16,17 @@
             {
                 "name": "content_root",
                 "path": "/sitecore/content/Sitecore_Internal",
-                "allowPushOperations": "CreateUpdateAndDelete"
+                "allowPushOperations": "CreateUpdateAndDelete",
+                "rules": [
+                    {
+                        "path": "/sitecore-dev-collection/Presentation",
+                        "scope": "ignored"
+                    },
+                    {
+                        "path": "/sitecore-dev-collection-jp/Presentation",
+                        "scope": "ignored"
+                    }
+                ]
             },
             {
                 "name": "media",

@@ -12,7 +12,7 @@ const Meta = (props: MetaType) => {
   console.log("Metadata", props);
   return (
     <Head>
-      <meta name='author' content={props.fields.authorMeta?.value + ""}></meta>
+      <meta name="author" content={props.fields.authorMeta?.value + ""}></meta>
     </Head>
   )
 }

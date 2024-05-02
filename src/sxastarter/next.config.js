@@ -58,10 +58,10 @@ const nextConfig = {
         destination: `${jssConfig.sitecoreApiHost}/sitecore/api/:path*`,
       },
       // media items
-      {
-        source: `/-/:path*`,
-        destination: `${process.env.SITECORE_EDGE_HOST}/:path*`,
-      },
+      // {
+      //   source: `/-/:path*`,
+      //   destination: `${process.env.SITECORE_EDGE_HOST}/:path*`,
+      // },
       // {
       //   source: `/jp/-/:path*`,
       //   destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,

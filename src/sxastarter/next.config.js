@@ -22,7 +22,7 @@ const nextConfig = {
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
-    locales: ['en', 'ja-JP'],
+    locales: ['en'],
     // This is the locale that will be used when visiting a non-locale
     // prefixed path e.g. `/styleguide`.
     defaultLocale: jssConfig.defaultLanguage,
@@ -58,10 +58,10 @@ const nextConfig = {
         destination: `${jssConfig.sitecoreApiHost}/sitecore/api/:path*`,
       },
       // media items
-      // {
-      //   source: `/-/:path*`,
-      //   destination: `${process.env.SITECORE_EDGE_HOST}/:path*`,
-      // },
+      {
+        source: `/-/:path*`,
+        destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,
+      },
       // {
       //   source: `/jp/-/:path*`,
       //   destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,

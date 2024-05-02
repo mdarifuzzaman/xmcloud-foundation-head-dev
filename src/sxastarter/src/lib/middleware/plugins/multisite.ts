@@ -27,61 +27,11 @@ class MultisitePlugin implements MiddlewarePlugin {
       // Site resolver implementation
       siteResolver,
       // This function allows resolving site from sc_site cookie, which could be useful in case of Vercel preview URLs. Accepts NextRequest.
-      useCookieResolution: () => true,
+      useCookieResolution: () => false,
     });
   }
 
-  private getLanguageFromPathname = (pathname: string, locales: string[]): string => {
-    const parts = pathname.split('/');
-    const localePart = parts[2]; // assuming pathname format is always /<countrycode>/<locale>/components/**
-    console.log("parts", JSON.stringify(parts));
-    console.log("localePart", localePart);
-    if (locales.includes(localePart)) {
-        return localePart;
-    } else {
-        return 'en';
-    }
-  }
-
-  private checkForValidRequestType = (pathname: string): boolean => {
-    if(pathname.includes(".css") || pathname.includes(".js") || pathname.includes("[object%20Object]")) return false;
-      return true;
-  }
-
   async exec(req: NextRequest, res?: NextResponse): Promise<NextResponse> {
-
-    if(!this.checkForValidRequestType(req.nextUrl.pathname)) {
-      console.log("Escaping the middleware parsing because of the: ", req.nextUrl.pathname);
-      return this.multisiteMiddleware.getHandler()(req, res);
-    }
-
-    const cookieValue = req.cookies.get('sc_site');
-    const countryCode = req.nextUrl.pathname.substring(1,3);
-    const locale = req.nextUrl.locale;
-    console.log("req.nextUrl ->",req.nextUrl )
-
-    console.log(`RouteName ==> ${JSON.stringify(req.nextUrl.pathname)}`);
-    console.log(`countryCode ==> ${JSON.stringify(countryCode)}`);
-    console.log(`localeLang before ==> ${JSON.stringify(locale)}`);
-    console.log(`sc_site before ==> ${JSON.stringify(cookieValue)}`);
-
-    switch (countryCode) {      
-      case 'jp':
-        req.cookies.set('sc_site', 'sitecore-dev-collection-jp');
-        break;
-      default:
-        req.cookies.set('sc_site', 'sitecore-dev-collection');
-        break;
-    };
-
-    const locales = ['en', 'ja-JP'];
-    const modifiedLocale = this.getLanguageFromPathname(req.nextUrl.pathname, locales);
-    console.log("modifiedLocale", modifiedLocale);
-    req.nextUrl.locale = modifiedLocale;
-
-    console.log(`localeLang after ==> ${JSON.stringify(req.nextUrl.locale)}`);
-    console.log(`sc_site after ==> ${JSON.stringify(req.cookies.get('sc_site'))}`);
-
     return this.multisiteMiddleware.getHandler()(req, res);
   }
 }

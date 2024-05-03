@@ -10,7 +10,7 @@ import Head from 'next/head';
 import { publicUrl } from 'temp/config';
 import { IsSearchEnable, SEARCH_CONFIG } from 'src/common/search';
 import { WidgetsProvider } from '@sitecore-search/react';
-import { StorefrontProvider } from 'src/StorefrontContext';
+// import { StorefrontProvider } from 'src/StorefrontContext';
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
@@ -19,7 +19,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
 
   console.log("Search Enabled?", IsSearchEnable());
   return (
-    <StorefrontProvider>      
+    // <StorefrontProvider>      
     <SearchWrapper>
     <Head>
       <script src={`${publicUrl}/js/moosend.js`} async></script>
@@ -33,7 +33,7 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
         </I18nProvider>
       </UserProvider>
     </SearchWrapper>
-    </StorefrontProvider>      
+    // </StorefrontProvider>      
   );
 }
 

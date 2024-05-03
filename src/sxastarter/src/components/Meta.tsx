@@ -6,6 +6,7 @@ import React from 'react'
 type MetaType = ComponentConsumerProps &{
   fields: {
     authorMeta: TextField
+    categoryMeta: TextField
   }
 }
 const Meta = (props: MetaType) => {
@@ -13,6 +14,7 @@ const Meta = (props: MetaType) => {
   return (
     <Head>
       <meta name="author" content={props.fields.authorMeta?.value + ""}></meta>
+      <meta name="categoy" content={props.fields.categoryMeta?.value + ""}></meta>
     </Head>
   )
 }

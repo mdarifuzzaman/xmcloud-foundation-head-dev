@@ -14,7 +14,7 @@ const Meta = (props: MetaType) => {
   return (
     <Head>
       <meta name="author" content={props.fields.authorMeta?.value + ""}></meta>
-      <meta name="categoy" content={props.fields.categoryMeta?.value + ""}></meta>
+      <meta name="category" content={props.fields.categoryMeta?.value + ""}></meta>
     </Head>
   )
 }

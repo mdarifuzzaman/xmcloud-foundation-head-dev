@@ -45,7 +45,7 @@ export const SearchResults = (props: InitialSearchProps) => {
     query: (query) =>
       query
         .getRequest()
-        .setSearchQueryHighlight({
+        .setSearchQueryHighlight({ 
           fields: ['description'],
           fragment_size: 100,
           pre_tag: '<strong>',

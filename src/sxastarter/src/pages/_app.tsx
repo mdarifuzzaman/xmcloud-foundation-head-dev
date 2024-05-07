@@ -7,6 +7,7 @@ import Bootstrap from 'src/Bootstrap';
 //import 'assets/main.scss';
 import '../../public/css/style.css';
 import '../../public/css/search_results.css';
+import '../../public/css/search_preview_styles.css';
 
 import Head from 'next/head';
 import { publicUrl } from 'temp/config';
@@ -39,8 +40,6 @@ function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element
     <SearchWrapper>
     <Head>
       <script src={`${publicUrl}/js/moosend.js`} async></script>
-      <link rel="stylesheet" href={`${publicUrl}/css/bootstrap.min.css`} />     
-      <link rel="stylesheet" href={`${publicUrl}/css/style.css`} /> 
     </Head>
       <UserProvider>
         <Bootstrap {...pageProps} />

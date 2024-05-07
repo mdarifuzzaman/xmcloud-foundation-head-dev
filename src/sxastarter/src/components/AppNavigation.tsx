@@ -4,7 +4,6 @@ import ALinkWithChildren from "./controls/atoms/ALinkWithChildren";
 import ASpan from "./controls/atoms/ASpan";
 import AMenu from "./controls/molecules/AMenu";
 import { ComponentConsumerProps, LinkField, withSitecoreContext } from "@sitecore-jss/sitecore-jss-nextjs";
-import Search_SearchInput from "./Search_SearchInput";
 import ImageComp from "./ImageComp";
 import GlobalLink from "./GlobalLink";
 
@@ -16,8 +15,21 @@ type AppNavigationProps = ComponentConsumerProps & {
 }
 
 const AppNavigation = (props: AppNavigationProps): JSX.Element => {
+  //const router = useRouter();
+  // const submitAction = (articleModel:  ArticleProps) => {
+  //   // Track search event
+  //   //tracker.TrackEvent('SEARCH', { keywords });
+  //   router.push(articleModel.url + "").then(() => router.reload());
+  // }
+
+  // const submitQueryAction = (query:  string) => {
+  //   // Track search event
+  //   //tracker.TrackEvent('SEARCH', { keywords });
+  //   router.push('/search?q=' + query).then(() => router.reload());
+  // }
+
   return (  
-    <nav className="container relative mx-auto p-6">      
+    <nav className="container relative mx-auto p-6 z-50">      
       <div className="flex items-center justify-between space-x-20 my-6">
         <div className="z-30">
           <ALinkWithChildren url="/">           
@@ -30,7 +42,7 @@ const AppNavigation = (props: AppNavigationProps): JSX.Element => {
           <GlobalLink></GlobalLink>
         </div>
         <div>
-          <Search_SearchInput className="" showButton={true}></Search_SearchInput>
+        {/* <Search_Preview_CssWidget rfkId="rfkid_6" defaultItemsPerPage={6} itemRedirectionHandler={submitAction} submitRedirectionHandler={submitQueryAction}></Search_Preview_CssWidget> */}
         </div>
         <div className="hidden items-center space-x-10 uppercase text-grayishBlue md:flex">
           {props.fields.Links?.map((link: any, index: number) => (

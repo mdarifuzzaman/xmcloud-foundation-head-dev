@@ -2,7 +2,7 @@ import { ComponentConsumerProps, withSitecoreContext } from '@sitecore-jss/sitec
 import { ArticleProps } from '@sitecore-search/ui'
 import { useRouter } from 'next/router'
 import React from 'react'
-import Search_PreviewSearchWidget from './sc_search_widgets/Search_PreviewSearch/SearchPreview'
+import Search_Preview_CssWidget from './sc_search_widgets/Search_Preview_Css/SearchPreviewCss'
 
 type GlobalLinkProps =  ComponentConsumerProps &{
   fields? : {
@@ -16,9 +16,11 @@ const GlobalLink = () => {
 
   const router = useRouter();
   const submitAction = (articleModel:  ArticleProps) => {
+    console.log("Submit action", articleModel);
     // Track search event
     //tracker.TrackEvent('SEARCH', { keywords });
-    router.push(articleModel.url + "").then(() => router.reload());
+    //router.push(articleModel.url + "").then(() => router.reload());
+    router.push(articleModel.url + "");
   }
 
   const submitQueryAction = (query:  string) => {
@@ -28,8 +30,8 @@ const GlobalLink = () => {
   }
 
   return (
-    <>
-      <Search_PreviewSearchWidget rfkId="rfkid_6" defaultItemsPerPage={6} itemRedirectionHandler={submitAction} submitRedirectionHandler={submitQueryAction}></Search_PreviewSearchWidget>
+    <div className="mt-4">
+      <Search_Preview_CssWidget rfkId="rfkid_6" defaultItemsPerPage={6} itemRedirectionHandler={submitAction} submitRedirectionHandler={submitQueryAction}></Search_Preview_CssWidget>
         {/* {props.sitecoreContext.pageEditing ? 
           <>
             <Link href={"/au/en?sc_site=" + props.sitecoreContext.site?.name}>Australia - En</Link> <br></br>
@@ -47,7 +49,7 @@ const GlobalLink = () => {
           <Link href="/jp/ja-JP">Japan - ja-JP</Link>
         </>
         } */}
-    </>
+    </div>
   )
 }
 export default withSitecoreContext()<GlobalLinkProps>(GlobalLink);

@@ -6,16 +6,32 @@ import Bootstrap from 'src/Bootstrap';
 
 //import 'assets/main.scss';
 import '../../public/css/style.css';
+import '../../public/css/search_results.css';
+
 import Head from 'next/head';
 import { publicUrl } from 'temp/config';
 import { IsSearchEnable, SEARCH_CONFIG } from 'src/common/search';
 import { WidgetsProvider } from '@sitecore-search/react';
 // import { StorefrontProvider } from 'src/StorefrontContext';
 
+import { createTheme } from '@sitecore-search/ui'
+const myTheme = createTheme({
+  palette: {
+    primary: {
+      main: '#F00',
+      light: '#EEECFB',
+      dark: '#4A37D5',
+      contrastText: '#fff',
+    },
+  }
+});
+
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;
 
-  const SearchWrapper = ({ children }: any) => (IsSearchEnable() ? <WidgetsProvider {...SEARCH_CONFIG}>{children}</WidgetsProvider>: children);
+  
+
+  const SearchWrapper = ({ children }: any) => (IsSearchEnable() ? <div style={myTheme.style}><WidgetsProvider {...SEARCH_CONFIG}>{children}</WidgetsProvider></div>: children);
 
   console.log("Search Enabled?", IsSearchEnable());
   return (

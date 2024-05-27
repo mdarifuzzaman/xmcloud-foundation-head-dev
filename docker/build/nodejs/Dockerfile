@@ -11,14 +11,14 @@ ARG NODEJS_VERSION
 
 USER ContainerAdministrator
 WORKDIR c:\build
-RUN curl.exe -sS -L -o node.zip https://nodejs.org/download/release/v16.15.0/node-v16.15.0-win-x64.zip
-RUN tar -xf node.zip -C C:\
-RUN move C:\node-v16.15.0-win-x64 c:\node21
-RUN del node.zip
+RUN curl.exe -sS -L -o node23.zip https://nodejs.org/download/release/v20.10.0/node-v20.10.0-win-x64.zip
+RUN tar -xf node23.zip -C C:\
+RUN move C:\node-v20.10.0-win-x64 c:\node23
+RUN del node23.zip
 
 
-RUN SETX /M PATH "%PATH%;C:\node21\"
-RUN icacls.exe C:\node21\ /grant "Authenticated Users":(F) /t
+RUN SETX /M PATH "%PATH%;C:\node23\"
+RUN icacls.exe C:\node23\ /grant "Authenticated Users":(F) /t
 USER ContainerUser
 
 RUN npm --version

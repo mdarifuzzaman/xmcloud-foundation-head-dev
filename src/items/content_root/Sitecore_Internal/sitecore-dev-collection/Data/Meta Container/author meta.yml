@@ -1,0 +1,41 @@
+﻿---
+ID: "64c797e8-cfa8-4481-8e5d-8bdcb14d758f"
+Parent: "2b70f229-d211-460e-af1f-5340adac2a94"
+Template: "49fc354b-32d0-4862-80af-99393739feb4"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Meta Container/author meta"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00dfc703-b9f9-4515-aaa3-9a4c6a44563b"
+      Hint: authorMeta
+      Value: Arifuzzaman
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240502T035257Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6925607c-a31f-4186-9564-98be809086fd"
+    - ID: "9df1028c-4e59-48b5-96ab-5d9a0604c689"
+      Hint: categoryMeta
+      Value: author
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240507T015241Z
+    - ID: "ed71bf5f-f6bc-4d2b-8594-add6fb3ea454"
+      Hint: pageImage
+      Value: |
+        <image mediaid="{0D9C2383-BC1F-48EF-81E4-DD8307BC6E55}" alt="image" height="" width="" hspace="" vspace="" />

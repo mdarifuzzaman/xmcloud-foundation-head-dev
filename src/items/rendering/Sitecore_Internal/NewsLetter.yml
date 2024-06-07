@@ -9,7 +9,7 @@ SharedFields:
   Value: NewsLetter
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 1
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{65F3446D-1F68-5B9E-8C60-E53CFD834AFF}"
@@ -31,11 +31,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "248ff616-92a2-4102-a0ce-efd6504b28f3"
+      Value: "9e5de9c6-f894-4ee3-acb5-312505e84bb4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231107T085256Z
+      Value: 20240502T022544Z

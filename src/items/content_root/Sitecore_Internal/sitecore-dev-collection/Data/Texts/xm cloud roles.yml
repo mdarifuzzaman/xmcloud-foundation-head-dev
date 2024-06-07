@@ -1,0 +1,72 @@
+﻿---
+ID: "e1b53594-1489-47bf-8ff1-fd8d2f3a2b78"
+Parent: "f2d874ee-d484-43b9-83f3-de4d2678c122"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Data/Texts/xm cloud roles"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240503T031258Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <article class="topic content-container" id="content-wrapper" style="color: #252727; background-color: #ffffff; margin-right: auto; margin-bottom: 8rem; margin-left: auto; border: 0px solid #e5e5e5;">
+        <div id="topic-content" class="topic-content" style="border: 0px solid #e5e5e5;"><section dir="ltr" class="section original-topic relative overflow-hidden" data-originid="UUID-a6fc19f8-3fff-2a15-3383-49471d5b8d1a" data-permalink="users,-roles,-and-domains.html" data-topiclevel="1" data-timemodified="10/13/2022" data-publicationdate="2024-04-26" id="UUID-97b099f7-fd61-3c7a-fdfa-5ec5afeb7814" style="color: rgb(37 39 39/var(--tw-text-opacity)); margin: 0px auto 3.5rem; border: 0px solid #e5e5e5;">
+        <div class="titlepage" style="border: 0px solid #e5e5e5;">
+        <div style="border: 0px solid #e5e5e5;">
+        <div class="title" style="border: 0px solid #e5e5e5;">
+        <h1 class="title" id="users-roles-and-domains" style="color: var(--tw-prose-headings); margin: 0px 0px 0.888889em; border: 0px solid #e5e5e5; line-height: 1.11111;">Users, roles, and domains</h1>
+        </div>
+        <div style="border: 0px solid #e5e5e5;">&nbsp;</div>
+        </div>
+        </div>
+        <p style="margin: 1.25em 0px; border: 0px solid #e5e5e5;">In XM Cloud, access security is controlled on three levels:</p>
+        <div class="itemizedlist" style="border: 0px solid #e5e5e5;">
+        <ul class="itemizedlist" style="margin: 1.25em 0px; padding: 0px 0px 0px 1.625em; border: 0px solid #e5e5e5; list-style-image: initial;">
+            <li class="listitem" style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 0.375em; border: 0px solid #e5e5e5;">
+            <p style="margin: 1.25em 0px; border: 0px solid #e5e5e5;"><a target="_self" rel="noopener" class="focus-ring" href="https://doc.sitecore.com/xmc/en/developers/xm-cloud/creating-users-in-xm-cloud.html" style="color: #333378; border: 0px solid #e5e5e5;">user</a>&nbsp;- an individual user</p>
+            </li>
+            <li class="listitem" style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 0.375em; border: 0px solid #e5e5e5;">
+            <p style="margin: 1.25em 0px; border: 0px solid #e5e5e5;"><a target="_self" rel="noopener" class="focus-ring" href="https://doc.sitecore.com/xmc/en/developers/xm-cloud/create-and-set-up-a-role.html" style="color: #333378; border: 0px solid #e5e5e5;">role</a>&nbsp;- a collection of users. Roles enable you to assign access rights to a group of users instead of to an individual user</p>
+            </li>
+            <li class="listitem" style="margin-top: 0.5em; margin-bottom: 0.5em; padding-left: 0.375em; border: 0px solid #e5e5e5;">
+            <p style="margin: 1.25em 0px; border: 0px solid #e5e5e5;"><a target="_self" rel="noopener" class="focus-ring" href="https://doc.sitecore.com/xmc/en/developers/xm-cloud/security-domains.html" style="color: #333378; border: 0px solid #e5e5e5;">domain</a>&nbsp;- a collection of security accounts</p>
+            </li>
+        </ul>
+        </div>
+        <p style="margin: 1.25em 0px; border: 0px solid #e5e5e5;">With these three levels of security, you can control all user access to XM Cloud functionality and website content.</p>
+        </section>
+        <div class="footer-content" style="border: 0px solid #e5e5e5;">&nbsp;</div>
+        <footer class="mt-16 mb-12" style="margin-top: 4rem; margin-bottom: 3rem; border: 0px solid #e5e5e5;"></footer></div>
+        </article>
+        <div class="mt-16 mb-12" style="color: #252727; background-color: #ffffff; margin-top: 4rem; margin-bottom: 3rem; border: 0px solid #e5e5e5;">
+        <div class="px-12 py-12 mt-24 mb-12 bg-white border rounded-sm dark:bg-woodsmoke-900 border-brand-woodsmoke-300 dark:border-brand-woodsmoke-800" style="background-color: rgb(255 255 255/var(--tw-bg-opacity)); margin-top: 6rem; margin-bottom: 3rem; padding: 3rem; border: 1px solid #e5e5e5;">
+        <p class="flex items-center my-0 text-xl font-bold notintoc" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border: 0px solid #e5e5e5; line-height: 1.75rem;"><svg viewbox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" class="fill-woodsmoke-200 dark:fill-woodsmoke-900 hidden w-5 h-5 mr-4 md:block"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
+        <path class="stroke-2 fill-none stroke-woodsmoke-900 dark:stroke-woodsmoke-100" d="M12,12h0a6.93,6.93,0,0,1,2-4.89l4.66-4.66a2,2,0,0,1,2.87,0h0a2,2,0,0,1,0,2.87L16.89,10A6.92,6.92,0,0,1,12,12Z"></path>
+        <path class="stroke-2 fill-none stroke-woodsmoke-900 dark:stroke-woodsmoke-100" d="M14.86,1.48H5.32A3.82,3.82,0,0,0,1.5,5.3v9.54a3.82,3.82,0,0,0,3.82,3.82H9.14L12,21.52l2.86-2.86h3.82a3.82,3.82,0,0,0,3.82-3.82V9.11"></path>
+        </g></svg><span style="border: 0px solid #e5e5e5;">Do you have some feedback for us?</span></p>
+        <p class="mb-0" style="margin-top: 1.25em; margin-right: 0px; margin-left: 0px; border: 0px solid #e5e5e5;">If you have suggestions for improving this article,&nbsp;<button class="font-bold cursor-pointer dark:underline" style="border:0px solid #e5e5e5;margin: 0px; padding: 0px;    line-height: inherit;">let us know!</button></p>
+        </div>
+        </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9a20c0c-0f8f-43a1-929c-c60435353c71"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\arif.uzzaman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240503T031329Z

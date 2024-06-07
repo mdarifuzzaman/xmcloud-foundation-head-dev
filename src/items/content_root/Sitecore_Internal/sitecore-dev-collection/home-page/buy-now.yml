@@ -11,6 +11,22 @@ SharedFields:
   Hint: __Thumbnail
   Value: |
     <image mediaid="{2EF82966-AEE8-4266-AD16-BA9BAED66F3C}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F2FFE9BB-B7F6-4A5B-88B3-C1B4AC7E7E8E}">
+          <p:d />
+        </r>
+        <r
+          uid="{19F885A7-C75C-431F-AE9C-EDFB1CD654A5}"
+          p:after="*[1=2]" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Fields:
@@ -20,6 +36,22 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E2F21FEF-B3FD-4AC6-95E3-5C1B062F4E70}"
+              p:after="*[1=2]"
+              s:ds="{64C797E8-CFA8-4481-8E5D-8BDCB14D758F}"
+              s:id="{3B555C5E-7214-4556-A7E6-3A25D071A17C}"
+              s:par="CSSStyles"
+              s:ph="headless-header" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230826T025409Z
@@ -31,11 +63,11 @@ Languages:
       Value: Buy Now
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e039d3c9-e7ec-4258-a578-b56d544a55e2"
+      Value: "db5e5f55-f681-46e7-ab35-4e26fffc038c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240412T002519Z
+      Value: 20240502T044645Z

@@ -10,10 +10,10 @@ SharedFields:
   Value: "{059762BB-9C8D-451B-A4E4-5D78EBF94589}"
 - ID: "475031d8-724d-463c-80b2-90839dd1ad98"
   Hint: VirtualFolder
-  Value: /au
+  Value: 
 - ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
   Hint: Language Embedding
-  Value: 1
+  Value: 
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: "/sitecore/media library/Project/Sitecore_Internal/sitecore-dev-collection"
@@ -62,11 +62,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4e88de39-d5a0-451d-b00b-7cc53447f1f4"
+      Value: "03cb72cb-c188-4759-ae23-f2eaae629dad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240418T044007Z
+      Value: 20240606T020320Z

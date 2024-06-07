@@ -105,16 +105,17 @@ Languages:
     - ID: "5096da39-1098-4f17-b4fa-9f220ad1bf46"
       Hint: BackImage
       Value: |
-        <image height="" mediaid="{C5BAB4F8-208F-4D6A-A4B4-BC6FFB27DDCA}" vspace="" hspace="" alt="hero" width="" />
+        <image height="" mediaid="{33332C6D-F0DC-4A82-91F7-6FB42B7D61A7}" vspace="" hspace="" alt="hero" width="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e7dd062b-ac12-4f3f-9253-8c243bd798bb"
+      Value: "4533a469-4c39-4678-b2af-dbc3edd893bf"
     - ID: "8d0ba832-9f32-4faa-ae1a-f86dd53db113"
       Hint: Desc
       Value: |
-        A clean and simple interface to organize your favourite websites.
+        <p>A clean and simple interface to organize your favourite websites.
         Open a new browser tab and see your sites load instantly. Try it for
-        free.
+        free.</p>
+        <p><a href="~/link.aspx?_id=7F0835606B1046F4851934B3185F1AEA&amp;_z=z">About</a></p>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -124,7 +125,7 @@ Languages:
       Value: 20240329T044500Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240426T053622Z
+      Value: 20240605T041350Z
     - ID: "e04cbc6c-7b2f-433e-98a7-9c0ab3069323"
       Hint: Buttons
       Value: |

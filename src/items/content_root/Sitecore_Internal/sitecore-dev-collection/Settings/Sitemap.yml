@@ -3,11 +3,24 @@ ID: "b7e16b67-909f-4b8d-9f3a-2964a2460fa8"
 Parent: "c39ebf56-2f7c-488d-b730-7afb1dfa755b"
 Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Path: "/sitecore/content/Sitecore_Internal/sitecore-dev-collection/Settings/Sitemap"
+SharedFields:
+- ID: "4369de8a-d99c-441d-8a4d-106b6366a522"
+  Hint: HrefLang
+  Value: "{FD64B41A-0297-42B1-9ADE-CD6B6267C7DB}"
+- ID: "7634339b-c588-4e3c-952f-7e18f0935378"
+  Hint: Sitemap Index Threshold
+  Value: 50
+- ID: "e12195e6-3bcd-4c51-9cd4-3ae3c0779b9f"
+  Hint: Refresh Threshold
+  Value: 5
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "139eb09e-73c4-4f96-a06b-a8bc050954e4"
+      Hint: Cache Expiration
+      Value: 5
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230826T024441Z
@@ -21,11 +34,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bb3dbb8f-768c-4d1a-8416-5d4076514784"
+      Value: "eef4b2b3-30de-4958-8ebe-a69cbb6f9517"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230826T024441Z
+      Value: 20240524T011639Z

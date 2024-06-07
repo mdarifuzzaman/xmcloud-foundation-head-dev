@@ -15,6 +15,14 @@ SharedFields:
 - ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
   Hint: __Default workflow
   Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}" />
+    </r>
 - ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
   Hint: __Enable item fallback
   Value: 1
@@ -44,6 +52,7 @@ Languages:
               uid="{F2FFE9BB-B7F6-4A5B-88B3-C1B4AC7E7E8E}"
               p:after="r[@uid='{4705CDA3-58DC-4102-8227-F0FE814B4B03}']"
               s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="headless-header" />
             <r
               uid="{19F885A7-C75C-431F-AE9C-EDFB1CD654A5}"
@@ -73,14 +82,14 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2b36f4c4-c5fb-4e12-af60-aa5a913c0e3b"
+      Value: "bec035a2-6ff0-4fe1-b94a-9ab423bcfe2f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240429T035617Z
+      Value: 20240502T011747Z
 - Language: "ja-JP"
   Versions:
   - Version: 1
@@ -103,6 +112,7 @@ Languages:
               uid="{44617948-A348-4D19-9F46-C9FC8C7D1383}"
               p:after="r[@uid='{4705CDA3-58DC-4102-8227-F0FE814B4B03}']"
               s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="headless-header" />
             <r
               uid="{19F885A7-C75C-431F-AE9C-EDFB1CD654A5}"
@@ -126,11 +136,11 @@ Languages:
         sitecore\arif.uzzaman@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c92b58cc-605f-498a-bd1c-910c843e3c35"
+      Value: "2c796611-724d-439d-a9e4-cd3499008e62"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\arif.uzzaman@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240429T035652Z
+      Value: 20240502T011803Z

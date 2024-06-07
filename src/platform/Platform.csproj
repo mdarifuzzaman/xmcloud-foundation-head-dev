@@ -71,7 +71,8 @@
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.JavaScriptServices.Apps.Override.config" />
     <Content Include="App_Config\Include\zzz\Sitecore.Media.config" />
-    <Content Include="App_Config\Include\zzz\LinkManager.Custom.config" />
+    <None Include="App_Config\Include\zzz\LinkManager.Custom.config.disabled" />
+    <None Include="App_Config\Include\zzz\Mecca.Foundation.Links.config.disabled" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
@@ -80,6 +81,7 @@
   <ItemGroup>
     <Compile Include="ContentResolvers\NavContentResolver.cs" />
     <Compile Include="LinkBuilder\LanguageCountryLinkBuilder.cs" />
+    <Compile Include="LinkBuilder\MeccaItemUrlBuilder.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

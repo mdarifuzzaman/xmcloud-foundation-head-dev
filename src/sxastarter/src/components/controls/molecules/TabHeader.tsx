@@ -5,15 +5,18 @@ type TabHeaderProps = {
     title: string;
     componentClass: string;
     componentSubClass: string;
+    onClick: () => any;
 }
 
 export default function TabHeader(props: TabHeaderProps) {
   return (
-    <div className={props.componentClass} data-target={props.dataTarget}>
-    <div className={props.componentSubClass} data-target={props.dataTarget}>
-      {props.title}
-    </div>
-  </div>
+    <button onClick={props.onClick}>
+      <div className={props.componentClass} data-target={props.dataTarget}>
+        <div className={props.componentSubClass} data-target={props.dataTarget}>
+          {props.title}
+        </div>
+      </div>
+    </button>
 
   )
 }

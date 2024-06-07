@@ -60,17 +60,17 @@ function Tabs(props: TabsProp) {
           <>   
               {activeTab == 0 && (        
               <div style={{minWidth: "200px"}}>
-                <Placeholder name='tab-panel-0' key={'tab-pabel-0'} rendering={props.rendering}></Placeholder>
+                <Placeholder name="tab-panel-0" key={"tab-pabel-0"} rendering={props.rendering}></Placeholder>
              </div>
               )}
               {activeTab == 1 && (        
               <div style={{minWidth: "200px"}}>
-                <Placeholder name='tab-panel-1' key={'tab-pabel-1'} rendering={props.rendering}></Placeholder>
+                <Placeholder name="tab-panel-1" key={"tab-pabel-1"} rendering={props.rendering}></Placeholder>
              </div>
               )}
               {activeTab == 2 && (        
               <div style={{minWidth: "200px"}}>
-                <Placeholder name='tab-panel-2' key={'tab-pabel-2'} rendering={props.rendering}></Placeholder>
+                <Placeholder name="tab-panel-2" key={"tab-pabel-2"} rendering={props.rendering}></Placeholder>
              </div>
               )}
           </>                    

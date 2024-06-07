@@ -1,4 +1,4 @@
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
+
 import React from 'react'
 
 export default function TabPanel(props: any) {
@@ -11,8 +11,7 @@ export default function TabPanel(props: any) {
         {props?.activeTab?.fields?.Desc?.value}
         </p>
         <div className="mx-auto md:mx-0">        
-        </div> */}
-        <Placeholder name={props.rendering?.params?.sig || ''} rendering={props.rendering}></Placeholder>
+        </div> */}        
   </div>
   )
 }

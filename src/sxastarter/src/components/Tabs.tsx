@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import TabHeader from './controls/molecules/TabHeader';
 import { ComponentConsumerProps, ComponentRendering, Field, Placeholder, withSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
@@ -15,21 +15,24 @@ type TabsProp = ComponentConsumerProps & {
 }
 
 function Tabs(props: TabsProp) {
-  console.log("Tab", props);
-  const [activeTab, setActiveTab] = useState(0);
 
-  useEffect(() => {
-    if(props?.sitecoreContext?.pageEditing && props?.fields?.SelectTabNo){
-      setActiveTab(props.fields?.SelectTabNo?.value);
-    }
-    else{
-      setActiveTab(0);
-    }
-  }, [])
+  const [selTab, setSelTab] = useState(0);
+
+  console.log("Tab", props);
+  let activeTab = 0;
+
+  if(props?.sitecoreContext?.pageEditing && props?.fields?.SelectTabNo){
+    console.log("Page editing true..");
+    activeTab = props.fields?.SelectTabNo?.value;
+  }
+  else{
+    activeTab = 0;
+    console.log("Page editing false..")
+  }
   
 
   const setTabItem = (index: any) => {
-    setActiveTab(index);
+    setSelTab(index);
   }
 
   //const editFrameData = GetEditFrame(['HeaderComponents'], props.rendering.dataSource);
@@ -48,29 +51,29 @@ function Tabs(props: TabsProp) {
         {/* <!-- Tabs Flex Container --> */}
         <div className="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row">
           {props.fields?.HeaderComponents?.map((hc: any, index: number) => (
-            <TabHeader  key={index}       
+            <TabHeader key={index}       
             onClick={() => setTabItem(index)}     
             componentClass={hc.fields?.ComponentClass?.value} 
-            componentSubClass={index === activeTab ? hc.fields?.ComponentSubClass?.value + " border-softRed": hc.fields?.ComponentSubClass?.value} dataTarget={hc.fields?.DataTarget?.value} title={hc.fields?.Title?.value}></TabHeader>
+            componentSubClass={((activeTab == index && props.sitecoreContext.pageEditing) || (selTab == index && !props.sitecoreContext.pageEditing)) ? hc.fields?.ComponentSubClass?.value + " border-softRed": hc.fields?.ComponentSubClass?.value} dataTarget={hc.fields?.DataTarget?.value} title={hc.fields?.Title?.value}></TabHeader>
           ))}          
         </div>
 
         {/* <!-- Tab Panels --> */}
         <div id="panels" className="container mx-auto">          
           <>   
-              {activeTab == 0 && (        
+              {((activeTab == 0 && props.sitecoreContext.pageEditing) || (selTab == 0 && !props.sitecoreContext.pageEditing)) && (        
               <div style={{minWidth: "200px"}}>
-                <Placeholder name="tab-panel-0" key={"tab-pabel-0"} rendering={props.rendering}></Placeholder>
+                <Placeholder name="tabpanel" rendering={props.rendering}></Placeholder>
              </div>
               )}
-              {activeTab == 1 && (        
+              {((activeTab == 1 && props.sitecoreContext.pageEditing) || (selTab == 1 && !props.sitecoreContext.pageEditing)) && (        
               <div style={{minWidth: "200px"}}>
-                <Placeholder name="tab-panel-1" key={"tab-pabel-1"} rendering={props.rendering}></Placeholder>
+                <Placeholder name="tabpanel2" rendering={props.rendering}></Placeholder>
              </div>
               )}
-              {activeTab == 2 && (        
+              {((activeTab == 2 && props.sitecoreContext.pageEditing) || (selTab == 2 && !props.sitecoreContext.pageEditing)) && (        
               <div style={{minWidth: "200px"}}>
-                <Placeholder name="tab-panel-2" key={"tab-pabel-2"} rendering={props.rendering}></Placeholder>
+                <Placeholder name="tabpanel3" rendering={props.rendering}></Placeholder>
              </div>
               )}
           </>                    

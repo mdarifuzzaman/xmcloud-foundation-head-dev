@@ -23,9 +23,9 @@ const CdpPageView = (): JSX.Element => {
    * IMPORTANT: You should implement based on your cookie consent management solution of choice.
    * By default it is disabled in development mode
    */
-  const disabled = () => {
-    return process.env.NODE_ENV === 'development';
-  };
+  // const disabled = () => {
+  //   return process.env.NODE_ENV === 'development';
+  // };
 
   useEffect(() => {
     // Do not create events in editing or preview mode or if missing route data

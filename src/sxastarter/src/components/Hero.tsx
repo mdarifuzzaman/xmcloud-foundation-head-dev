@@ -12,6 +12,7 @@ import AParagraph from './controls/atoms/AParagraph';
 import AButton from './controls/atoms/AButton';
 import AButtonGroup from './controls/atoms/AButtonGroup';
 import { useState } from 'react';
+import { context } from 'lib/context';
 
 declare global {
   interface Window {
@@ -40,7 +41,62 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
     window.mootrack('signupCompleted', { "CustomerId": "00001", "ReferenceNo": "Ref123456", "Email": `${emailAddress}` });
     console.log("Eligible customer's data sent..");
     setIsAlreadyRegister(true);
+    context
+      .getSDK('Events')
+      .then((e) =>
+        {
+          const eventData = {
+            channel: "WEB",
+            currency: "EUR",
+            pointOfSale: "myretailsite/ireland",
+            language: "EN",
+            page: "home",
+            email: emailAddress,
+            identifiers: [
+                {
+                    id: emailAddress,
+                    provider: "email"
+                }
+            ]
+          };
 
+          e.identity(eventData);     
+          console.log("Sent to CDP");          
+        }
+      )
+      .catch((e) => console.log(e));
+  }
+  const addProduct = () => {
+    context
+      .getSDK('Events')
+      .then((e) =>
+        {
+          const eventData = {
+            channel: "WEB",
+            currency: "EUR",
+            pointOfSale: "myretailsite/ireland",
+            language: "EN",
+            page: "products",
+            product: {
+                name: "GHT 84 Lace Sneaker",
+                type: "FOOTWEAR",
+                item_id: "SHOES_8475GHT",
+                productId: "example_product_id",
+                referenceId: "FOOTWEAR-001-01",
+                orderedAt: "2024-04-15T12:42:16.001Z",
+                quantity: 1,
+                price: 7.99,
+                currency: "EUR",
+                originalPrice: 7.79,
+                originalCurrencyCode: "USD"
+            }
+        };
+
+          e.event("ADD", eventData);     
+          console.log("Sent to CDP > add product data");          
+        }
+      )
+      .catch((e) => console.log(e));
   }
   return (
     <section id="hero">
@@ -55,7 +111,7 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
 
           <AButtonGroup componentClass="flex items-center justify-center w-full space-x-4 lg:justify-start">
             {props.fields.Buttons?.map((button: any, index: number) =>(
-              <AButton key={index} className={button?.fields?.ClassName?.value} title={button?.fields?.Title?.value}></AButton>  
+              <AButton onClick={addProduct} key={index} className={button?.fields?.ClassName?.value} title={button?.fields?.Title?.value}></AButton>  
             ))}            
           </AButtonGroup>  
           {!isAlreadyRegister ? <div>

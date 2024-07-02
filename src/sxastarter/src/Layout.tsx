@@ -26,7 +26,7 @@ interface RouteFields {
 const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const { route } = layoutData.sitecore;
   const fields = route?.fields as RouteFields;
-  console.log('Layout data', layoutData);
+  //console.log('Layout data', layoutData);
   return (
     <>
       <Scripts />

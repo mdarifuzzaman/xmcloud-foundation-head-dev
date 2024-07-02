@@ -33,9 +33,9 @@ const CdpPageView = (): JSX.Element => {
       return;
     }
     // Do not create events if disabled (e.g. we don't have consent)
-    if (disabled()) {
-      return;
-    }
+    // if (disabled()) {
+    //   return;
+    // }
 
     const language = route.itemLanguage || config.defaultLanguage;
     const scope = process.env.NEXT_PUBLIC_PERSONALIZE_SCOPE;
@@ -46,19 +46,24 @@ const CdpPageView = (): JSX.Element => {
       variantId as string,
       scope
     );
+    console.log("Before sdk");
     // there are cases where Events SDK will be absent which are expected to reject
     context
       .getSDK('Events')
       .then((Events) =>
-        Events.pageView({
-          channel: 'WEB',
-          currency: 'USD',
-          page: route.name,
-          pageVariantId,
-          language,
-        })
+        {
+          console.log("Copy-paste the following line into Sitecore CDP > Guests > Search field:");
+          console.log("bid:", Events.getBrowserId());
+          Events.pageView({
+            channel: 'WEB',
+            currency: 'USD',
+            page: route.name,
+            pageVariantId,
+            language,
+          });          
+        }
       )
-      .catch((e) => console.debug(e));
+      .catch((e) => console.log(e));
   }, [pageState, route, variantId, site]);
 
   return <></>;

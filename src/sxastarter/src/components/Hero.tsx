@@ -35,6 +35,7 @@ type ContentBlockProps = ComponentConsumerProps &{
 const Hero = (props: ContentBlockProps): JSX.Element => {
   const [isAlreadyRegister, setIsAlreadyRegister] = useState(false);
   const [emailAddress, setEmailAddress] = useState("");
+  const [amount, setAmount] = useState("");
   const signup = () => {
     console.log(emailAddress);
     window.mootrack('identify', emailAddress);    
@@ -48,7 +49,7 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
           const eventData = {
             channel: "WEB",
             currency: "EUR",
-            pointOfSale: "myretailsite/ireland",
+            pointOfSale: "xmcloud-dev-collection",
             language: "EN",
             page: "home",
             email: emailAddress,
@@ -66,6 +67,94 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
       )
       .catch((e) => console.log(e));
   }
+
+  const createOrder = () => {
+    if(!emailAddress || emailAddress.length === 0 || !amount || amount.length === 0){
+      alert("Email or amount is missing..");
+      return;
+    }
+
+    console.log(emailAddress);
+    console.log("Eligible customer's data sent..");
+    setIsAlreadyRegister(true);
+    context
+      .getSDK('Events')
+      .then((e) =>
+        {
+          const eventData = {
+            channel: "WEB",
+            currency: "EUR",
+            pointOfSale: "xmcloud-dev-collection",
+            language: "EN",
+            page: "home",
+            email: emailAddress,
+            identifiers: [
+                {
+                    id: emailAddress,
+                    provider: "email"
+                }
+            ]
+          };
+
+          e.identity(eventData);     
+          console.log("Sent to CDP");    
+
+          const orderData = {
+            channel: "WEB",
+            currency: "EUR",
+            pointOfSale: "xmcloud-dev-collection",
+            language: "EN",
+            page: "checkout page",
+            order: {
+              referenceId: "B94TXY-1",
+              orderedAt: "2024-08-23T16:17:16.000Z",
+              status: "PURCHASED",
+              currencyCode: "EUR",
+              price: 200,
+              paymentType: "Card",
+              cardType: "Visa",
+              extensions: [
+                {
+                  name: "ext",
+                  key: "default",
+                  refundable: true,
+                },
+              ],
+              orderItems: [
+                {
+                  type: "MOBILE_PHONE",
+                  referenceId: "B94TXY-1",
+                  orderedAt: "2024-08-23T16:17:16.000Z",
+                  status: "PURCHASED",
+                  currencyCode: "EUR",
+                  price: 200,
+                  name: "Mobile phone of type x",
+                  productId: "MOBILE_PHONE_TYPE_X",
+                  quantity: 1,
+                  extensions: [
+                    {
+                      name: "ext",
+                      key: "default",
+                      phoneColor: "Gold",
+                      insurance: false,
+                    },
+                  ],
+                },
+              ],
+            },
+          }
+          
+          e.event('ORDER_CHECKOUT', orderData).then(res => {
+            console.log("ORDER_CHECKOUT response", res)
+          });
+          console.log("ORDER_CHECKOUT done.")
+        }
+
+
+      )
+      .catch((e) => console.log(e));
+  }
+
   const addProduct = () => {
     context
       .getSDK('Events')
@@ -119,6 +208,11 @@ const Hero = (props: ContentBlockProps): JSX.Element => {
             <button onClick={() => signup()} className="ml-3 flex flex-col items-center justify-center">Signup for newsletter</button>
           </div> : null }        
         </div>
+
+        <div>
+          <input type="amount" placeholder="enter your amount" onChange={(e) => setAmount(e.target.value)}></input>  
+          <button onClick={() => createOrder()} className="ml-3 flex flex-col items-center justify-center">Create Order</button>
+        </div> 
 
         <div className="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
           <div className="bg-hero"></div>

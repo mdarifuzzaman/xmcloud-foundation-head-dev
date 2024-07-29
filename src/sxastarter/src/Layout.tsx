@@ -8,6 +8,8 @@ import config from 'temp/config';
 import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/sitecore-jss-nextjs';
 import Scripts from 'src/Scripts';
 import StyleDocument from './Document';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -37,13 +39,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
-      </Head>
-
+      </Head>     
       {/* root placeholder for the app, which we add components to using route data */}
       <>
         {route && <Placeholder name="headless-header" rendering={route} />}  
         {route && <Placeholder name="headless-main" rendering={route} />}        
         {route && <Placeholder name="headless-footer" rendering={route} />}  
+      </>
+      <>
+        <SpeedInsights></SpeedInsights>
+        <Analytics></Analytics>
       </>
     </>
   );

@@ -38,7 +38,7 @@ const SitecorePage = (props: any): JSX.Element => {
     await init({
         sitecoreEdgeContextId: config.sitecoreEdgeContextId,
         siteName: config.sitecoreSiteName,
-        enableBrowserCookie: true,
+        enableBrowserCookie: true               
     });
 
     console.log("Initialized the personalize/browser module.");

@@ -28,10 +28,10 @@
             <schemaProviders>
               <edgeContentCustom
                 type="Sitecore.Services.GraphQL.EdgeSchema.EdgeSchemaProvider, Sitecore.Services.GraphQL.EdgeSchema">
-                <!-- 
+                 
                                     The template predicate defines which templates will have GraphQL types generated for them. This is NOT a security measure - all fields
                                     that the API key user/authenticated user can access can be queried by name - but can be used to limit the scope of your GraphQL schema.
-                                -->
+                                
                 <templates
                   type="Sitecore.Services.GraphQL.Content.TemplateGeneration.Filters.StandardTemplatePredicate, Sitecore.Services.GraphQL.Content">
                   <database>$(1)</database>
@@ -44,24 +44,24 @@
                   <fieldFilter
                     type="Sitecore.Services.GraphQL.Content.TemplateGeneration.Filters.StandardFieldFilter, Sitecore.Services.GraphQL.Content">
                     <exclusions hint="raw:AddFilter">
-                      <!-- 
+                       
                                                 Remove system fields from the GraphQL types in the strongly typed API (e.g. __Layout)
                                                 Wildcards are allowed.
-                                            -->
+                                            
                       <exclude name="__*" />
-                      <!--
+                      
                                                 You can also exclude fields from the schema specifically by field ID
-                                            <exclude fieldId="{8FB875EB-3AD3-44FF-87E1-998370CC3199}" />-->
+                                            <exclude fieldId="{8FB875EB-3AD3-44FF-87E1-998370CC3199}" />
                     </exclusions>
                   </fieldFilter>
                 </templates>
 
-                <!-- 
+                 
                                     Define the GraphQL root object for the schema (queries, mutations, and subscriptions)
                                     You may use `resolve=true` to activate dependency injection on root fields.
                                     All root fields must inherit from FieldType (EventStreamFieldType for subscriptions)
                                     Fields may optionally implement IContentSchemaRootFieldType to get a Database instance (automatic property is expected)
-                                -->
+                                
                 <queries hint="raw:AddQuery">
                   <query name="item" type="XmCloudSXAStarter.Queries.CustomItemQuery, XmCloudSXAStarter" />
                   <query name="layout" type="XmCloudSXAStarter.Queries.CustomLayoutQuery, XmCloudSXAStarter" />
@@ -91,17 +91,17 @@
               <content ref="/sitecore/api/GraphQL/defaults/content/schemaProviders/edgeContentCustom" param1="master" />
             </schema>
 
-            <!-- Determines the security of the service. Defaults are defined in Sitecore.Services.GraphQL.config -->
+             Determines the security of the service. Defaults are defined in Sitecore.Services.GraphQL.config 
             <security ref="/sitecore/api/GraphQL/defaults/security/publicService" />
 
-            <!-- Determines how performance is logged for the service. Defaults are defined in Sitecore.Services.GraphQL.config -->
+             Determines how performance is logged for the service. Defaults are defined in Sitecore.Services.GraphQL.config 
             <performance ref="/sitecore/api/GraphQL/defaults/performance/standard" />
 
-            <!--
+            
                             Cache improves the query performance by caching parsed queries.
                             It is also possible to implement query whitelisting by implementing an authoritative query cache;
                             WhitelistingGraphQLQueryCache is an example of this, capturing queries to files in open mode and allowing only captured queries in whitelist mode.
-                        -->
+                        
             <cache
               type="Sitecore.Services.GraphQL.Hosting.QueryTransformation.Caching.GraphQLQueryCache, Sitecore.Services.GraphQL.NetFxHost">
               <param desc="name">$(url)</param>
@@ -114,7 +114,7 @@
     </api>
     <layoutService>
       <configurations>
-        <!-- default -->
+         default 
         <config name="default" patch:instead="*[@name='default']">
           <rendering type="Sitecore.LayoutService.Configuration.DefaultRenderingConfiguration, Sitecore.LayoutService">
             <placeholdersResolver
@@ -125,9 +125,9 @@
               <AlwaysIncludeEmptyFields>true</AlwaysIncludeEmptyFields>
             </itemSerializer>
 
-            <!-- 
+             
               Custom GraphQLAwareRenderingContentsResolver
-              -->
+              
             <renderingContentsResolver
               type="XmCloudSXAStarter.LayoutService.CustomGraphQLAwareRenderingContentsResolver, XmCloudSXAStarter" resolve="true">
               <IncludeServerUrlInMediaUrls>true</IncludeServerUrlInMediaUrls>

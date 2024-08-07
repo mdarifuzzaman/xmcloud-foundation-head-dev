@@ -15,8 +15,8 @@ import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentBuilder } from 'temp/componentBuilder';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 
-import { init, personalize } from "@sitecore-cloudsdk/personalize/browser";
-import config from 'temp/config';
+// import { init, personalize } from "@sitecore-cloudsdk/personalize/browser";
+// import config from 'temp/config';
 
 const SitecorePage = (props: any): JSX.Element => {
   console.log("Sitecore page props", props);
@@ -34,19 +34,19 @@ const SitecorePage = (props: any): JSX.Element => {
   const isComponentRendering =
   props.layoutData.sitecore.context.renderingType === RenderingType.Component;
 
-  const initPersonalize = async () => {
-    await init({
-        sitecoreEdgeContextId: config.sitecoreEdgeContextId,
-        siteName: config.sitecoreSiteName,
-        enableBrowserCookie: true               
-    });
+//   const initPersonalize = async () => {
+//     await init({
+//         sitecoreEdgeContextId: config.sitecoreEdgeContextId,
+//         siteName: config.sitecoreSiteName,
+//         enableBrowserCookie: true               
+//     });
 
-    console.log("Initialized the personalize/browser module.");
-    const personalizeResponse = await personalize({friendlyId: "sample_offer", channel: "WEB", currency: "USD"});
-    console.log("This experience is now running:", personalizeResponse);
-};
+//     console.log("Initialized the personalize/browser module.");
+//     const personalizeResponse = await personalize({friendlyId: "sample_offer", channel: "WEB", currency: "USD"});
+//     console.log("This experience is now running:", personalizeResponse);
+// };
 
-initPersonalize();
+//initPersonalize();
 
   return (
     <ComponentPropsContext value={props.componentProps}>

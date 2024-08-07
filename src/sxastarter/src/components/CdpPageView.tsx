@@ -57,7 +57,7 @@ const CdpPageView = (): JSX.Element => {
           Events.pageView({
             channel: 'WEB',
             currency: 'USD',
-            page: route.name,
+            page: route.name,            
             pageVariantId,
             language,
           });          

@@ -60,7 +60,7 @@ const nextConfig = {
       // media items
       {
         source: `/-/:path*`,
-        destination: `${process.env.SITECORE_EDGE_HOST}/professionaf048-xmcloudmdarpro-devcollection-a70b/:path*`,
+        destination: `${jssConfig.sitecoreApiHost}/professionab547-xmcloudmdar42e9-devcollectid384/:path*`,
       },
       // {
       //   source: `/jp/-/:path*`,

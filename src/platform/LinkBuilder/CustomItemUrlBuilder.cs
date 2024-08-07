@@ -38,7 +38,7 @@ namespace XmCloudSXAStarter.LinkBuilder
 
             var fallbackUrl = base.Build(item, options);
 
-            //Sitecore.Diagnostics.Error.LogError("Url builder path:" + fallbackUrl);
+            Sitecore.Diagnostics.Error.LogError("Url builder path:" + fallbackUrl);
 
             if (!item.Paths.IsMediaItem)
             {

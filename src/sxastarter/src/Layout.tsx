@@ -44,7 +44,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       <>
         {route && <Placeholder name="headless-header" rendering={route} />}  
         {route && <Placeholder name="headless-main" rendering={route} />}        
-        {route && <Placeholder name="headless-footer" rendering={route} />}  
+        {route && <Placeholder name="headless-footer" rendering={route} />}
       </>
       <>
         <SpeedInsights></SpeedInsights>

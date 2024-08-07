@@ -77,7 +77,7 @@
     <None Include="App_Config\Include\zzz\Sitecore.Media.config.disabled" />
     <Content Include="App_Config\Include\zzz\LinkManager.Custom.config" />
     <Content Include="App_Config\Include\zzz\Sitecore.StandardFields.Custom.config" />
-    <Content Include="App_Config\Include\zzz\Sitecore.Platform.Custom.config" />
+    <None Include="App_Config\Include\zzz\Sitecore.Platform.Custom.config.disabled" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />

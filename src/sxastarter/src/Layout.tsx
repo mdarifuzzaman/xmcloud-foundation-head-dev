@@ -10,6 +10,8 @@ import Scripts from 'src/Scripts';
 import StyleDocument from './Document';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import '../src/byoc/ByocPromo';
+
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.

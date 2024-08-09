@@ -1,3 +1,4 @@
+import { getComponentList } from '@sitecore-jss/sitecore-jss-dev-tools';
 import { ComponentBuilderPlugin, ComponentBuilderPluginConfig } from '..';
 
 /**
@@ -7,6 +8,9 @@ class ComponentsPlugin implements ComponentBuilderPlugin {
   order = 0;
 
   exec(config: ComponentBuilderPluginConfig) {
+    const extraPath = 'src/byoc';
+    config.components = getComponentList(extraPath);
+
     /**
      * You can specify components which you want to import using custom path in format:
      * {
@@ -21,7 +25,7 @@ class ComponentsPlugin implements ComponentBuilderPlugin {
      * const componentsPath = 'src/extra';
      * config.components = getComponentList(componentsPath);
      */
-    config.components = [];
+    //config.components = [];
 
     return config;
   }
